@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ambassador-pattern-pod
+spec:
+  containers:
+    - name: mysql-proxy-ambassador-container
+      image: mysql-proxy
+      ports:
+        - containerPort: 3306
+      env:
+      - name: DB_HOST
+        value: mysql://root:root@localhost:3306
+    - name: nginx-container
+      image: nginx

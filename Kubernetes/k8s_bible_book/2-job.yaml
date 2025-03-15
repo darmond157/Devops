@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-pod
+spec:
+  backoffLimit: 3                 #maximum failure limit
+  completions: 10                 #how many times the job should be done
+  parallelism: 5                  #how many pods can be run in parallel
+  activeDeadlineSeconds: 60       #terminate the task after a specific amount of time
+  ttlSecondsAfterFinished: 30     #remove the pod 30 second after it is completed
+  template:
+    metadata:
+      name: job-pod
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: job-container
+          image: busybox
+          command: ["/bin/sh", "-c"]
+          args: ["echo 'hello world'; sleep 3"]

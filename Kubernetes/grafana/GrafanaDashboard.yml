@@ -1,0 +1,44 @@
+datasources:
+  datasources.yaml:
+    apiVersion: 1
+    datasources:
+      - name: loki
+        type: loki
+        url: http://loki-gateway.loki
+        access: proxy
+        editable: true
+      - name: Mimir-Pods-Tenant
+        type: prometheus
+        access: proxy
+        orgId: 1
+        url: http://mimir-nginx.mimir.svc.cluster.local/prometheus
+        isDefault: true
+        version: 1
+        editable: true
+        jsonData:
+          httpHeaderName1: "X-Scope-OrgID"
+          alertmanagerUid: "alertmanager"
+        secureJsonData:
+          httpHeaderValue1: "pods"
+      - name: Mimir-Nodes-Tenant
+        type: prometheus
+        access: proxy
+        orgId: 1
+        url: http://mimir-nginx.mimir.svc.cluster.local/prometheus
+        version: 1
+        editable: true
+        jsonData:
+          httpHeaderName1: "X-Scope-OrgID"
+          alertmanagerUid: "alertmanager"
+        secureJsonData:
+          httpHeaderValue1: "nodes"
+      - name: Mimir Alertmanager
+        uid: alertmanager
+        type: alertmanager
+        access: proxy
+        orgId: 1
+        url: http://mimir-nginx.mimir.svc.cluster.local/
+        version: 1
+        editable: true
+        jsonData:
+          implementation: "cortex"

@@ -1,0 +1,27 @@
+---
+- name: Deploy devops Account
+  hosts: all
+  become: true
+  gather_facts: False
+  tasks:
+    - name: Create account
+      user:
+        name: devops
+        # set bash as default shell for user.
+        shell: /bin/bash
+
+    - name: sudo access
+      copy:
+        dest: /etc/sudoers.d/devops
+        # Granting sudo to created passwordless user 
+        # visudo 
+        content: 'devops ALL=(ALL) NOPASSWD: ALL'
+        validate: /usr/sbin/visudo -cf %s
+
+    - name: ssh key
+      authorized_key:
+        user: devops
+        state: present
+        manage_dir: yes
+        # Adding ssh_key of a user whi is running playbook.
+        key: "{{ lookup( 'file', lookup( 'env', 'HOME' ) + '/.ssh/id_rsa.pub') }}"

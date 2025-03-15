@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: multi-container-pod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-container
+  template:
+    metadata:
+      labels:
+        app: multi-container
+    spec:
+      containers:
+      - name: main-service
+        image: nginx
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+
+      - name: sidecar
+        image: alpine
+        command: ["/bin/sh", "-c"]
+        args: ["echo 'Sidecar running'; sleep 30; exit 1"] # Crashes after 30s
+        livenessProbe:
+          exec:
+            command: ["/bin/true"] # Always returns success
+          initialDelaySeconds: 5
+          periodSeconds: 10
+

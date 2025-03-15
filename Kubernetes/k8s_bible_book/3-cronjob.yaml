@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cronjob-pod
+spec:
+  schedule: "* * * * *"
+  jobTemplate:
+    spec:
+      ttlSecondsAfterFinished: 30
+      template:
+        metadata:
+          name: cronjob-pod
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: cronjob-container
+            image: busybox
+            command: ["/bin/sh", "-c"]
+            args: ["echo 'hello world'"]

@@ -1,0 +1,17 @@
+apiVersion: v1
+data:
+  accounts.melika: apiKey, login
+  accounts.amir: apiKey, login
+kind: ConfigMap
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","data":{"accounts.newuser":"apiKey, login"},"kind":"ConfigMap","metadata":{"annotations":{},"creationTimestamp":"2025-02-22T13:10:31Z","labels":{"app.kubernetes.io/name":"argocd-cm","app.kubernetes.io/part-of":"argocd"},"name":"argocd-cm","namespace":"argocd","resourceVersion":"3600026","uid":"54bbd756-940c-46da-8ea7-367e075d9049"}}
+  creationTimestamp: "2025-02-22T13:10:31Z"
+  labels:
+    app.kubernetes.io/name: argocd-cm
+    app.kubernetes.io/part-of: argocd
+  name: argocd-cm
+  namespace: argocd
+  resourceVersion: "3600309"
+  uid: 54bbd756-940c-46da-8ea7-367e075d9049

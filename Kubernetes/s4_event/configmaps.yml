@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s4-backend
+data:
+  PORT: "3000"
+  HOST: "0.0.0.0"
+  MYSQL_URL: "mysql://root:pbp.3601@mysql:3306/s4_sut"
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s4-frontend
+data:
+  VITE_BASE_URL: "http://backend.s4.com"
+  VITE_HOST: "0.0.0.0"

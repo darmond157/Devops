@@ -1,0 +1,14 @@
+---
+
+- name: probing modules
+  hosts: localhost
+  tasks:
+    - name: list files and directories
+      shell:
+        cmd: ls
+        chdir: /home/darmond #changes to that directory before running "cmd" command
+      register: files
+
+    - name: show the files
+      debug:
+        var: files.stdout

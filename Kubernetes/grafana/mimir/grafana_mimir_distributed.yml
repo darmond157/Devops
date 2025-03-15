@@ -1,0 +1,61 @@
+query_scheduler:
+  replicas: 1
+querier:
+  replicas: 1
+alertmanager:
+  fallbackConfig: |
+    route:
+      receiver: 'slack-notifications'
+    receivers:
+    - name: 'slack-notifications'
+      slack_configs:
+      - send_resolved: true
+        channel: "#all-darmond"
+        api_url: "https://hooks.slack.com/services/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"
+        title: "{{ range .Alerts }}{{ .Annotations.summary }}\n{{ end }}"
+        text: "{{ range .Alerts }}{{ .Annotations.description }}\n{{ end }}"
+  persistentVolume:
+    storageClass: standard
+
+ingester:
+  zoneAwareReplication:
+    enabled: false
+  persistentVolume:
+    storageClass: standard
+
+store_gateway:
+  zoneAwareReplication:
+    enabled: false
+  persistentVolume:
+    storageClass: standard
+
+compactor:
+  persistentVolume:
+    storageClass: standard
+
+minio:
+  enabled: false
+
+mimir:
+  structuredConfig:
+    common:
+      storage:
+        backend: s3
+        s3:
+          access_key_id: Nlp8LZ6VFU9WEyza8LH2
+          bucket_name: mimir-ruler
+          endpoint: 192.168.49.2:9000
+          insecure: true
+          secret_access_key: kYcYxtrHoBx0uDcfJharoa9Yy9L7J7StcvVWdqD7
+
+    blocks_storage:
+      s3:
+        bucket_name: mimir-tsdb
+
+    alertmanager_storage:
+      s3: 
+        bucket_name: mimir-ruler
+
+    ruler_storage:
+      s3: 
+        bucket_name: mimir-ruler

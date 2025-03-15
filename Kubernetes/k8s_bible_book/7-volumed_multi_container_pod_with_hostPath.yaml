@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volumed-multi-container-pod
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+      volumeMounts:
+      - mountPath: /var/config
+        name: host-path-volume
+    - name: busybox-container
+      image: busybox
+      command: ["/bin/sh"]
+      args: ["-c","while true; do sleep 30; done;"]
+  volumes:
+  - name: host-path-volume
+    hostPath:
+      path: /tmp

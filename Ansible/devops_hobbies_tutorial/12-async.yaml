@@ -1,0 +1,14 @@
+- name: 
+  hosts: localhost
+  tasks:
+    - name: async task
+      command: python3 -m http.server 8050
+      async: 300
+      poll: 0
+    
+    - block:
+        - shell: docker ps
+          register: test
+      rescue:
+        - debug:
+            msg: "command failed"

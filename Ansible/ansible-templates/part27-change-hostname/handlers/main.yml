@@ -1,0 +1,6 @@
+---
+- name: restart systemd-hostnamed
+  become: true
+  service:
+    name: systemd-hostnamed
+    state: restarted

@@ -1,0 +1,29 @@
+---
+
+- name: Ansible facts and registring vars
+  hosts: localhost
+  vars:
+    dict01:
+      name01: shayan
+    dict02:
+      name02: ahmad
+  tasks:
+    - name: show facts
+      debug:
+        var: ansible_facts #it can be piped with "to_nice_yaml" to return a yaml
+
+    - name: create a new dict combination
+      set_fact:
+        new_dict: "{{ dict01 | combine(dict02) }}"
+
+    - name: show the new dict
+      debug:
+        msg: "{{ new_dict }} is my new dict."
+
+    - name: 
+      command: ls -ltrh /home/darmond
+      register: new_vars
+
+    - name: show the registered output
+      debug:
+        var: new_vars.stdout_lines

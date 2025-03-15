@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Hamid Jahadi - Masoud Maghsoudi
+  description: Setup Zabbix Agent2 AutoRegistration
+  company: Neshan
+
+  license: GPL-2.0-or-later
+
+  min_ansible_version: "2.1"
+
+  galaxy_tags:
+    - Zabbix
+    - Ubuntu
+    - Debian
+    - RHEL
+    - CentOS
+    - Rocky
+    - Alma Linux
+    - Oracle Linux

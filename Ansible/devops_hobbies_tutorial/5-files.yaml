@@ -1,0 +1,34 @@
+---
+
+- name: intro to file module
+  hosts: localhost
+  vars:
+    base_dir: /home/darmond
+  tasks:
+    - name: change test_dir ownership to root
+      file:
+        path: '{{base_dir}}/Videos'
+        owner: darmond
+        group: darmond
+        state: directory
+      ignore_errors: true #it does not care about the errors and continue running the playbook.
+      register: output1
+
+    - name: create a file
+      file:
+        path: '{{base_dir}}/test-file.txt'
+        mode: "0655"
+        state: touch  #'absent' state will remove the file
+ 
+    - name: create a directory
+      file:
+        path: '{{base_dir}}/test_dir'
+        mode: "0755"
+        owner: darmond
+        group: darmond
+        state: directory
+
+    - name: debug errors
+      debug:
+        var: output1
+      when: output1.failed

@@ -1,0 +1,49 @@
+---
+
+- name: intro to apt with nginx
+  hosts: localhost
+  become: true
+  tasks:
+    - name: update apt packages
+      apt:
+        update_cache: true
+
+    - name: make sure nginx exists
+      apt:
+        name: nginx
+        state: present
+
+    - name: remove nginx core
+      apt:
+        name: nginx
+        state: absent
+
+    - name: remove unnecessary packages
+      apt:
+        autoremove: true
+        purge: true
+
+---
+
+- name: intro to apt with nodejs
+  hosts: localhost
+  become: true
+  tasks:
+    - name: update apt packages
+      apt:
+        update_cache: true
+
+    - name: add nodejs apt key
+      apt_key:
+        url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+        state: present
+
+    - name: add nodejs repo
+      apt_repository:
+        repo: deb https://deb.nodesource.com/setup_16.x focal main
+        state: present
+
+    - name: install nodejs
+      apt:
+        name: nodejs
+        state: latest

@@ -1,0 +1,12 @@
+[web_servers]
+ubuntu-server@172.20.10.12 apache_package=apache2 php_package=libapache2-mod-php
+#e.g: centos-server@0.0.0.0 apache_package=httpd php_package=php
+
+[db_servers]
+#some database servers
+
+[file_servers]
+#some file servers
+
+[workstations]
+#some workstations

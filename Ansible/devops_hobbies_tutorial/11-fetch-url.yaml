@@ -1,0 +1,16 @@
+---
+
+- name: intro to get_url and fetch
+  hosts: localhost
+  tasks:
+    - name: get localhost index
+      get_url:
+        url: "http://localhost:80"
+        dest: "/home/ubuntu/index.html"
+      delegate_to: localhost #running a task outside of an inventory and on a different host in the middle of running this playbook.
+
+    - name: fetch localhost index file
+      fetch:
+        src: "/home/ubuntu/index.html"
+        dest: "{{playbook_dir}}/index.html"
+        flat: true

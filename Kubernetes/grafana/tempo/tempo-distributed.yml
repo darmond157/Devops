@@ -1,0 +1,26 @@
+traces:
+  jaeger:
+    thriftHttp:
+      enabled: false
+  zipkin:
+    enabled: false
+  otlp:
+    http:
+      enabled: true
+    grpc:
+      enabled: true
+  opencensus:
+    enabled: false
+
+storage:
+  trace:
+    backend: s3
+    s3:
+      bucket: tempo-traces
+      endpoint: 192.168.49.2:9000
+      access_key: fpdUTEjh7Gi4qvNNAHjN
+      secret_key: GCZeELOfGMRVdJugdyYLtOQ1x4v1IVidvVeJqmqe
+      insecure: true
+
+minio:
+  enabled: false

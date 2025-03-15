@@ -1,0 +1,17 @@
+---
+- name: Install HAProsy on Redhat Family distributions
+  include_tasks: haproxy_install_{{ ansible_os_family }}_{{ ansible_pkg_mgr }}.yml
+  when: ansible_os_family == 'RedHat'
+
+- name: Install HAProsy on Ubuntu distribution
+  include_tasks: haproxy_install_Ubuntu.yml
+  when:
+    - ansible_distribution == 'Ubuntu'
+
+- name: Install HAProsy on Debian distribution
+  include_tasks: haproxy_install_Debian.yml
+  when:
+    - ansible_distribution == 'Debian'
+
+- name: Configure HAProxy, Enable and Start service
+  include_tasks: haproxy_config.yml

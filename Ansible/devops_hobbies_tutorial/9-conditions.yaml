@@ -1,0 +1,20 @@
+---
+
+- name: intro to conditions
+  hosts: localhost
+  become: true
+  vars:
+    tmp: true
+  tasks:
+    - name: show ansible facts
+      debug:
+        var: ansible_facts
+
+    - name: make sure nginx exists
+      apt:
+        name: nginx
+        state: present
+      when: ansible_facts.os_family == "Debian" and tmp
+      #when:
+      #  - ansible_facts.os_family == "Debian" 
+      #  - tmp

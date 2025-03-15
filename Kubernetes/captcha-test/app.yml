@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: captcha-v4-deployment
+  labels:
+    app: captcha-v4
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: captcha-v4
+  template:
+    metadata:
+      labels:
+        app: captcha-v4
+    spec:
+      containers:
+        - name: tester
+          image: bardiark03/log-manager-tester:latest
+          ports:
+            - containerPort: 4000
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 4000
+            initialDelaySeconds: 5
+        
+        - name: log-collector
+          image: bardiark03/log-manager:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: MONGODB_URL
+              value: "mongodb://root:root@mongodb:27017/logManagementSystem"
+            - name: RABBITMQ_URL
+              value: "amqp://guest:guest@rabbitmq:5672"
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3000
+            initialDelaySeconds: 5
+            periodSeconds: 60
+

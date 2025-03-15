@@ -1,0 +1,20 @@
+---
+
+- name: this is my first playbook
+  hosts: localhost
+  tasks:
+    - name: print hello ansible
+      debug:
+        msg: "hello ansible"
+
+    - name: get hostnames
+      command: hostname #"shell" can be used instead of "command". command runs through python and shell runs through /bin/sh
+      register: hostname
+
+    - name: print hostname
+      debug:
+        var: hostname
+
+    - name: exit ansible
+      fail:
+        msg: "Exited :)"

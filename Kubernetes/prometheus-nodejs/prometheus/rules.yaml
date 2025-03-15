@@ -1,0 +1,9 @@
+rules:
+  custom:
+  - seriesQuery: '{__name__=~"^api_requests_count$"}'
+    resources:
+      template: <<.Resource>>
+    name:
+      matches: ""
+      as: "api_requests_count"
+    metricsQuery: sum(<<.Series>>{<<.LabelMatchers>>}) by (<<.GroupBy>>)

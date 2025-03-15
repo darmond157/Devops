@@ -1,0 +1,32 @@
+- name: install apache and php package and update cache
+  tags: apache,apache2,ubuntu
+  package:
+    name:
+      - "{{ apache_package }}"
+      - "{{ php_package }}"
+    state: latest
+
+- name: start httpd
+  tags: apache,httpd
+  service:
+    name: " {{ apache_service }} "
+    state: started
+    enabled: yes
+
+- name: change e-mail address for admin
+  tags: apache,centos,httpd
+  lineinfile:
+    path: /etc/httpd/conf/httpd.conf
+    regexp: '^ServerAdmin'
+    line: ServerAdmin somebody@somewhere.net
+  when: ansible_distribution == "CentOS"
+  notify: restart_apache #store httpd state in a variable. can be named PIZZA. we will the refer to it for changes.
+
+- name: copy default html file for site
+  tags: apache
+  copy:
+    src: default_site.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: 0644

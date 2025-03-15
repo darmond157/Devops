@@ -1,0 +1,11 @@
+allloy:
+  configMap:
+    create: false
+    name: alloy-config
+    key: config.alloy
+
+controller:
+  type: 'statefulset'
+
+crds:
+  create: false

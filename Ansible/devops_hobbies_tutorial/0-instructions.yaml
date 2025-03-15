@@ -1,0 +1,56 @@
+--- #scalars ---
+
+s: version
+a: 123
+b: "123"
+c: 123.0
+d: !!float 123 #cast 123 to float
+e: !!str 3.6   #cast 3.6 to str
+f: !!str Yes   #cast Yes to str
+g: Yes
+h: Yes we have No bananas
+i: 2012-08-06  #auto-converts to Date type
+
+---
+# if we want to use [ or { inside an string, we need to wrap it between two quotations.
+
+---
+multi-line-string: | #'|' or '>'. both works.
+  I am a multi
+  -line string
+
+---
+person1:
+  name: John Smith
+  age: 33
+
+person2: {name: John Smith, age: 33}
+
+list1: [milk, egg, pumpkin pie, juice]
+
+list2:
+  - milk
+  - egg
+  - juice
+
+parents:
+  - dad: #dad has name and age.
+      name: "asqar"
+      age: 50
+  - mom: #parent has mom and name and age, where mom is null.
+    name: "soqra"
+    age: 48
+
+---
+bill-to: &id001
+  street: |
+    123 Tornado alley
+    Suite 16
+  city: East Centerville
+  state: KS
+
+ship-to: *id001 #clones the bill-to section.
+
+ship-to-expanded: #add new key-value along with the id001
+  <<: *id001
+  method: in-person

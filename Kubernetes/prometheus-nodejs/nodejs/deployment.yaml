@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus-nodejs-deployment
+spec:
+  selector:
+    matchLabels:
+      app: prometheus-nodejs-app
+  template:
+    metadata:
+      labels:
+        app: prometheus-nodejs-app
+    spec:
+      containers:
+      - name: prometheus-nodejs-container
+        image: bardiark03/prometheus-k8s-nodejs:v1.0.1
+        ports:
+        - containerPort: 4000

@@ -1,0 +1,31 @@
+---
+- name: Intro to loops
+  hosts: localhost
+  vars:
+    users:
+      developer:
+        name: bardia
+        age: 22
+      devops:
+        orchestration: kubernetes
+        monitoring: prometheus
+  tasks:
+    - name: create a list of sudoers
+      user:
+        name: "{{ item }}"
+        state: present
+        shell: /bin/bash
+        group: sudo
+      loop:
+        - asqar
+        - bob
+        - arian
+
+    - name: get all hosts in webservers group
+      debug:
+        msg: "{{ item }} is in webservers group"
+      loop: '{{ query("inventory_hostnames", "all") }}'
+
+    - name: show user_dicts
+      debug:
+        msg: "{{users | dict2items}}" #breaks the var into key/values. | as alternative we can use {{ lookup('dict', users) }}

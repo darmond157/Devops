@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-with-rediness-http-pod
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:1.27-alpine
+      readinessprobe:
+        initialDelaySeconds: 5 #time for probe to wait before doing health check
+        periodSeconds: 5       #time for probe to wait between two consequtive health checks
+        httpGet:
+          path: /ready
+          port: 80

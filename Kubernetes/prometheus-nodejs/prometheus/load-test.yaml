@@ -1,0 +1,9 @@
+config:
+  target: 'http://192.168.49.2:30004'  # Replace with your actual API URL
+  phases:
+    - duration: 60  # Run the test for 60 seconds
+      arrivalRate: 200  # 200 requests per second
+scenarios:
+  - flow:
+      - get:
+          url: "/ping"  # Replace with the endpoint you want to test
