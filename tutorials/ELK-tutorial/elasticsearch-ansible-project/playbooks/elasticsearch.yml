@@ -1,5 +1,0 @@
----
-- hosts: elasticsearch
-  become: yes
-  roles:
-    - { role: elasticsearch-stack, tags: ["elasticsearch"] }

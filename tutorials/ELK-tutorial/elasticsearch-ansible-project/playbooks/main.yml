@@ -1,3 +1,0 @@
----
-- import_playbook: pre-requirements.yml
-- import_playbook: elasticsearch.yml
