@@ -1,0 +1,20 @@
+services:
+  flask-app:
+    image: f4rsh4d/flask-logger:v1.1.0@sha256:10c6de718ef7bc96f74d1c7e3ccfa2563d11181d83029b3b560b352a464fc39f
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+    restart: always
+
+  filebeat:
+    image: elastic/filebeat:8.17.0
+    volumes:
+      - ./logs:/var/log/flask-app
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+    command: ["filebeat", "-e", "--strict.perms=false"]
+    depends_on:
+      - flask-app
+    restart: always

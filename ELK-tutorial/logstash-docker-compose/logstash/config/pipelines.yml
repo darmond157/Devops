@@ -1,0 +1,3 @@
+- pipeline.id: nginx
+  path.config: "/usr/share/logstash/pipeline/<pipeline_name>.conf"
+  pipeline.workers: 1

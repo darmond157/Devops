@@ -1,0 +1,5 @@
+---
+- hosts: pre-requirements
+  become: true
+  roles:
+    - { role: pre-requirements, tags: ["pre-requirements"] }
