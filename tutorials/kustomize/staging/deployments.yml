@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s4-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: s4-backend
+  template:
+    metadata:
+      labels:
+        app: s4-backend
+    spec:
+      containers:
+      - name: s4-backend
+        image: bardiark03/s4-backend:v1.0.0
+        ports:
+        - containerPort: 3000
+        envFrom:
+        - configMapRef:
+            name: s4-backend
+        - secretRef:
+            name: s4-backend
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s4-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: s4-frontend
+  template:
+    metadata:
+      labels:
+        app: s4-frontend
+    spec:
+      containers:
+      - name: s4-frontend
+        image: bardiark03/s4-frontend:v1.0.0
+        ports:
+        - containerPort: 4173
+        envFrom:
+        - configMapRef:
+            name: s4-frontend
