@@ -1,0 +1,43 @@
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-volume
+  labels:
+    app: web
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  selector:
+    matchLabels:
+      app: web
+      tier: web
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: web
+        tier: web
+    spec:
+      containers:
+      - image: nginx:alpine
+        name: nginx
+        volumeMounts:
+        - name: web-persistent-storage
+          mountPath: /opt
+      volumes:
+      - name: web-persistent-storage
+        persistentVolumeClaim:
+          claimName: my-volume
