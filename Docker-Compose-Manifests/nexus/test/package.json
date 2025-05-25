@@ -1,0 +1,10 @@
+{
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/test-client/"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "name": "",
+  "version": ""
+}

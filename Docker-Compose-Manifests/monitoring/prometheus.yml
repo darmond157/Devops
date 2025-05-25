@@ -1,0 +1,18 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'filtered_federation'
+    scrape_interval: 30s
+    honor_labels: true
+    metrics_path: '/federate'
+    basic_auth:
+      username: divar-safety
+      password: 3jlCqCt3SlFzX5YeF2Puh7wFLRIV8T
+    scheme: https
+    params:
+      'match[]':
+        - '{job="captcha-v4",sitekey="fctd38ygaj"}'
+    static_configs:
+      - targets:
+        - 'divar-metrics.arcaptcha.co'

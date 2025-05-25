@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: git-tracking-strategies
+  namespace: argocd
+spec:
+  destination:
+    namespace: git-tracking-strategies
+    name: in-cluster
+  project: default
+  source:
+    path: v03-argocd-applications/directoryOfmanifests
+    repoURL: "https://github.com/devopshobbies/argocd-tutorial.git"
+    targetRevision: # HEAD/Branch tracking ex: HEAD/main || tag tracking ex: v1 || commit pinning ex: 9814933
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated: {}
