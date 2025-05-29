@@ -14,11 +14,10 @@ spec:
     spec:
       containers:
       - name: blue-green
-        image: blue-green
-        imagePullPolicy: Never
+        image: amasucci/bluegreen
         env:
-        - name: html_name
-          value: "app-v1.html"
+        - name: COLOR
+          value: blue
         ports:
         - containerPort: 5000
   strategy:
