@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: health-check-pre-job
+  annotations:
+    argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/hook-delete-policy: HookFailed
+spec:
+  template:
+    spec:
+      containers:
+        - name: health-check
+          image: curlimages/curl
+          command: ["/bin/sh", "-c"]
+          args: ["if curl -s http://myapp.local:5000 | grep -qi 'running'; then echo 'Demo Application is up and Running'; exit 0; else echo 'Demo Application is NOT accessible'; exit 1; fi"]
+      restartPolicy: Never
+  backoffLimit: 0
