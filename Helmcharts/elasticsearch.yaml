@@ -1,0 +1,12 @@
+---
+clusterName: "elasticsearch"
+nodeGroup: "master"
+
+replicas: 1
+minimumMasterNodes: 1
+
+image: "docker.elastic.co/elasticsearch/elasticsearch"
+imageTag: "8.5.1"
+
+persistence:
+  enabled: false
