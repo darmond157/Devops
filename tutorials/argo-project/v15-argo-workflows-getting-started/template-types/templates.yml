@@ -3,32 +3,32 @@ kind: Workflow
 metadata:
   generateName: argo-wf-  # Name of this Workflow
 spec:
-  entrypoint: dag-template # Defines "dag-template" as the "main" template
+  entrypoint: steps-template # Defines "dag-template" as the "main" template
   templates:
-  - name: dag-template # Defining the "dag template" as a Template Invocator, You must use one of "dag" or "steps" as a template invocator
-    dag:
-      tasks:
-        - name: A
-          template: container-template
-        - name: B
-          template: script-template
-          dependencies: [A]
-        - name: C
-          template: resource-template
-          dependencies: [A]
-        - name: D
-          template: delay-template
-          dependencies: [B, C]
-# - name: steps-template # Defining the "steps template" as a Template Invocator, You must use one of "dag" or "steps" as a template invocator
-#   steps:
-#   - - name: step1
-#       template: container-template
-#   - - name: step2a
-#       template: script-template
-#     - name: step2b
-#       template: resource-template
-#   - - name: step3
-#       template: delay-template
+  #- name: dag-template # Defining the "dag template" as a Template Invocator, You must use one of "dag" or "steps" as a template invocator
+  #  dag:
+  #    tasks:
+  #      - name: A
+  #        template: container-template
+  #      - name: B
+  #        template: script-template
+  #        dependencies: [A]
+  #      - name: C
+  #        template: resource-template
+  #        dependencies: [A]
+  #      - name: D
+  #        template: delay-template
+  #        dependencies: [B, C]
+  - name: steps-template # Defining the "steps template" as a Template Invocator, You must use one of "dag" or "steps" as a template invocator
+    steps:
+    - - name: step1
+        template: container-template
+    - - name: step2a
+        template: script-template
+      - name: step2b
+        template: resource-template
+    - - name: step3
+        template: delay-template
 
 
   - name: container-template # Defining the "container template" as a Template Definition

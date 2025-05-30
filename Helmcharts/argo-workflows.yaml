@@ -1,0 +1,22 @@
+crds:
+  install: true
+
+singleNamespace: false
+
+workflow:
+  namespace:
+  serviceAccount:
+    create: true
+    name: "argo-workflow"
+  rbac:
+    create: true
+
+controller:
+  workflowNamespaces:
+    - default
+    - argo
+
+#bypass UI login
+server:
+  extraArgs:
+    - --auth-mode=server
