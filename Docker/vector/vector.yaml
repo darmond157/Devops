@@ -1,0 +1,15 @@
+sources:
+  from_file:
+    type: file
+    include:
+      - /etc/hosts
+
+sinks:
+  output_postgres:
+    type: postgres
+    inputs:
+      - from_file
+    endpoint: "postgres://vector:password@postgres:5432/logsdb"
+    table: mongodb_logs
+    buffer:
+      max_size: 256

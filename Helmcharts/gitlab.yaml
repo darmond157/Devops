@@ -1,0 +1,99 @@
+global:
+  edition: ce
+  hosts:
+    domain: gitlab.local
+  ingress:
+    configureCertmanager: false
+    tls:
+      enabled: false
+
+  storageClass: "standard"
+
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 300m
+      memory: 512Gi
+
+certmanager:
+  install: false
+
+nginx-ingress:
+  enabled: true
+
+gitlab:
+  webservice:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 300m
+        memory: 512Gi
+    persistence:
+      size: 2Gi
+      storageClass: "standard"
+
+  sidekiq:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 300m
+        memory: 512Gi
+    persistence:
+      size: 2Gi
+
+  gitlab-shell:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+      limits:
+        cpu: 300m
+        memory: 512Gi
+
+registry:
+  enabled: true
+  storage:
+    pvc:
+      size: 2Gi
+      storageClass: "standard"
+
+postgresql:
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 300m
+      memory: 512Gi
+  persistence:
+    size: 2Gi
+    storageClass: "standard"
+
+redis:
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 300m
+      memory: 512Gi
+  master:
+    persistence:
+      size: 2Gi
+
+minio:
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
+    limits:
+      cpu: 300m
+      memory: 512Gi
+  persistence:
+    size: 2Gi

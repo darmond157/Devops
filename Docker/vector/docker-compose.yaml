@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  vector:
+    image: timberio/vector:0.47.0-debian
+    container_name: vector
+    ports:
+      - "8686:8686"
+    volumes:
+      - ./vector.yaml:/etc/vector/vector.yaml:ro
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:17.5-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_USER: vector
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: logsdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

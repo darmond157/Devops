@@ -1,0 +1,49 @@
+crds:
+  create: true
+
+alloy:
+  configMap:
+    create: true
+    content: |
+      discovery.relabel "default" {
+      targets = [
+        {
+          __path__ = "/var/log/*.log"
+        },
+      ]
+      rule {
+        source_labels = ["__path__"]
+        target_label = "job"
+        replacement = "mac_logs"
+        }
+      }
+
+      local.file_match "logs" {
+        path_targets = discovery.relabel.default.output
+        forward_to   = [loki.process.files.receiver]
+      }
+
+      loki.process "files" {
+        forward_to = [loki.write.local.receiver]
+      }
+
+      loki.write "local" {
+        endpoint {
+          url = "http://loki:3100/loki/api/v1/push"
+        }
+      }
+
+  listenAddr: 0.0.0.0
+  listenPort: 12345
+  listenScheme: HTTP
+
+image:
+  registry: "docker.arvancloud.ir"
+  repository: grafana/alloy
+
+configReloader:
+  enabled: false
+
+controller:
+  type: 'deployment'
+  replicas: 1

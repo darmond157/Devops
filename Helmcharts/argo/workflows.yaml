@@ -7,7 +7,7 @@ workflow:
   namespace:
   serviceAccount:
     create: true
-    name: "argo-workflow"
+    name: argo-workflow
   rbac:
     create: true
 
@@ -16,7 +16,6 @@ controller:
     - default
     - argo
 
-#bypass UI login
 server:
   extraArgs:
     - --auth-mode=server

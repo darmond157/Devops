@@ -14,8 +14,8 @@ data:
       endpoint: argo-artifacts.argo:9000
       insecure: true
       accessKeySecret:
-        name: my-minio-cred
+        name: minio-credentials
         key: access-key 
       secretKeySecret:
-        name: my-minio-cred
+        name: minio-credentials
         key: secret-key
