@@ -1,5 +1,6 @@
 crds:
   install: true
+  keep: false
 
 singleNamespace: false
 
@@ -19,3 +20,8 @@ controller:
 server:
   extraArgs:
     - --auth-mode=server
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    hosts:
+      - argo.local

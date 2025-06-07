@@ -1,0 +1,19 @@
+global:
+  domain: argo-cd.local 
+  image:
+    repository: quay.io/argoproj/argocd
+
+configs:
+  params:
+    server.insecure: true
+
+server:
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    hostname: argo-cd.local
+    annotations:
+      nginx.ingress.kubernetes.io/ssl-redirect: "false"
+      nginx.ingress.kubernetes.io/force-ssl-redirect: "false"  
+  extraArgs:
+    - --insecure

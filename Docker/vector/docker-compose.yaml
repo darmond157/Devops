@@ -8,6 +8,7 @@ services:
       - "8686:8686"
     volumes:
       - ./vector.yaml:/etc/vector/vector.yaml:ro
+      - /var/log:/var/log:ro
     restart: unless-stopped
 
   postgres:

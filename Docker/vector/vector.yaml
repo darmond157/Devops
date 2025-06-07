@@ -1,15 +1,17 @@
 sources:
-  from_file:
+  hosts_data:
     type: file
     include:
-      - /etc/hosts
+      - /var/log/system.log
+      - /var/log/install.log
 
 sinks:
   output_postgres:
     type: postgres
     inputs:
-      - from_file
+      - hosts_data
     endpoint: "postgres://vector:password@postgres:5432/logsdb"
     table: mongodb_logs
     buffer:
-      max_size: 256
+      max_size: 300000000
+      type: disk
