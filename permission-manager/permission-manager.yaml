@@ -1,0 +1,73 @@
+replicaCount: 1
+
+image:
+  repository: quay.io/sighup/permission-manager
+  pullPolicy: IfNotPresent
+  tag: "v1.9.0"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: my-cluster-issuer
+  hosts:
+    - host: permission-manager.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+
+config:
+  # Can be found in /etc/kubernetes/admin.conf: clusters -> cluster -> name
+  clusterName: "minikube"
+
+  # Can be found in /etc/kubernetes/admin.conf: clusters -> cluster -> server
+  controlPlaneAddress: "https://127.0.0.1:64042"
+
+  # Password for basic auth to access the UI
+  basicAuthPassword: "admin"
+
+  templates:
+    - name: operation
+      rules:
+        - apiGroups:
+            - "*"
+          resources:
+            - "*"
+          verbs:
+            - "*"
+
+    - name: developer
+      rules:
+        - apiGroups:
+            - "*"
+          resources:
+            - "configmaps"
+            - "endpoints"
+            - "persistentvolumeclaims"
+            - "pods"
+            - "pods/log"
+            - "pods/portforward"
+            - "podtemplates"
+            - "replicationcontrollers"
+            - "resourcequotas"
+            - "secrets"
+            - "services"
+            - "events"
+            - "daemonsets"
+            - "deployments"
+            - "replicasets"
+            - "ingresses"
+            - "networkpolicies"
+            - "poddisruptionbudgets"
+          verbs:
+            - "*"
+
