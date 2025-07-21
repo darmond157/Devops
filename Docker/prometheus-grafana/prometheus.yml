@@ -15,4 +15,4 @@ scrape_configs:
         - '{job="captcha-v4",sitekey="fctd38ygaj"}'
     static_configs:
       - targets:
-        - 'divar-metrics.arcaptcha.co'
+        - 'divar-vm-metrics.arcaptcha.co'

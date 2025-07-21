@@ -1,0 +1,17 @@
+image:
+  registry: docker.io
+  repository: bitnami/postgresql
+
+auth:
+  enablePostgresUser: false
+  username: admin
+  password: admin
+  database: samurai
+
+primary:
+  resourcesPreset: "nano"
+
+  persistence:
+    enabled: true
+    storageClass: "remote-disk"
+    size: 1Gi
