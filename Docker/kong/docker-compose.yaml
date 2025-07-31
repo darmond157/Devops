@@ -1,0 +1,61 @@
+version: "3.8"
+
+services:
+  kong-database:
+    image: docker.arvancloud.ir/postgres:latest
+    environment:
+      POSTGRES_USER: kong
+      POSTGRES_DB: kong
+      POSTGRES_PASSWORD: kong
+    volumes:
+      - kong_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  kong-migration:
+    image: docker.arvancloud.ir/kong:3.4
+    depends_on:
+      - kong-database
+    environment:
+      KONG_DATABASE: postgres
+      KONG_PG_HOST: kong-database
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: kong
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stderr
+      KONG_ADMIN_ERROR_LOG: /dev/stderr
+    command: kong migrations bootstrap
+    restart: "no"
+
+  kong:
+    image: docker.arvancloud.ir/kong:3.4
+    depends_on:
+      - kong-database
+      - kong-migration
+    ports:
+      - "8000:8000"      # Proxy (Ingress) port
+      - "8443:8443"      # Proxy SSL
+      - "8001:8001"      # Admin API
+      - "8444:8444"      # Admin API SSL
+      - "8100:8100"      # Prometheus metrics
+    environment:
+      KONG_DATABASE: postgres
+      KONG_PG_HOST: kong-database
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: kong
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stderr
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ERROR_LOG: /dev/stderr
+
+      # Enable the Prometheus plugin globally
+      KONG_PLUGINS: bundled,prometheus
+
+      # Enable Admin API for metrics scraping
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001, 0.0.0.0:8444 ssl
+      KONG_PROXY_LISTEN: 0.0.0.0:8000, 0.0.0.0:8443 ssl
+    restart: unless-stopped
+
+volumes:
+  kong_data:
+

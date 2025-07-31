@@ -1,0 +1,83 @@
+global:
+  imageRegistry: ""
+  imagePullSecrets: []
+  defaultStorageClass: "standard"
+  storageClass: "standard"
+  security:
+    allowInsecureImages: false
+  elasticsearch:
+    service:
+      name: elasticsearch
+      ports:
+        restAPI: 9200
+  kibanaEnabled: true
+
+elasticsearch:
+  extraEnvVars:
+    - name: ES_JAVA_OPTS
+      value: "-Xms512m -Xmx512m"
+  clusterHost: "0.0.0.0"
+  discovery:
+    type: single-node
+
+image:
+  registry: docker.io
+  repository: bitnami/elasticsearch
+  tag: 9.0.3-debian-12-r1
+  digest: ""
+
+service:
+  type: ClusterIP
+  ports:
+    restAPI: 9200
+    transport: 9300
+  
+ingress:
+  enabled: false
+  
+master:
+  masterOnly: false
+  replicaCount: 1
+  resourcesPreset: "small"
+  heapSize: 128m
+  persistence:
+    enabled: true
+    storageClass: "standard"
+    accessModes:
+      - ReadWriteOnce
+    size: 5Gi
+
+data:
+  replicaCount: 0
+ 
+coordinating:
+  replicaCount: 0
+
+ingest:
+  enabled: false
+  replicaCount: 0
+
+sysctlImage:
+  enabled: true
+  registry: docker.io
+  repository: bitnami/os-shell
+  tag: 12-debian-12-r47
+  digest: ""
+  pullPolicy: IfNotPresent
+  pullSecrets: []
+  resourcesPreset: "nano"
+  
+copyTlsCerts:
+  image:
+    registry: docker.io
+    repository: bitnami/os-shell
+    tag: 12-debian-12-r47
+    digest: ""
+    pullSecrets: []
+  resourcesPreset: "nano"
+
+kibana:
+  elasticsearch:
+    hosts:
+      - '{{ include "elasticsearch.service.name" . }}'
+    port: '{{ include "elasticsearch.service.ports.restAPI" . }}'
