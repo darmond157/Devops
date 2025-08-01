@@ -14,6 +14,9 @@ elasticsearch:
   discovery:
     type: single-node
 
+security:
+  enabled: false
+
 service:
   type: ClusterIP
   ports:
@@ -48,3 +51,7 @@ kibana:
     hosts:
       - '{{ include "elasticsearch.service.name" . }}'
     port: '{{ include "elasticsearch.service.ports.restAPI" . }}'
+  kibanaConfig:
+    kibana.yml: |
+      server.host: "0.0.0.0"
+      xpack.encryptedSavedObjects.encryptionKey: "u@!4AbpdG!Vo6hDGS@$QS$oVA8DPs4HM"

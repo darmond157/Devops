@@ -13,12 +13,7 @@ service:
   port: 2020
 
 ingress:
-  enabled: true
-  ingressClassName: "nginx"
-  annotations:
-    kubernetes.io/ingress.class: nginx
-  hosts:
-    - host: fluent-bit.local
+  enabled: false
 
 config:
   service: |
@@ -50,8 +45,10 @@ config:
     [OUTPUT]
         Name            es
         Match           kube.*
-        Host            elasticsearch
+        Host            elasticsearch-master
         Port            9200
+        HTTP_User       elastic
+        HTTP_Passwd     DH7CXL5gXQVeUU
         Logstash_Format Off
         Replace_Dots    On
         Index           kubernetes-logs

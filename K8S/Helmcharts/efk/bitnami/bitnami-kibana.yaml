@@ -1,0 +1,13 @@
+replicaCount: 1
+
+persistence:
+  enabled: false
+
+elasticsearch:
+  hosts:
+    - elasticsearch-master
+  port: "9200"
+  security:
+    auth:
+      enabled: true
+      kibanaPassword: "DH7CXL5gXQVeUU"

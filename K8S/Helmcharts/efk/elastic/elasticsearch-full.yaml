@@ -1,0 +1,36 @@
+---
+clusterName: "elasticsearch"
+nodeGroup: "master"
+masterService: "elasticsearch-master"
+
+roles:
+  - master
+  - data
+  - data_content
+  - data_hot
+  - data_warm
+  - data_cold
+  - ingest
+  - ml
+  - remote_cluster_client
+  - transform
+
+replicas: 1
+minimumMasterNodes: 1
+
+secret:
+  enabled: true
+  password: "DH7CXL5gXQVeUU"
+
+esJavaOpts: "-Xmx1g -Xms1g"
+
+volumeClaimTemplate:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 10Gi
+
+persistence:
+  enabled: true
+
+antiAffinity: "soft"
