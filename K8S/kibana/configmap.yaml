@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kibana-config
+  namespace: monitoring
+data:
+  kibana.yml: |
+    server.name: kibana
+    server.host: "0.0.0.0"
+    server.publicBaseUrl: https://kibana.arcaptcha.co/
+    elasticsearch.hosts: [ http://elasticsearch-client:9200 ]
+    xpack.monitoring.ui.container.elasticsearch.enabled: true
+
+    elasticsearch.username: elastic
+    elasticsearch.password: hNA6iQxwNcgZse2vZm4iLHhothC77J
+
+    csp.strict: false
+    csp.warnLegacyBrowsers: false
+    csp.script_src:
+      - 'unsafe-inline'
+      - 'self'
+      - 'unsafe-eval'

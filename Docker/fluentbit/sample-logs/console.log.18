@@ -1,0 +1,1247 @@
+[2025-06-03T09:12:12.600009416Z][init                  ] VM init started
+[2025-06-03T09:12:12.600156208Z][init                  ] error mounting devtmpfs to /dev: device or resource busy
+[2025-06-03T09:12:12.631643750Z][init                  ] added cpuset to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631685375Z][init                  ] added cpu to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631700083Z][init                  ] added io to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631725333Z][init                  ] added memory to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631785375Z][init                  ] added hugetlb to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631816791Z][init                  ] added pids to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.631839291Z][init                  ] added rdma to /sys/fs/cgroup/cgroup.subtree_control
+[2025-06-03T09:12:12.635962916Z][init                  ][W] chmod 0666 /dev/fd: chmod /dev/fd: operation not permitted
+[2025-06-03T09:12:12.637117083Z][init.socketforward    ] listening on virtual address: debug-socketforwarder
+[2025-06-03T09:12:12.637157500Z][init.socketforward    ] listening on virtual address: perf-socketforwarder
+grep: /etc/securetty: No such file or directory
+getty: cmdline has console=hvc0 but does not exist in /etc/securetty; will not be able to log in as root on this tty hvc0.
+getty: cmdline has console=hvc0 but does not exist in /etc/securetty; will not be able to log in as root on this tty hvc0.
+[2025-06-03T09:12:12.653195416Z][init.socketforward    ] listening on virtual address: control-init
+[2025-06-03T09:12:12.653359125Z][init.ipc              ] 1643e7c7-pause/unpause ->  
+[2025-06-03T09:12:12.655656291Z][init                  ] platform has a virtio-net eth0, no need for a TAP AF_VSOCK
+[2025-06-03T09:12:12.655818291Z][init                  ] listening on TCP port 5555 for internal Docker Hub proxy
+[2025-06-03T09:12:12.655893541Z][init                  ] listening on TCP port 3128 for internal HTTP proxy
+
+                        ##         .
+                  ## ## ##        ==
+               ## ## ## ## ##    ===
+           /"""""""""""""""""___/ ===
+          {                       /  ===-
+           ______ O           __/
+                          __/
+              ___________/
+
+docker-desktop login: root (automatic login)
+
+[2025-06-03T09:12:12.656869958Z][init.gpio             ] waiting for poweroff request
+[2025-06-03T09:12:12.656961875Z][init.modules          ] loading: /lib/modules/fakeowner.ko
+[2025-06-03T09:12:12.657108625Z][init.vpnkitcontrol    ] dialing /run/host-services/vpnkit-data.sock for data connection
+[2025-06-03T09:12:12.657434000Z][init.ipc              ] 4ae4847d-time ->  
+[2025-06-03T09:12:12.658867916Z][init.binfmt           ] arm registered
+[2025-06-03T09:12:12.659082250Z][init.ipc              ] run cabfbf4e-image-inspector for component image-inspector on /run/guest-services/image-inspector.sock
+[2025-06-03T09:12:12.659504708Z][init.ipc              ] run 2535a2ee-stats for component stats on /run/guest-services/stats.sock
+[2025-06-03T09:12:12.659818541Z][init                  ] starting debug service
+[2025-06-03T09:12:12.659915000Z][init.ipc              ] run 2f41e81b-control for component init on control-init
+[2025-06-03T09:12:12.660134291Z][init.ipc              ] run 8e91c7cb-container-filesystem for component container-filesystem on /run/guest-services/container-filesystem.sock
+[2025-06-03T09:12:12.659099416Z][init                  ] starting performance service
+[2025-06-03T09:12:12.659170375Z][init.socketforward    ] connecting to AF_VSOCK connect://2/1999
+[2025-06-03T09:12:12.660577916Z][init.binfmt           ] mips64 registered
+[2025-06-03T09:12:12.660012166Z][init.ipc              ] run 62f41509-volume-contents for component volume-contents on /run/guest-services/volume-contents.sock
+[2025-06-03T09:12:12.659423125Z][init                  ] cgroupv2 detected in /sys/fs/cgroup
+[2025-06-03T09:12:12.660940958Z][init                  ] unfreezing cgroup /sys/fs/cgroup/kubepods
+[2025-06-03T09:12:12.661047875Z][init                  ] unfreezing cgroup /sys/fs/cgroup/podruntime
+[2025-06-03T09:12:12.661159541Z][init.socketforward    ] connected to connect://2/1999
+[2025-06-03T09:12:12.661075500Z][init.binfmt           ] mips64le registered
+[2025-06-03T09:12:12.662146000Z][init.ipc              ] aaf69944-metadata ->  
+[2025-06-03T09:12:12.662192958Z][init.binfmt           ] ppc64le registered
+[2025-06-03T09:12:12.662238708Z][init.socketforward    ] gvisor: publishing on /run/host-services/gvisor-ethernet-vpnkit-protocol.sock
+[2025-06-03T09:12:12.662305166Z][init.socketforward    ] vpnkit: publishing on /run/host-services/vpnkit.sock
+[2025-06-03T09:12:12.662341875Z][init.socketforward    ] docker-proxy: publishing on /run/host-services/docker.proxy.sock
+[2025-06-03T09:12:12.662240833Z][init.socketforward    ] dns.internal/grpc: publishing on /run/host-services/dns.internal.grpc.sock
+[2025-06-03T09:12:12.662206291Z][init.socketforward    ] starting to forward dials
+[2025-06-03T09:12:12.662232166Z][init.socketforward    ] http-proxy: publishing on /run/host-services/http-proxy.sock
+[2025-06-03T09:12:12.662235208Z][init.socketforward    ] backend-native: publishing on /run/host-services/backend.native.sock
+[2025-06-03T09:12:12.662237083Z][init.socketforward    ] filesystem: publishing on /run/host-services/filesystem.sock
+[2025-06-03T09:12:12.662237166Z][init.socketforward    ] backend: publishing on /run/host-services/backend.sock
+[2025-06-03T09:12:12.662243416Z][init.socketforward    ] otel-system-telemetry: publishing on /run/host-services/system-telemetry.otlp.grpc.sock
+[2025-06-03T09:12:12.662245166Z][init.socketforward    ] dns.system/grpc: publishing on /run/host-services/dns.system.grpc.sock
+[2025-06-03T09:12:12.662246583Z][init.socketforward    ] http-proxy-restricted: publishing on /run/host-services/http-proxy-restricted.sock
+[2025-06-03T09:12:12.662668791Z][init.binfmt           ] riscv64 registered
+[2025-06-03T09:12:12.662248250Z][init.socketforward    ] ssh-auth: publishing on /run/host-services/ssh-auth.sock
+[2025-06-03T09:12:12.664163458Z][init.ipc              ] run 8005d412-diagnosticsd for component diagnosticsd on /run/guest-services/diagnosticd.sock
+[2025-06-03T09:12:12.663520333Z][init.metadata         ] writing metadata to /run/config
+[2025-06-03T09:12:12.663694916Z][init.binfmt           ] s390x registered
+[2025-06-03T09:12:12.662203625Z][init.ipc              ] (28d56e0f-0) aaf69944-metadata C->S  GET /app/settings/flat
+Linux docker-desktop 6.10.14-linuxkit #1 SMP Mon Feb 24 16:35:16 UTC 2025 aarch64
+System services are namespaced; to access, use `nsenter -a -t <pid>`
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Linux version 6.10.14-linuxkit (root@buildkitsandbox) (gcc (Alpine 13.2.1_git20240309) 13.2.1 20240309, GNU ld (GNU Binutils) 2.42) #1 SMP Mon Feb 24 16:35:16 UTC 2025
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Zone ranges:
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] DMA      [mem 0x0000000070000000-0x00000000ffffffff]
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] DMA32    empty
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Normal   [mem 0x0000000100000000-0x0000000269bfffff]
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Movable zone start for each node
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Early memory node ranges
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] node   0: [mem 0x0000000070000000-0x0000000269bfffff]
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Initmem setup node 0 [mem 0x0000000070000000-0x0000000269bfffff]
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] On node 0, zone Normal: 25600 pages in unavailable ranges
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] psci: probing for conduit method from DT.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] psci: PSCIv1.1 detected in firmware.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] psci: Using standard PSCI v0.2 function IDs
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] psci: Trusted OS migration not required
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] psci: SMC Calling Convention v1.1
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] percpu: Embedded 34 pages/cpu s99240 r8192 d31832 u139264
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] pcpu-alloc: s99240 r8192 d31832 u139264 alloc=34*4096
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11 [0] 12 [0] 13
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Detected PIPT I-cache on CPU0
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] CPU features: detected: Address authentication (IMP DEF algorithm)
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] CPU features: detected: GIC system register CPU interface
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] CPU features: detected: Spectre-v4
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] alternatives: applying boot alternatives
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Kernel command line: init=/init loglevel=1 root=/dev/vdb rootfstype=erofs ro vsyscall=emulate panic=0 eth0.dhcp eth1.dhcp linuxkit.unified_cgroup_hierarchy=1 console=hvc0   virtio_net.disable_csum=1 vpnkit.connect=connect://2/1999 com.docker.VMID=cbcd0240-d190-44cf-bdfd-803b00877b36
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Unknown kernel command line parameters "vsyscall=emulate", will be passed to user space.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[2025-06-03T09:12:12.662253375Z][init.socketforward    ] osxfs-data: publishing on /run/host-services/osxfs-data.sock
+[2025-06-03T09:12:12.691463916Z][init.modules          ] loading: /lib/modules/grpcfuse.ko
+[2025-06-03T09:12:12.662256583Z][init.socketforward    ] network-proxy: publishing on /run/host-services/network-proxy.sock
+[2025-06-03T09:12:12.662254958Z][init.socketforward    ] hubproxy: publishing on /run/host-services/hubproxy.sock
+[2025-06-03T09:12:12.662249833Z][init.socketforward    ] vpnkit-data: publishing on /run/host-services/vpnkit-data.sock
+root@docker-desktop:~# [2025-06-03T09:12:12.662842666Z][init.eth0             ] DHCPv4
+[2025-06-03T09:12:12.662251083Z][init.socketforward    ] webgpu: publishing on /run/host-services/webgpu.sock
+[2025-06-03T09:12:12.664932125Z][init.ipc              ] b296483e-certs ->  
+[2025-06-03T09:12:12.689529416Z][init.ipc              ] run c0ba351a-procd for component procd on /run/guest-services/procd.sock
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Built 1 zonelists, mobility grouping on.  Total pages: 2071552
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] software IO TLB: area num 16.
+[2025-06-03T09:12:12.694017833Z][init.ipc              ] (783598e7-0) b296483e-certs C->S  GET /certificates
+[2025-06-03T09:12:12.687055125Z][init.binfmt           ] i386 registered
+[2025-06-03T09:12:12.687280916Z][init.dns              ] loading bpf bpf.o: program egress: Call at insn 1: symbol "handle_pkt": unsatisfied program reference, falling back to bpf-legacy.o
+[2025-06-03T09:12:13.164495333Z][init                  ] set time delta -468.392584ms, rtt 38.616667ms
+[2025-06-03T09:12:13.164563208Z][init                  ] time is ready
+[2025-06-03T09:12:13.166578583Z][init.binfmt           ] x86_64 registered
+[2025-06-03T09:12:13.164564375Z][init                  ] time is ready
+[2025-06-03T09:12:13.165399000Z][init.ipc              ] (28d56e0f-0) aaf69944-metadata C<-S 832a3351-BackendAPI GET /app/settings/flat (34.202083ms): {"acceptCanaryUpdates":false,"activeOrganizationName":"","allowBetaFeatures":true,"allowExperimentalFeatures":true,"analyticsEnabled":true,"autoDownloadUpdates":false,"autoPauseTimedActivitySeconds":30,"autoPauseTimeoutSeconds":300,"autoStart":true,"backupData":false,"blockDockerLoad":false,"composeAutoFileShares":null,"composeBridgeEnabled":false,"containerTerminal":"integrated","containersOverrideProxyExclude":"","containersOverrideProxyHttp":"","containersOverrideProxyHttps":"","containersOverrideProxyPAC":"","containersOverrideProxyTCP":"","containersOverrideProxyTransparentPorts":"...","containersProxyHttpMode":"","cpus":14,"credentialHelper":"docker-credential-osxkeychain","customWslDistroDir":"","dataFolder":"/Users/darmond/Library/Containers/com.docker.docker/Data/vms/0/data","defaultSnapshotter":"overlayfs","deprecatedCgroupv1":false,"desktopTerminalEnabled":true,"devEnvironmentsEnabled":false,"disableHardwareAcceleration":false,"disableModulesUpdate":false,"disableUpdate":false,"diskFlush":"os","diskSizeMiB":1048576,"diskStats":"","diskTRIM":true,"displayRestartDialog":true,"displaySwitchWinLinContainers":false,"displayed18362Deprecation":false,"displayedElectronPopup":[],"displayedOnboarding":true,"dockerAppLaunchPath":"/Applications/Docker.app","dockerBinInstallPath":"system","dockerDebugDefaultEnabled":false,"dockerDesktopServerURL":"","dogfoodFeatureFlagsEnabled":false,"eciDockerSocketAllowDerivedImages":true,"eciDockerSocketCmdList":"[]interface {}","eciDockerSocketCmdListType":"...","eciDockerSocketImgList":"[]interface {}","enableDefaultDockerSocket":true,"enableDockerAI":false,"enableIntegrationWithDefaultWslDistro":false,"enableIntegrityCheck":true,"enableSegmentDebug":false,"enableWasmShims":false,"enhancedContainerIsolation":false,"exposeDockerAPIOnTCP2375":false,"extensionsEnabled":true,"extensionsPrivateMarketplace":false,"extensionsPrivateMarketplaceAdminContactURL":"","filesharingDirectories":["/Users","/Volumes","/private","/tmp","/var/folders"],"hostNetworkingEnabled":false,"installType":"brew","integratedWslDistros":null,"ipV4Only":false,"ipV6Only":false,"kernelForUDP":false,"kubernetesDashboardEnabled":false,"kubernetesEnabled":false,"kubernetesImagesRepository":"","kubernetesMode":"kubeadm","kubernetesNodesCount":0,"kubernetesNodesVersion":"1.31.1","lastContainerdSnapshotterEnable":1741212715,"lastLoginDate":0,"latestBannerKey":"","licenseTermsVersion":2,"lifecycleTimeoutSeconds":600,"linuxDockerdConfiguration":{"builder":{"gc":{"defaultKeepStorage":"20GB","enabled":true}},"default-address-pools":[{"base":"10.10.0.0/16","size":24}]},"memoryMiB":8092,"networkType":"gvisor","noWindowsContainers":false,"onlyMarketplaceExtensions":true,"openUIOnStartupDisabled":true,"overrideProxyExclude":"","overrideProxyHttp":"","overrideProxyHttps":"","overrideProxyPAC":"","overrideProxyTCP":"","overrideWindowsDockerdPort":-1,"proxyEnableKerberosNTLM":false,"proxyHttpMode":"...","proxyLocalhostPort":0,"requireVmnetd":true,"runWinServiceInWslMode":false,"sbomIndexing":true,"scoutNotificationPopupsEnabled":true,"scoutOsNotificationsEnabled":false,"settingsVersion":41,"showAnnouncementNotifications":true,"showExtensionsSystemContainers":false,"showGeneralNotifications":true,"showInstallScreen":false,"showKubernetesSystemContainers":false,"showPromotionalNotifications":true,"showSurveyNotifications":true,"skipUpdateToWSLPrompt":false,"skipWSLMountPerfWarning":false,"socksProxyPort":0,"stage":false,"swapMiB":1024,"synchronizedDirectories":[],"terminalFontFamily":"","terminalFontSize":0,"themeSource":"dark","updateAvailableTime":0,"updateHostsFile":false,"updateInstallTime":0,"useBackgroundIndexing":false,"useContainerdSnapshotter":true,"useCredentialHelper":true,"useGrpcfuse":true,"useLibkrun":false,"useNightlyBuildUpdates":false,"useResourceSaver":true,"useVirtualizationFramework":true,"useVirtualizationFrameworkRosetta":true,"useVirtualizationFrameworkVirtioFS":true,"useVpnkit":true,"useWindowsContainers":false,"vpnKitAllowedBindAddresses":"0.0.0.0","vpnKitMTU":1500,"vpnKitMaxConnections":2000,"vpnKitMaxPortIdleTime":300,"vpnKitTransparentProxy":true,"vpnkitCIDR":"...","windowsDockerdConfiguration":null,"wslDiskCompactionThresholdGb":0,"wslEnableGrpcfuse":false,"wslEngineEnabled":false,"wslInstallMode":"installLatestWsl","wslUpdateRequired":false}
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] software IO TLB: mapped [mem 0x00000000fbfff000-0x00000000fffff000] (64MB)
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Memory: 8018540K/8286208K available (19072K kernel code, 2820K rwdata, 10684K rodata, 6336K init, 750K bss, 267668K reserved, 0K cma-reserved)
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=14, Nodes=1
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] ftrace: allocating 57229 entries in 224 pages
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] ftrace: allocated 224 pages with 3 groups
+[2025-06-03T09:12:13.165559958Z][init.modules          ] loading: /lib/modules/rosetta.ko
+[2025-06-03T09:12:13.169675375Z][init                  ] IPv6 supported
+[2025-06-03T09:12:13.166611041Z][init.dns              ] eBPF loaded
+[2025-06-03T09:12:13.169454541Z][init.ipc              ] a5936512-metadata ->  
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] trace event string verifier disabled
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: Hierarchical RCU implementation.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: \x09RCU restricting CPUs from NR_CPUS=24 to nr_cpu_ids=14.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] \x09Rude variant of Tasks RCU enabled.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] \x09Tracing variant of Tasks RCU enabled.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=14
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=14.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=14.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] GICv3: 988 SPIs implemented
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] GICv3: 0 Extended SPIs implemented
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] Root IRQ handler: gic_handle_irq
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] GICv3: GICv3 features: 16 PPIs, RSS
+[2025-06-03T09:12:13.176222250Z][init.ipc              ] (d5e5b5a2-0) a5936512-metadata C->S  GET /system/info
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] GICv3: CPU0: found redistributor 0 region 0:0x0000000010010000
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: \x09Offload RCU callbacks from CPUs: 0-13.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] arch_timer: cp15 timer(s) running at 24.00MHz (virt).
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+[2025-06-03T09:12:11.656011291Z][kmsg                  ] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+[2025-06-03T09:12:13.176013291Z][init.dns              ] pinned IPv4 allowlist map to /sys/fs/bpf/allowed_map
+[2025-06-03T09:12:11.656091291Z][kmsg                  ] Console: colour dummy device 80x25
+[2025-06-03T09:12:13.178686125Z][init.dns              ] pinned IPv6 allowlist map to /sys/fs/bpf/allowed_map6
+[2025-06-03T09:12:13.178949916Z][init.dns              ] pinned IPv4 blocked_packets map to /sys/fs/bpf/blocked_packets
+[2025-06-03T09:12:11.656098291Z][kmsg                  ] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=24000)
+[2025-06-03T09:12:11.656100291Z][kmsg                  ] pid_max: default: 32768 minimum: 301
+[2025-06-03T09:12:11.656113291Z][kmsg                  ] LSM: initializing lsm=capability,bpf
+[2025-06-03T09:12:11.656116291Z][kmsg                  ] LSM support for eBPF active
+[2025-06-03T09:12:13.179513375Z][init.dns              ] pinned IPv6 blocked_packets map to /sys/fs/bpf/blocked_packets6
+[2025-06-03T09:12:13.180287375Z][init.dns              ] pinned IPv4 allowlist trie to /sys/fs/bpf/allowed_trie
+[2025-06-03T09:12:13.180345208Z][init.dns              ] pinned IPv6 allowlist trie to /sys/fs/bpf/allowed_trie6
+[2025-06-03T09:12:13.179949625Z][init.disk             ] /dev/vda has content. blkid returned: /dev/vda: PTUUID="4585d764" PTTYPE="dos"
+[2025-06-03T09:12:13.180501166Z][init.disk             ] no disks require formatting
+[2025-06-03T09:12:11.656153291Z][kmsg                  ] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[2025-06-03T09:12:11.656171291Z][kmsg                  ] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[2025-06-03T09:12:11.656922291Z][kmsg                  ] rcu: Hierarchical SRCU implementation.
+[2025-06-03T09:12:11.656923291Z][kmsg                  ] rcu: \x09Max phase no-delay instances is 400.
+[2025-06-03T09:12:11.657598291Z][kmsg                  ] smp: Bringing up secondary CPUs ...
+[2025-06-03T09:12:11.657965291Z][kmsg                  ] Detected PIPT I-cache on CPU1
+[2025-06-03T09:12:11.657978291Z][kmsg                  ] GICv3: CPU1: found redistributor 1 region 0:0x0000000010030000
+[2025-06-03T09:12:11.658033291Z][kmsg                  ] CPU1: Booted secondary processor 0x0000000001 [0x610f0000]
+[2025-06-03T09:12:11.658425291Z][kmsg                  ] Detected PIPT I-cache on CPU2
+[2025-06-03T09:12:11.658440291Z][kmsg                  ] GICv3: CPU2: found redistributor 2 region 0:0x0000000010050000
+[2025-06-03T09:12:11.658493291Z][kmsg                  ] CPU2: Booted secondary processor 0x0000000002 [0x610f0000]
+[2025-06-03T09:12:11.658845291Z][kmsg                  ] Detected PIPT I-cache on CPU3
+[2025-06-03T09:12:11.658862291Z][kmsg                  ] GICv3: CPU3: found redistributor 3 region 0:0x0000000010070000
+[2025-06-03T09:12:11.658916291Z][kmsg                  ] CPU3: Booted secondary processor 0x0000000003 [0x610f0000]
+[2025-06-03T09:12:11.659317291Z][kmsg                  ] Detected PIPT I-cache on CPU4
+[2025-06-03T09:12:11.659335291Z][kmsg                  ] GICv3: CPU4: found redistributor 4 region 0:0x0000000010090000
+[2025-06-03T09:12:11.659388291Z][kmsg                  ] CPU4: Booted secondary processor 0x0000000004 [0x610f0000]
+[2025-06-03T09:12:11.659738291Z][kmsg                  ] Detected PIPT I-cache on CPU5
+[2025-06-03T09:12:11.659758291Z][kmsg                  ] GICv3: CPU5: found redistributor 5 region 0:0x00000000100b0000
+[2025-06-03T09:12:11.659809291Z][kmsg                  ] CPU5: Booted secondary processor 0x0000000005 [0x610f0000]
+[2025-06-03T09:12:11.660167291Z][kmsg                  ] Detected PIPT I-cache on CPU6
+[2025-06-03T09:12:11.660191291Z][kmsg                  ] GICv3: CPU6: found redistributor 6 region 0:0x00000000100d0000
+[2025-06-03T09:12:11.660243291Z][kmsg                  ] CPU6: Booted secondary processor 0x0000000006 [0x610f0000]
+[2025-06-03T09:12:13.179112166Z][init.modules          ] loading: /lib/modules/selfowner.ko
+[2025-06-03T09:12:11.660599291Z][kmsg                  ] Detected PIPT I-cache on CPU7
+[2025-06-03T09:12:11.660624291Z][kmsg                  ] GICv3: CPU7: found redistributor 7 region 0:0x00000000100f0000
+[2025-06-03T09:12:11.660676291Z][kmsg                  ] CPU7: Booted secondary processor 0x0000000007 [0x610f0000]
+[2025-06-03T09:12:11.661053291Z][kmsg                  ] Detected PIPT I-cache on CPU8
+[2025-06-03T09:12:11.661080291Z][kmsg                  ] GICv3: CPU8: found redistributor 8 region 0:0x0000000010110000
+[2025-06-03T09:12:11.661132291Z][kmsg                  ] CPU8: Booted secondary processor 0x0000000008 [0x610f0000]
+[2025-06-03T09:12:11.661468291Z][kmsg                  ] Detected PIPT I-cache on CPU9
+[2025-06-03T09:12:11.661499291Z][kmsg                  ] GICv3: CPU9: found redistributor 9 region 0:0x0000000010130000
+[2025-06-03T09:12:11.661550291Z][kmsg                  ] CPU9: Booted secondary processor 0x0000000009 [0x610f0000]
+[2025-06-03T09:12:11.661921291Z][kmsg                  ] Detected PIPT I-cache on CPU10
+[2025-06-03T09:12:11.661953291Z][kmsg                  ] GICv3: CPU10: found redistributor a region 0:0x0000000010150000
+[2025-06-03T09:12:11.662004291Z][kmsg                  ] CPU10: Booted secondary processor 0x000000000a [0x610f0000]
+[2025-06-03T09:12:11.662355291Z][kmsg                  ] Detected PIPT I-cache on CPU11
+[2025-06-03T09:12:11.662396291Z][kmsg                  ] GICv3: CPU11: found redistributor b region 0:0x0000000010170000
+[2025-06-03T09:12:11.662454291Z][kmsg                  ] CPU11: Booted secondary processor 0x000000000b [0x610f0000]
+[2025-06-03T09:12:11.662914291Z][kmsg                  ] Detected PIPT I-cache on CPU12
+[2025-06-03T09:12:11.662952291Z][kmsg                  ] GICv3: CPU12: found redistributor c region 0:0x0000000010190000
+[2025-06-03T09:12:11.663003291Z][kmsg                  ] CPU12: Booted secondary processor 0x000000000c [0x610f0000]
+[2025-06-03T09:12:11.663357291Z][kmsg                  ] Detected PIPT I-cache on CPU13
+[2025-06-03T09:12:11.663397291Z][kmsg                  ] GICv3: CPU13: found redistributor d region 0:0x00000000101b0000
+[2025-06-03T09:12:11.663447291Z][kmsg                  ] CPU13: Booted secondary processor 0x000000000d [0x610f0000]
+[2025-06-03T09:12:13.180428041Z][init.ipc              ] (d5e5b5a2-0) a5936512-metadata C<-S 832a3351-BackendAPI GET /system/info (4.202833ms): {"goos":"darwin","osMajorVersion":"15"}
+[2025-06-03T09:12:13.180565916Z][init.dns              ] detected cgroup2 on /sys/fs/cgroup
+[2025-06-03T09:12:13.183341375Z][init.dns              ] applying policy to /sys/fs/cgroup/restricted
+[2025-06-03T09:12:11.663486291Z][kmsg                  ] smp: Brought up 1 node, 14 CPUs
+[2025-06-03T09:12:11.663487291Z][kmsg                  ] SMP: Total of 14 processors activated.
+[2025-06-03T09:12:11.663487291Z][kmsg                  ] CPU: All CPU(s) started at EL1
+[2025-06-03T09:12:11.663488291Z][kmsg                  ] CPU features: detected: ARMv8.4 Translation Table Level
+[2025-06-03T09:12:11.663489291Z][kmsg                  ] CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+[2025-06-03T09:12:11.663489291Z][kmsg                  ] CPU features: detected: Common not Private translations
+[2025-06-03T09:12:11.663489291Z][kmsg                  ] CPU features: detected: CRC32 instructions
+[2025-06-03T09:12:11.663489291Z][kmsg                  ] CPU features: detected: Data independent timing control (DIT)
+[2025-06-03T09:12:11.663489291Z][kmsg                  ] CPU features: detected: E0PD
+[2025-06-03T09:12:11.663490291Z][kmsg                  ] CPU features: detected: Enhanced Privileged Access Never
+[2025-06-03T09:12:11.663490291Z][kmsg                  ] CPU features: detected: Generic authentication (IMP DEF algorithm)
+[2025-06-03T09:12:11.663490291Z][kmsg                  ] CPU features: detected: RCpc load-acquire (LDAPR)
+[2025-06-03T09:12:11.663491291Z][kmsg                  ] CPU features: detected: LSE atomic instructions
+[2025-06-03T09:12:11.663491291Z][kmsg                  ] CPU features: detected: Privileged Access Never
+[2025-06-03T09:12:11.663491291Z][kmsg                  ] CPU features: detected: RAS Extension Support
+[2025-06-03T09:12:11.663491291Z][kmsg                  ] CPU features: detected: Speculation barrier (SB)
+[2025-06-03T09:12:11.663492291Z][kmsg                  ] CPU features: detected: TLB range maintenance instructions
+[2025-06-03T09:12:11.687306291Z][kmsg                  ] alternatives: applying system-wide alternatives
+[2025-06-03T09:12:11.722174291Z][kmsg                  ] devtmpfs: initialized
+[2025-06-03T09:12:11.722377291Z][kmsg                  ] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[2025-06-03T09:12:13.183324291Z][init.ipc              ] d46e9923-metadata ->  
+[2025-06-03T09:12:13.184454916Z][init.ipc              ] (a319d0f2-0) d46e9923-metadata C->S  GET /telemetry
+[2025-06-03T09:12:13.185457875Z][init.modules          ] loading: /lib/modules/shiftfs.ko
+[2025-06-03T09:12:11.722380291Z][kmsg                  ] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[2025-06-03T09:12:11.722417291Z][kmsg                  ] 22800 pages in range for non-PLT usage
+[2025-06-03T09:12:11.722417291Z][kmsg                  ] 514320 pages in range for PLT usage
+[2025-06-03T09:12:11.723037291Z][kmsg                  ] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[2025-06-03T09:12:11.723700291Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+[2025-06-03T09:12:11.723804291Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[2025-06-03T09:12:11.723896291Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[2025-06-03T09:12:11.723908291Z][kmsg                  ] audit: initializing netlink subsys (disabled)
+[2025-06-03T09:12:11.723976291Z][kmsg                  ] audit: type=2000 audit(0.026:1): state=initialized audit_enabled=0 res=1
+[2025-06-03T09:12:11.724009291Z][kmsg                  ] cpuidle: using governor menu
+[2025-06-03T09:12:11.724021291Z][kmsg                  ] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[2025-06-03T09:12:11.724459291Z][kmsg                  ] ASID allocator initialised with 65536 entries
+[2025-06-03T09:12:11.724476291Z][kmsg                  ] Serial: AMBA PL011 UART driver
+[2025-06-03T09:12:11.724883291Z][kmsg                  ] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[2025-06-03T09:12:11.724884291Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[2025-06-03T09:12:11.724884291Z][kmsg                  ] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[2025-06-03T09:12:11.724884291Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[2025-06-03T09:12:11.724885291Z][kmsg                  ] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[2025-06-03T09:12:11.724885291Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[2025-06-03T09:12:11.724885291Z][kmsg                  ] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[2025-06-03T09:12:11.724885291Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[2025-06-03T09:12:11.725102291Z][kmsg                  ] raid6: skipped pq benchmark and selected neonx8
+[2025-06-03T09:12:13.183482041Z][init.dns              ] created /sys/fs/cgroup/restricted
+[2025-06-03T09:12:13.186799166Z][init.dns              ] attached eBPF to egress of cgroup /sys/fs/cgroup/restricted
+[2025-06-03T09:12:13.186847916Z][init.dns              ] pinned link to /sys/fs/bpf/link/restricted
+[2025-06-03T09:12:13.186906416Z][init.dns              ] detected cgroup2 on /sys/fs/cgroup
+[2025-06-03T09:12:13.186952583Z][init.dns              ] applying policy to /sys/fs/cgroup/docker/buildx
+[2025-06-03T09:12:13.187045875Z][init.dns              ] created /sys/fs/cgroup/docker/buildx
+[2025-06-03T09:12:13.187080750Z][init.dns              ] attached eBPF to egress of cgroup /sys/fs/cgroup/docker/buildx
+[2025-06-03T09:12:13.187113625Z][init.dns              ] pinned link to /sys/fs/bpf/link/buildx
+[2025-06-03T09:12:11.725103291Z][kmsg                  ] raid6: using neon recovery algorithm
+[2025-06-03T09:12:11.729178291Z][kmsg                  ] SCSI subsystem initialized
+[2025-06-03T09:12:11.729195291Z][kmsg                  ] usbcore: registered new interface driver usbfs
+[2025-06-03T09:12:11.729198291Z][kmsg                  ] usbcore: registered new interface driver hub
+[2025-06-03T09:12:11.729201291Z][kmsg                  ] usbcore: registered new device driver usb
+[2025-06-03T09:12:13.186311708Z][init                  ] selfowner is ready
+[2025-06-03T09:12:11.729209291Z][kmsg                  ] pps_core: LinuxPPS API ver. 1 registered
+[2025-06-03T09:12:13.186338333Z][init                  ] selfowner is ready
+[2025-06-03T09:12:11.729210291Z][kmsg                  ] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[2025-06-03T09:12:11.729339291Z][kmsg                  ] vgaarb: loaded
+[2025-06-03T09:12:11.749467291Z][kmsg                  ] clocksource: Switched to clocksource arch_sys_counter
+[2025-06-03T09:12:11.749592291Z][kmsg                  ] VFS: Disk quotas dquot_6.6.0
+[2025-06-03T09:12:11.749601291Z][kmsg                  ] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[2025-06-03T09:12:11.749633291Z][kmsg                  ] netfs: FS-Cache loaded
+[2025-06-03T09:12:11.749695291Z][kmsg                  ] CacheFiles: Loaded
+[2025-06-03T09:12:11.752325291Z][kmsg                  ] NET: Registered PF_INET protocol family
+[2025-06-03T09:12:11.752435291Z][kmsg                  ] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[2025-06-03T09:12:11.759483291Z][kmsg                  ] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[2025-06-03T09:12:11.759486291Z][kmsg                  ] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[2025-06-03T09:12:11.759487291Z][kmsg                  ] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[2025-06-03T09:12:11.759508291Z][kmsg                  ] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[2025-06-03T09:12:11.759693291Z][kmsg                  ] TCP: Hash tables configured (established 65536 bind 65536)
+[2025-06-03T09:12:11.759701291Z][kmsg                  ] UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[2025-06-03T09:12:11.759705291Z][kmsg                  ] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[2025-06-03T09:12:11.759724291Z][kmsg                  ] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[2025-06-03T09:12:11.759878291Z][kmsg                  ] RPC: Registered named UNIX socket transport module.
+[2025-06-03T09:12:11.759879291Z][kmsg                  ] RPC: Registered udp transport module.
+[2025-06-03T09:12:11.759879291Z][kmsg                  ] RPC: Registered tcp transport module.
+[2025-06-03T09:12:11.759879291Z][kmsg                  ] RPC: Registered tcp-with-tls transport module.
+[2025-06-03T09:12:13.187953500Z][init.ipc              ] 77ac68d4-dns-forwarder ->  
+[2025-06-03T09:12:13.187989041Z][init.ipc              ] (ad823440-0) 77ac68d4-dns-forwarder C->S  GET /registry/access
+[2025-06-03T09:12:11.759880291Z][kmsg                  ] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[2025-06-03T09:12:11.759881291Z][kmsg                  ] NET: Registered PF_XDP protocol family
+[2025-06-03T09:12:11.759883291Z][kmsg                  ] PCI: CLS 0 bytes, default 64
+[2025-06-03T09:12:11.760571291Z][kmsg                  ] workingset: timestamp_bits=46 max_order=21 bucket_order=0
+[2025-06-03T09:12:11.760586291Z][kmsg                  ] zbud: loaded
+[2025-06-03T09:12:11.760643291Z][kmsg                  ] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[2025-06-03T09:12:11.760716291Z][kmsg                  ] NFS: Registering the id_resolver key type
+[2025-06-03T09:12:11.760719291Z][kmsg                  ] Key type id_resolver registered
+[2025-06-03T09:12:11.760720291Z][kmsg                  ] Key type id_legacy registered
+[2025-06-03T09:12:11.760721291Z][kmsg                  ] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[2025-06-03T09:12:11.760722291Z][kmsg                  ] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[2025-06-03T09:12:11.761169291Z][kmsg                  ] Key type cifs.idmap registered
+[2025-06-03T09:12:11.761237291Z][kmsg                  ] fuse: init (API version 7.40)
+[2025-06-03T09:12:11.761350291Z][kmsg                  ] SGI XFS with security attributes, no debug enabled
+[2025-06-03T09:12:11.761489291Z][kmsg                  ] 9p: Installing v9fs 9p2000 file system support
+[2025-06-03T09:12:11.767799291Z][kmsg                  ] NET: Registered PF_ALG protocol family
+[2025-06-03T09:12:11.767801291Z][kmsg                  ] xor: measuring software checksum speed
+[2025-06-03T09:12:11.767856291Z][kmsg                  ] 8regs           : 60524 MB/sec
+[2025-06-03T09:12:11.767907291Z][kmsg                  ] 32regs          : 64860 MB/sec
+[2025-06-03T09:12:11.767948291Z][kmsg                  ] arm64_neon      : 80266 MB/sec
+[2025-06-03T09:12:11.767949291Z][kmsg                  ] xor: using function: arm64_neon (80266 MB/sec)
+[2025-06-03T09:12:11.767950291Z][kmsg                  ] Key type asymmetric registered
+[2025-06-03T09:12:11.767951291Z][kmsg                  ] Asymmetric key parser 'x509' registered
+[2025-06-03T09:12:11.767962291Z][kmsg                  ] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[2025-06-03T09:12:11.768047291Z][kmsg                  ] io scheduler mq-deadline registered
+[2025-06-03T09:12:11.768048291Z][kmsg                  ] io scheduler kyber registered
+[2025-06-03T09:12:11.768843291Z][kmsg                  ] pl061_gpio 20060000.pl061: PL061 GPIO chip registered
+ SUBSYSTEM=amba
+ DEVICE=+amba:20060000.pl061
+[2025-06-03T09:12:11.768858291Z][kmsg                  ] pci-host-generic 40000000.pci: host bridge /pci ranges:
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768860291Z][kmsg                  ] pci-host-generic 40000000.pci:       IO 0x006fff0000..0x006fffffff -> 0x0000000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768862291Z][kmsg                  ] pci-host-generic 40000000.pci:      MEM 0x0050000000..0x006ffdffff -> 0x0050000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768863291Z][kmsg                  ] pci-host-generic 40000000.pci:      MEM 0x0280000000..0x02bfffffff -> 0x0280000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768872291Z][kmsg                  ] pci-host-generic 40000000.pci: ECAM at [mem 0x40000000-0x4fffffff] for [bus 00-ff]
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768881291Z][kmsg                  ] pci-host-generic 40000000.pci: PCI host bridge to bus 0000:00
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-06-03T09:12:11.768881291Z][kmsg                  ] pci_bus 0000:00: root bus resource [bus 00-ff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-06-03T09:12:11.768882291Z][kmsg                  ] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-06-03T09:12:11.768882291Z][kmsg                  ] pci_bus 0000:00: root bus resource [mem 0x50000000-0x6ffdffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-06-03T09:12:11.768883291Z][kmsg                  ] pci_bus 0000:00: root bus resource [mem 0x280000000-0x2bfffffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-06-03T09:12:11.768900291Z][kmsg                  ] pci 0000:00:00.0: [106b:1a05] type 00 class 0x060000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:00.0
+[2025-06-03T09:12:11.769029291Z][kmsg                  ] pci 0000:00:01.0: [1af4:1041] type 00 class 0x020000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.769046291Z][kmsg                  ] pci 0000:00:01.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.769060291Z][kmsg                  ] pci 0000:00:01.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.769201291Z][kmsg                  ] pci 0000:00:05.0: [1af4:1043] type 00 class 0x078000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.769217291Z][kmsg                  ] pci 0000:00:05.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.769240291Z][kmsg                  ] pci 0000:00:05.0: BAR 2 [mem 0x00000000-0x0000007f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.769375291Z][kmsg                  ] pci 0000:00:06.0: [1af4:1042] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.769391291Z][kmsg                  ] pci 0000:00:06.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.769405291Z][kmsg                  ] pci 0000:00:06.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.769541291Z][kmsg                  ] pci 0000:00:07.0: [1af4:1042] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:11.769557291Z][kmsg                  ] pci 0000:00:07.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:11.769571291Z][kmsg                  ] pci 0000:00:07.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:11.769707291Z][kmsg                  ] pci 0000:00:08.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.769722291Z][kmsg                  ] pci 0000:00:08.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.769737291Z][kmsg                  ] pci 0000:00:08.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.769891291Z][kmsg                  ] pci 0000:00:09.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.769907291Z][kmsg                  ] pci 0000:00:09.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.769920291Z][kmsg                  ] pci 0000:00:09.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.770039291Z][kmsg                  ] pci 0000:00:0a.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.770053291Z][kmsg                  ] pci 0000:00:0a.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.770065291Z][kmsg                  ] pci 0000:00:0a.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.770181291Z][kmsg                  ] pci 0000:00:0b.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.770195291Z][kmsg                  ] pci 0000:00:0b.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.770208291Z][kmsg                  ] pci 0000:00:0b.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.770331291Z][kmsg                  ] pci 0000:00:0c.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.770344291Z][kmsg                  ] pci 0000:00:0c.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.770357291Z][kmsg                  ] pci 0000:00:0c.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.770472291Z][kmsg                  ] pci 0000:00:0d.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:11.770486291Z][kmsg                  ] pci 0000:00:0d.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:11.770498291Z][kmsg                  ] pci 0000:00:0d.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:11.770613291Z][kmsg                  ] pci 0000:00:0e.0: [1af4:1053] type 00 class 0x078000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:11.770627291Z][kmsg                  ] pci 0000:00:0e.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:11.770639291Z][kmsg                  ] pci 0000:00:0e.0: BAR 2 [mem 0x00000000-0x0000007f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:11.770752291Z][kmsg                  ] pci 0000:00:0f.0: [1af4:1044] type 00 class 0x100000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.770766291Z][kmsg                  ] pci 0000:00:0f.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.770778291Z][kmsg                  ] pci 0000:00:0f.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.770886291Z][kmsg                  ] pci 0000:00:10.0: [1af4:1045] type 00 class 0x058000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.770900291Z][kmsg                  ] pci 0000:00:10.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.770912291Z][kmsg                  ] pci 0000:00:10.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.771035291Z][kmsg                  ] pci 0000:00:01.0: BAR 0 [mem 0x50000000-0x50003fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.771038291Z][kmsg                  ] pci 0000:00:05.0: BAR 0 [mem 0x50004000-0x50007fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.771041291Z][kmsg                  ] pci 0000:00:06.0: BAR 0 [mem 0x50008000-0x5000bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.771044291Z][kmsg                  ] pci 0000:00:07.0: BAR 0 [mem 0x5000c000-0x5000ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:11.771047291Z][kmsg                  ] pci 0000:00:08.0: BAR 0 [mem 0x50010000-0x50013fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.771050291Z][kmsg                  ] pci 0000:00:09.0: BAR 0 [mem 0x50014000-0x50017fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.771053291Z][kmsg                  ] pci 0000:00:0a.0: BAR 0 [mem 0x50018000-0x5001bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.771056291Z][kmsg                  ] pci 0000:00:0b.0: BAR 0 [mem 0x5001c000-0x5001ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.771058291Z][kmsg                  ] pci 0000:00:0c.0: BAR 0 [mem 0x50020000-0x50023fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.771061291Z][kmsg                  ] pci 0000:00:0d.0: BAR 0 [mem 0x50024000-0x50027fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:11.771064291Z][kmsg                  ] pci 0000:00:0e.0: BAR 0 [mem 0x50028000-0x5002bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:11.771066291Z][kmsg                  ] pci 0000:00:0f.0: BAR 0 [mem 0x5002c000-0x5002ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.771069291Z][kmsg                  ] pci 0000:00:10.0: BAR 0 [mem 0x50030000-0x50033fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.771072291Z][kmsg                  ] pci 0000:00:05.0: BAR 2 [mem 0x50034000-0x5003407f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.771075291Z][kmsg                  ] pci 0000:00:0e.0: BAR 2 [mem 0x50034080-0x500340ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:11.771077291Z][kmsg                  ] pci 0000:00:01.0: BAR 2 [mem 0x50034100-0x5003413f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.771080291Z][kmsg                  ] pci 0000:00:06.0: BAR 2 [mem 0x50034140-0x5003417f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.771083291Z][kmsg                  ] pci 0000:00:07.0: BAR 2 [mem 0x50034180-0x500341bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:11.771086291Z][kmsg                  ] pci 0000:00:08.0: BAR 2 [mem 0x500341c0-0x500341ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.771088291Z][kmsg                  ] pci 0000:00:09.0: BAR 2 [mem 0x50034200-0x5003423f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.771091291Z][kmsg                  ] pci 0000:00:0a.0: BAR 2 [mem 0x50034240-0x5003427f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.771094291Z][kmsg                  ] pci 0000:00:0b.0: BAR 2 [mem 0x50034280-0x500342bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.771097291Z][kmsg                  ] pci 0000:00:0c.0: BAR 2 [mem 0x500342c0-0x500342ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.771099291Z][kmsg                  ] pci 0000:00:0d.0: BAR 2 [mem 0x50034300-0x5003433f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:11.771102291Z][kmsg                  ] pci 0000:00:0f.0: BAR 2 [mem 0x50034340-0x5003437f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.771105291Z][kmsg                  ] pci 0000:00:10.0: BAR 2 [mem 0x50034380-0x500343bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.771139291Z][kmsg                  ] virtio-pci 0000:00:01.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-06-03T09:12:11.775012291Z][kmsg                  ] virtio-pci 0000:00:05.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-06-03T09:12:11.777810291Z][kmsg                  ] virtio-pci 0000:00:06.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-06-03T09:12:11.780853291Z][kmsg                  ] virtio-pci 0000:00:07.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-06-03T09:12:13.193478291Z][init.ipc              ] (ad823440-0) 77ac68d4-dns-forwarder C<-S 832a3351-BackendAPI GET /registry/access (5.495459ms)
+[2025-06-03T09:12:11.783827291Z][kmsg                  ] virtio-pci 0000:00:08.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-06-03T09:12:11.787106291Z][kmsg                  ] virtio-pci 0000:00:09.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-06-03T09:12:11.791275291Z][kmsg                  ] virtio-pci 0000:00:0a.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-06-03T09:12:11.795259291Z][kmsg                  ] virtio-pci 0000:00:0b.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-06-03T09:12:11.799288291Z][kmsg                  ] virtio-pci 0000:00:0c.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-06-03T09:12:11.803366291Z][kmsg                  ] virtio-pci 0000:00:0d.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-06-03T09:12:13.195587916Z][init.socketforward    ] listening on virtual address: /run/guest-services/dns-forwarder.sock
+[2025-06-03T09:12:13.193907833Z][init.ipc              ] (a319d0f2-0) d46e9923-metadata C<-S 832a3351-BackendAPI GET /telemetry (9.452542ms): {"systemTelemetryEnabled":false,"userId":"..."}
+[2025-06-03T09:12:11.807293291Z][kmsg                  ] virtio-pci 0000:00:0e.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-06-03T09:12:13.196324916Z][init.ipc              ] 107e68d0-metadata ->  
+[2025-06-03T09:12:13.196515416Z][init.ipc              ] (7a885c0b-0) 107e68d0-metadata C->S  GET /engine/daemon.json
+[2025-06-03T09:12:13.193485375Z][init.ipc              ] (783598e7-0) b296483e-certs C<-S 832a3351-BackendAPI GET /certificates (31.034875ms): {"authorities":"...","client":{}}
+[2025-06-03T09:12:11.810986291Z][kmsg                  ] virtio-pci 0000:00:0f.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-06-03T09:12:11.813790291Z][kmsg                  ] virtio-pci 0000:00:10.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-06-03T09:12:11.817171291Z][kmsg                  ] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[2025-06-03T09:12:11.818300291Z][kmsg                  ] printk: legacy console [hvc0] enabled
+[2025-06-03T09:12:11.818616291Z][kmsg                  ] random: crng init done
+[2025-06-03T09:12:11.820477291Z][kmsg                  ] brd: module loaded
+[2025-06-03T09:12:13.196358708Z][init.ipc              ] run ab904999-dns-forwarder for component dns-forwarder on /run/guest-services/dns-forwarder.sock
+[2025-06-03T09:12:11.821536291Z][kmsg                  ] loop: module loaded
+[2025-06-03T09:12:11.824817291Z][kmsg                  ] virtio_blk virtio2: 1/0/0 default/read/poll queues
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio2
+[2025-06-03T09:12:11.824963291Z][kmsg                  ] virtio_blk virtio2: [vda] 2147483648 512-byte logical blocks (1.10 TB/1.00 TiB)
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio2
+[2025-06-03T09:12:11.825310291Z][kmsg                  ] vda: vda1
+[2025-06-03T09:12:11.825416291Z][kmsg                  ] virtio_blk virtio3: 1/0/0 default/read/poll queues
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio3
+[2025-06-03T09:12:11.825517291Z][kmsg                  ] virtio_blk virtio3: [vdb] 1096112 512-byte logical blocks (561 MB/535 MiB)
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio3
+[2025-06-03T09:12:11.826102291Z][kmsg                  ] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[2025-06-03T09:12:11.826102291Z][kmsg                  ] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[2025-06-03T09:12:11.826143291Z][kmsg                  ] tun: Universal TUN/TAP device driver, 1.6
+[2025-06-03T09:12:11.826534291Z][kmsg                  ] PPP generic driver version 2.4.2
+[2025-06-03T09:12:11.826578291Z][kmsg                  ] PPP BSD Compression module registered
+[2025-06-03T09:12:11.826579291Z][kmsg                  ] PPP Deflate Compression module registered
+[2025-06-03T09:12:11.826590291Z][kmsg                  ] PPP MPPE Compression module registered
+[2025-06-03T09:12:11.826591291Z][kmsg                  ] NET: Registered PF_PPPOX protocol family
+[2025-06-03T09:12:11.826594291Z][kmsg                  ] PPTP driver version 0.8.5
+[2025-06-03T09:12:11.826712291Z][kmsg                  ] usbcore: registered new interface driver cdc_acm
+[2025-06-03T09:12:11.826713291Z][kmsg                  ] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[2025-06-03T09:12:11.826714291Z][kmsg                  ] usbcore: registered new interface driver usblp
+[2025-06-03T09:12:11.826715291Z][kmsg                  ] usbcore: registered new interface driver cdc_wdm
+[2025-06-03T09:12:11.826717291Z][kmsg                  ] usbcore: registered new interface driver usbtmc
+[2025-06-03T09:12:11.826781291Z][kmsg                  ] usbcore: registered new interface driver uas
+[2025-06-03T09:12:11.826783291Z][kmsg                  ] usbcore: registered new interface driver usb-storage
+[2025-06-03T09:12:11.826784291Z][kmsg                  ] usbcore: registered new interface driver ums-alauda
+[2025-06-03T09:12:11.826787291Z][kmsg                  ] usbcore: registered new interface driver ums-cypress
+[2025-06-03T09:12:13.198657458Z][init                  ] installed TLS certificates
+[2025-06-03T09:12:11.826788291Z][kmsg                  ] usbcore: registered new interface driver ums-datafab
+[2025-06-03T09:12:11.826797291Z][kmsg                  ] usbcore: registered new interface driver ums_eneub6250
+[2025-06-03T09:12:11.826799291Z][kmsg                  ] usbcore: registered new interface driver ums-freecom
+[2025-06-03T09:12:11.826803291Z][kmsg                  ] usbcore: registered new interface driver ums-isd200
+[2025-06-03T09:12:11.826804291Z][kmsg                  ] usbcore: registered new interface driver ums-jumpshot
+[2025-06-03T09:12:11.826805291Z][kmsg                  ] usbcore: registered new interface driver ums-karma
+[2025-06-03T09:12:11.826806291Z][kmsg                  ] usbcore: registered new interface driver ums-onetouch
+[2025-06-03T09:12:11.826807291Z][kmsg                  ] usbcore: registered new interface driver ums-realtek
+[2025-06-03T09:12:11.826808291Z][kmsg                  ] usbcore: registered new interface driver ums-sddr09
+[2025-06-03T09:12:11.826809291Z][kmsg                  ] usbcore: registered new interface driver ums-sddr55
+[2025-06-03T09:12:11.826810291Z][kmsg                  ] usbcore: registered new interface driver ums-usbat
+[2025-06-03T09:12:11.826818291Z][kmsg                  ] usbcore: registered new interface driver usbserial_generic
+[2025-06-03T09:12:11.826819291Z][kmsg                  ] usbserial: USB Serial support registered for generic
+[2025-06-03T09:12:11.826821291Z][kmsg                  ] usbcore: registered new interface driver aircable
+[2025-06-03T09:12:11.826822291Z][kmsg                  ] usbserial: USB Serial support registered for aircable
+[2025-06-03T09:12:11.826823291Z][kmsg                  ] usbcore: registered new interface driver ark3116
+[2025-06-03T09:12:11.826823291Z][kmsg                  ] usbserial: USB Serial support registered for ark3116
+[2025-06-03T09:12:11.826824291Z][kmsg                  ] usbcore: registered new interface driver belkin_sa
+[2025-06-03T09:12:11.826825291Z][kmsg                  ] usbserial: USB Serial support registered for Belkin / Peracom / GoHubs USB Serial Adapter
+[2025-06-03T09:12:11.826826291Z][kmsg                  ] usbcore: registered new interface driver ch341
+[2025-06-03T09:12:11.826827291Z][kmsg                  ] usbserial: USB Serial support registered for ch341-uart
+[2025-06-03T09:12:11.826829291Z][kmsg                  ] usbcore: registered new interface driver cp210x
+[2025-06-03T09:12:11.826830291Z][kmsg                  ] usbserial: USB Serial support registered for cp210x
+[2025-06-03T09:12:13.198741125Z][init.ipc              ] (7a885c0b-0) 107e68d0-metadata C<-S 832a3351-BackendAPI GET /engine/daemon.json (2.198625ms): {"builder":{"gc":{"defaultKeepStorage":"20GB","enabled":true}},"default-address-pools":[{"base":"10.10.0.0/16","size":24}]}
+[2025-06-03T09:12:11.826831291Z][kmsg                  ] usbcore: registered new interface driver cyberjack
+[2025-06-03T09:12:11.826832291Z][kmsg                  ] usbserial: USB Serial support registered for Reiner SCT Cyberjack USB card reader
+[2025-06-03T09:12:11.826833291Z][kmsg                  ] usbcore: registered new interface driver cypress_m8
+[2025-06-03T09:12:11.826834291Z][kmsg                  ] usbserial: USB Serial support registered for DeLorme Earthmate USB
+[2025-06-03T09:12:11.826835291Z][kmsg                  ] usbserial: USB Serial support registered for HID->COM RS232 Adapter
+[2025-06-03T09:12:11.826836291Z][kmsg                  ] usbserial: USB Serial support registered for Nokia CA-42 V2 Adapter
+[2025-06-03T09:12:11.826837291Z][kmsg                  ] usbcore: registered new interface driver usb_debug
+[2025-06-03T09:12:11.826838291Z][kmsg                  ] usbserial: USB Serial support registered for debug
+[2025-06-03T09:12:11.826839291Z][kmsg                  ] usbserial: USB Serial support registered for xhci_dbc
+[2025-06-03T09:12:11.826840291Z][kmsg                  ] usbcore: registered new interface driver digi_acceleport
+[2025-06-03T09:12:11.826841291Z][kmsg                  ] usbserial: USB Serial support registered for Digi 2 port USB adapter
+[2025-06-03T09:12:11.826841291Z][kmsg                  ] usbserial: USB Serial support registered for Digi 4 port USB adapter
+[2025-06-03T09:12:11.826842291Z][kmsg                  ] usbcore: registered new interface driver io_edgeport
+[2025-06-03T09:12:13.200651833Z][init.metadata         ] setting docker MTU to the same as eth0: 65535
+[2025-06-03T09:12:11.826843291Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 2 port adapter
+[2025-06-03T09:12:11.826844291Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 4 port adapter
+[2025-06-03T09:12:11.826845291Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 8 port adapter
+[2025-06-03T09:12:11.826846291Z][kmsg                  ] usbserial: USB Serial support registered for EPiC device
+[2025-06-03T09:12:11.826847291Z][kmsg                  ] usbcore: registered new interface driver io_ti
+[2025-06-03T09:12:11.826848291Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport TI 1 port adapter
+[2025-06-03T09:12:11.826849291Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport TI 2 port adapter
+[2025-06-03T09:12:11.826850291Z][kmsg                  ] usbcore: registered new interface driver empeg
+[2025-06-03T09:12:11.826851291Z][kmsg                  ] usbserial: USB Serial support registered for empeg
+[2025-06-03T09:12:11.826852291Z][kmsg                  ] usbcore: registered new interface driver f81534a_ctrl
+[2025-06-03T09:12:11.826853291Z][kmsg                  ] usbcore: registered new interface driver f81232
+[2025-06-03T09:12:13.201599125Z][init.socks            ] server is disabled
+[2025-06-03T09:12:13.201620250Z][init.ipc              ] ee59310c-host-networking ->  
+[2025-06-03T09:12:13.202270791Z][init.ipc              ] (db25c838-0) ee59310c-host-networking C->S  DELETE /forwards/flush-volatile
+[2025-06-03T09:12:11.826854291Z][kmsg                  ] usbserial: USB Serial support registered for f81232
+[2025-06-03T09:12:11.826857291Z][kmsg                  ] usbserial: USB Serial support registered for f81534a
+[2025-06-03T09:12:11.826858291Z][kmsg                  ] usbcore: registered new interface driver f81534
+[2025-06-03T09:12:11.826859291Z][kmsg                  ] usbserial: USB Serial support registered for Fintek F81532/F81534
+[2025-06-03T09:12:11.826860291Z][kmsg                  ] usbcore: registered new interface driver ftdi_sio
+[2025-06-03T09:12:11.826861291Z][kmsg                  ] usbserial: USB Serial support registered for FTDI USB Serial Device
+[2025-06-03T09:12:11.826862291Z][kmsg                  ] usbcore: registered new interface driver garmin_gps
+[2025-06-03T09:12:11.826863291Z][kmsg                  ] usbserial: USB Serial support registered for Garmin GPS usb/tty
+[2025-06-03T09:12:11.826864291Z][kmsg                  ] usbcore: registered new interface driver ipaq
+[2025-06-03T09:12:11.826865291Z][kmsg                  ] usbserial: USB Serial support registered for PocketPC PDA
+[2025-06-03T09:12:11.826866291Z][kmsg                  ] usbcore: registered new interface driver ipw
+[2025-06-03T09:12:11.826867291Z][kmsg                  ] usbserial: USB Serial support registered for IPWireless converter
+[2025-06-03T09:12:11.826868291Z][kmsg                  ] usbcore: registered new interface driver ir_usb
+[2025-06-03T09:12:11.826869291Z][kmsg                  ] usbserial: USB Serial support registered for IR Dongle
+[2025-06-03T09:12:11.826870291Z][kmsg                  ] usbcore: registered new interface driver iuu_phoenix
+[2025-06-03T09:12:11.826871291Z][kmsg                  ] usbserial: USB Serial support registered for iuu_phoenix
+[2025-06-03T09:12:11.826872291Z][kmsg                  ] usbcore: registered new interface driver keyspan
+[2025-06-03T09:12:11.826873291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan - (without firmware)
+[2025-06-03T09:12:11.826874291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 1 port adapter
+[2025-06-03T09:12:11.826875291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 2 port adapter
+[2025-06-03T09:12:11.826875291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 4 port adapter
+[2025-06-03T09:12:11.826877291Z][kmsg                  ] usbcore: registered new interface driver keyspan_pda
+[2025-06-03T09:12:11.826877291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan PDA
+[2025-06-03T09:12:11.826878291Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan PDA - (prerenumeration)
+[2025-06-03T09:12:11.826879291Z][kmsg                  ] usbcore: registered new interface driver kl5kusb105
+[2025-06-03T09:12:11.826880291Z][kmsg                  ] usbserial: USB Serial support registered for KL5KUSB105D / PalmConnect
+[2025-06-03T09:12:11.826881291Z][kmsg                  ] usbcore: registered new interface driver kobil_sct
+[2025-06-03T09:12:11.826883291Z][kmsg                  ] usbserial: USB Serial support registered for KOBIL USB smart card terminal
+[2025-06-03T09:12:11.826884291Z][kmsg                  ] usbcore: registered new interface driver mct_u232
+[2025-06-03T09:12:11.826885291Z][kmsg                  ] usbserial: USB Serial support registered for MCT U232
+[2025-06-03T09:12:13.199890291Z][init.udpv6csum        ] service started
+[2025-06-03T09:12:11.826887291Z][kmsg                  ] usbcore: registered new interface driver metro_usb
+[2025-06-03T09:12:11.826888291Z][kmsg                  ] usbserial: USB Serial support registered for Metrologic USB to Serial
+[2025-06-03T09:12:13.201657541Z][init.fs               ] starting FUSE client
+[2025-06-03T09:12:13.201659583Z][init                  ] metadata is ready
+[2025-06-03T09:12:13.204619750Z][init.fs               ] listening for mount requests on unix:/run/grpcfuse.mount.sock
+[2025-06-03T09:12:11.826889291Z][kmsg                  ] usbcore: registered new interface driver mos7720
+[2025-06-03T09:12:13.201622375Z][init                  ] metadata is ready
+[2025-06-03T09:12:13.204312875Z][init.ipc              ] (db25c838-0) ee59310c-host-networking C<-S 832a3351-BackendAPI DELETE /forwards/flush-volatile (2.0445ms): OK
+[2025-06-03T09:12:13.205435375Z][init.hostnetwork      ] Host networking is disabled because the feature is not enabled in the settings
+[2025-06-03T09:12:13.202197375Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x468c50fe hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T09:12:13.205553250Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x468c50fe hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T09:12:13.205601250Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x468c50fe hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T09:12:13.205665458Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x468c50fe hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T09:12:13.205748125Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-03T09:12:13.205767416Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-03T09:12:13.205848083Z][init                  ] eth0: MTU is 65535
+[2025-06-03T09:12:13.205899916Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-03T09:12:13.206009250Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-03T09:12:13.206051500Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-03T09:12:13.206098125Z][init                  ] eth0: MTU is 65535
+[2025-06-03T09:12:13.202346541Z][init.disk             ] performing an initial fsck of ext4 /dev/vda1
+[2025-06-03T09:12:13.205231708Z][init                  ] filesharing mode is: virtiofs
+[2025-06-03T09:12:13.206336416Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-03T09:12:13.207175875Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-03T09:12:11.826890291Z][kmsg                  ] usbserial: USB Serial support registered for Moschip 2 port adapter
+[2025-06-03T09:12:11.826891291Z][kmsg                  ] usbcore: registered new interface driver mos7840
+[2025-06-03T09:12:11.826892291Z][kmsg                  ] usbserial: USB Serial support registered for Moschip 7840/7820 USB Serial Driver
+[2025-06-03T09:12:11.826893291Z][kmsg                  ] usbcore: registered new interface driver mxuport
+[2025-06-03T09:12:11.826894291Z][kmsg                  ] usbserial: USB Serial support registered for MOXA UPort
+[2025-06-03T09:12:11.826895291Z][kmsg                  ] usbcore: registered new interface driver navman
+[2025-06-03T09:12:11.826896291Z][kmsg                  ] usbserial: USB Serial support registered for navman
+[2025-06-03T09:12:11.826897291Z][kmsg                  ] usbcore: registered new interface driver omninet
+[2025-06-03T09:12:11.826898291Z][kmsg                  ] usbserial: USB Serial support registered for ZyXEL - omni.net usb
+[2025-06-03T09:12:11.826899291Z][kmsg                  ] usbcore: registered new interface driver opticon
+[2025-06-03T09:12:13.206342416Z][init.fs               ] mount server is on unix:/run/grpcfuse.mount.sock
+[2025-06-03T09:12:13.207481750Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-03T09:12:13.207489000Z][init                  ] host.docker.internal will use eth0
+[2025-06-03T09:12:11.826900291Z][kmsg                  ] usbserial: USB Serial support registered for opticon
+[2025-06-03T09:12:13.208281083Z][init                  ] default route for all other traffic is via eth0
+[2025-06-03T09:12:13.206352958Z][init.fs               ] connecting to filesystem server on vsock:4099
+[2025-06-03T09:12:11.826901291Z][kmsg                  ] usbcore: registered new interface driver option
+[2025-06-03T09:12:13.208451375Z][init.fs               ] Creating grpcfuse mount server for mode virtiofs
+[2025-06-03T09:12:13.208487291Z][init.fs               ] listening for mount/unmount requests
+[2025-06-03T09:12:13.208542625Z][init.fs               ] listening for inotify event injections on unix:/run/guest-services/filesystem-event.sock
+[2025-06-03T09:12:11.826901291Z][kmsg                  ] usbserial: USB Serial support registered for GSM modem (1-port)
+[2025-06-03T09:12:11.826903291Z][kmsg                  ] usbcore: registered new interface driver oti6858
+[2025-06-03T09:12:11.826904291Z][kmsg                  ] usbserial: USB Serial support registered for oti6858
+[2025-06-03T09:12:11.826905291Z][kmsg                  ] usbcore: registered new interface driver pl2303
+[2025-06-03T09:12:11.826906291Z][kmsg                  ] usbserial: USB Serial support registered for pl2303
+[2025-06-03T09:12:11.826907291Z][kmsg                  ] usbcore: registered new interface driver qcaux
+[2025-06-03T09:12:13.208385375Z][init                  ] eth0 is ready
+[2025-06-03T09:12:13.209287666Z][init                  ] eth0 is ready
+[2025-06-03T09:12:11.826907291Z][kmsg                  ] usbserial: USB Serial support registered for qcaux
+[2025-06-03T09:12:11.826908291Z][kmsg                  ] usbcore: registered new interface driver qcserial
+[2025-06-03T09:12:11.826911291Z][kmsg                  ] usbserial: USB Serial support registered for Qualcomm USB modem
+[2025-06-03T09:12:11.826912291Z][kmsg                  ] usbcore: registered new interface driver quatech2
+[2025-06-03T09:12:11.826913291Z][kmsg                  ] usbserial: USB Serial support registered for Quatech 2nd gen USB to Serial Driver
+[2025-06-03T09:12:11.826914291Z][kmsg                  ] usbcore: registered new interface driver safe_serial
+[2025-06-03T09:12:11.826915291Z][kmsg                  ] usbserial: USB Serial support registered for safe_serial
+[2025-06-03T09:12:11.826916291Z][kmsg                  ] usbcore: registered new interface driver sierra
+[2025-06-03T09:12:11.826917291Z][kmsg                  ] usbserial: USB Serial support registered for Sierra USB modem
+[2025-06-03T09:12:11.826918291Z][kmsg                  ] usbcore: registered new interface driver usb_serial_simple
+[2025-06-03T09:12:11.826919291Z][kmsg                  ] usbserial: USB Serial support registered for carelink
+[2025-06-03T09:12:11.826920291Z][kmsg                  ] usbserial: USB Serial support registered for flashloader
+[2025-06-03T09:12:11.826921291Z][kmsg                  ] usbserial: USB Serial support registered for funsoft
+[2025-06-03T09:12:11.826922291Z][kmsg                  ] usbserial: USB Serial support registered for google
+[2025-06-03T09:12:11.826923291Z][kmsg                  ] usbserial: USB Serial support registered for hp4x
+[2025-06-03T09:12:11.826923291Z][kmsg                  ] usbserial: USB Serial support registered for kaufmann
+[2025-06-03T09:12:11.826924291Z][kmsg                  ] usbserial: USB Serial support registered for libtransistor
+[2025-06-03T09:12:11.826925291Z][kmsg                  ] usbserial: USB Serial support registered for moto_modem
+[2025-06-03T09:12:11.826926291Z][kmsg                  ] usbserial: USB Serial support registered for motorola_tetra
+[2025-06-03T09:12:13.209333125Z][init                  ] eth0 is ready
+[2025-06-03T09:12:11.826927291Z][kmsg                  ] usbserial: USB Serial support registered for nokia
+[2025-06-03T09:12:11.826928291Z][kmsg                  ] usbserial: USB Serial support registered for novatel_gps
+[2025-06-03T09:12:11.826929291Z][kmsg                  ] usbserial: USB Serial support registered for siemens_mpi
+[2025-06-03T09:12:11.826929291Z][kmsg                  ] usbserial: USB Serial support registered for suunto
+[2025-06-03T09:12:11.826930291Z][kmsg                  ] usbserial: USB Serial support registered for vivopay
+[2025-06-03T09:12:11.826931291Z][kmsg                  ] usbserial: USB Serial support registered for zio
+[2025-06-03T09:12:11.826932291Z][kmsg                  ] usbcore: registered new interface driver spcp8x5
+[2025-06-03T09:12:11.826934291Z][kmsg                  ] usbserial: USB Serial support registered for SPCP8x5
+[2025-06-03T09:12:11.826935291Z][kmsg                  ] usbcore: registered new interface driver ssu100
+[2025-06-03T09:12:11.826936291Z][kmsg                  ] usbserial: USB Serial support registered for Quatech SSU-100 USB to Serial Driver
+[2025-06-03T09:12:11.826937291Z][kmsg                  ] usbcore: registered new interface driver symbolserial
+[2025-06-03T09:12:11.826938291Z][kmsg                  ] usbserial: USB Serial support registered for symbol
+[2025-06-03T09:12:11.826939291Z][kmsg                  ] usbcore: registered new interface driver ti_usb_3410_5052
+[2025-06-03T09:12:11.826940291Z][kmsg                  ] usbserial: USB Serial support registered for TI USB 3410 1 port adapter
+[2025-06-03T09:12:11.826941291Z][kmsg                  ] usbserial: USB Serial support registered for TI USB 5052 2 port adapter
+[2025-06-03T09:12:11.826942291Z][kmsg                  ] usbcore: registered new interface driver upd78f0730
+[2025-06-03T09:12:11.826943291Z][kmsg                  ] usbserial: USB Serial support registered for upd78f0730
+[2025-06-03T09:12:11.826945291Z][kmsg                  ] usbcore: registered new interface driver visor
+[2025-06-03T09:12:11.826946291Z][kmsg                  ] usbserial: USB Serial support registered for Handspring Visor / Palm OS
+[2025-06-03T09:12:11.826947291Z][kmsg                  ] usbserial: USB Serial support registered for Sony Clie 5.0
+[2025-06-03T09:12:11.826948291Z][kmsg                  ] usbserial: USB Serial support registered for Sony Clie 3.5
+[2025-06-03T09:12:11.826949291Z][kmsg                  ] usbcore: registered new interface driver wishbone_serial
+[2025-06-03T09:12:11.826950291Z][kmsg                  ] usbserial: USB Serial support registered for wishbone_serial
+[2025-06-03T09:12:11.826951291Z][kmsg                  ] usbcore: registered new interface driver whiteheat
+[2025-06-03T09:12:11.826952291Z][kmsg                  ] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT - (prerenumeration)
+[2025-06-03T09:12:11.826952291Z][kmsg                  ] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT
+[2025-06-03T09:12:11.826953291Z][kmsg                  ] usbcore: registered new interface driver xr_serial
+[2025-06-03T09:12:11.826954291Z][kmsg                  ] usbserial: USB Serial support registered for xr_serial
+[2025-06-03T09:12:11.826957291Z][kmsg                  ] usbcore: registered new interface driver xsens_mt
+[2025-06-03T09:12:11.826958291Z][kmsg                  ] usbserial: USB Serial support registered for xsens_mt
+[2025-06-03T09:12:11.827019291Z][kmsg                  ] vhci_hcd vhci_hcd.0: USB/IP Virtual Host Controller
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-06-03T09:12:11.827077291Z][kmsg                  ] vhci_hcd vhci_hcd.0: new USB bus registered, assigned bus number 1
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-06-03T09:12:11.827081291Z][kmsg                  ] vhci_hcd: created sysfs vhci_hcd.0
+[2025-06-03T09:12:11.827301291Z][kmsg                  ] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.10
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-06-03T09:12:11.827302291Z][kmsg                  ] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-06-03T09:12:11.827303291Z][kmsg                  ] usb usb1: Product: USB/IP Virtual Host Controller
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-06-03T09:12:11.827303291Z][kmsg                  ] usb usb1: Manufacturer: Linux 6.10.14-linuxkit vhci_hcd
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-06-03T09:12:11.827304291Z][kmsg                  ] usb usb1: SerialNumber: vhci_hcd.0
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-06-03T09:12:11.827399291Z][kmsg                  ] hub 1-0:1.0: USB hub found
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-0:1.0
+[2025-06-03T09:12:11.827428291Z][kmsg                  ] hub 1-0:1.0: 8 ports detected
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-0:1.0
+[2025-06-03T09:12:11.827652291Z][kmsg                  ] vhci_hcd vhci_hcd.0: USB/IP Virtual Host Controller
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-06-03T09:12:11.827691291Z][kmsg                  ] vhci_hcd vhci_hcd.0: new USB bus registered, assigned bus number 2
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-06-03T09:12:11.827776291Z][kmsg                  ] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+ SUBSYSTEM=usb
+ DEVICE=+usb:usb2
+[2025-06-03T09:12:11.827901291Z][kmsg                  ] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.10
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-06-03T09:12:11.827902291Z][kmsg                  ] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-06-03T09:12:11.827903291Z][kmsg                  ] usb usb2: Product: USB/IP Virtual Host Controller
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-06-03T09:12:13.212636708Z][init.fs               ] attempting to mount filesystem / with ID 2 on /run/grpcfuse
+[2025-06-03T09:12:13.214225166Z][init.fs               ] kernel entry timeout: 1h0m0s
+[2025-06-03T09:12:13.214245666Z][init.fs               ] kernel attribute timeout: 1h0m0s
+[2025-06-03T09:12:13.214277125Z][init.fs               ] kernel negative timeout: 0s
+[2025-06-03T09:12:11.827903291Z][kmsg                  ] usb usb2: Manufacturer: Linux 6.10.14-linuxkit vhci_hcd
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-06-03T09:12:11.827904291Z][kmsg                  ] usb usb2: SerialNumber: vhci_hcd.0
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-06-03T09:12:11.827971291Z][kmsg                  ] hub 2-0:1.0: USB hub found
+ SUBSYSTEM=usb
+ DEVICE=+usb:2-0:1.0
+[2025-06-03T09:12:11.827989291Z][kmsg                  ] hub 2-0:1.0: 8 ports detected
+ SUBSYSTEM=usb
+ DEVICE=+usb:2-0:1.0
+[2025-06-03T09:12:11.828295291Z][kmsg                  ] mousedev: PS/2 mouse device common for all mice
+[2025-06-03T09:12:11.828478291Z][kmsg                  ] rtc-pl031 20050000.pl031: registered as rtc0
+ SUBSYSTEM=amba
+ DEVICE=+amba:20050000.pl031
+[2025-06-03T09:12:11.828486291Z][kmsg                  ] rtc-pl031 20050000.pl031: setting system clock to 2025-06-03T09:12:12 UTC (1748941932)
+ SUBSYSTEM=amba
+ DEVICE=+amba:20050000.pl031
+[2025-06-03T09:12:11.828512291Z][kmsg                  ] i2c_dev: i2c /dev entries driver
+[2025-06-03T09:12:11.828573291Z][kmsg                  ] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev
+[2025-06-03T09:12:11.828620291Z][kmsg                  ] usbcore: registered new interface driver usbhid
+[2025-06-03T09:12:11.828620291Z][kmsg                  ] usbhid: USB HID core driver
+[2025-06-03T09:12:11.828738291Z][kmsg                  ] GACT probability on
+[2025-06-03T09:12:11.828740291Z][kmsg                  ] Mirror/redirect action on
+[2025-06-03T09:12:11.828743291Z][kmsg                  ] Simple TC action Loaded
+[2025-06-03T09:12:11.828782291Z][kmsg                  ] netem: version 1.3
+[2025-06-03T09:12:11.828783291Z][kmsg                  ] u32 classifier
+[2025-06-03T09:12:11.828783291Z][kmsg                  ] Performance counters on
+[2025-06-03T09:12:11.828783291Z][kmsg                  ] input device check on
+[2025-06-03T09:12:11.828783291Z][kmsg                  ] Actions configured
+[2025-06-03T09:12:11.829290291Z][kmsg                  ] xt_time: kernel timezone is -0000
+[2025-06-03T09:12:11.829295291Z][kmsg                  ] IPVS: Registered protocols (TCP, UDP)
+[2025-06-03T09:12:11.829296291Z][kmsg                  ] IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+[2025-06-03T09:12:11.829297291Z][kmsg                  ] IPVS: Each connection entry needs 288 bytes at least
+[2025-06-03T09:12:11.829312291Z][kmsg                  ] IPVS: ipvs loaded.
+[2025-06-03T09:12:11.829312291Z][kmsg                  ] IPVS: [rr] scheduler registered.
+[2025-06-03T09:12:11.829313291Z][kmsg                  ] IPVS: [wrr] scheduler registered.
+[2025-06-03T09:12:11.829315291Z][kmsg                  ] IPVS: [sh] scheduler registered.
+[2025-06-03T09:12:11.829329291Z][kmsg                  ] ipip: IPv4 and MPLS over IPv4 tunneling driver
+[2025-06-03T09:12:11.829370291Z][kmsg                  ] gre: GRE over IPv4 demultiplexor driver
+[2025-06-03T09:12:11.829370291Z][kmsg                  ] ip_gre: GRE over IPv4 tunneling driver
+[2025-06-03T09:12:11.829440291Z][kmsg                  ] IPv4 over IPsec tunneling driver
+[2025-06-03T09:12:11.829465291Z][kmsg                  ] Initializing XFRM netlink socket
+[2025-06-03T09:12:11.829473291Z][kmsg                  ] NET: Registered PF_INET6 protocol family
+[2025-06-03T09:12:11.829739291Z][kmsg                  ] Segment Routing with IPv6
+[2025-06-03T09:12:11.829741291Z][kmsg                  ] In-situ OAM (IOAM) with IPv6
+[2025-06-03T09:12:11.829749291Z][kmsg                  ] mip6: Mobile IPv6
+[2025-06-03T09:12:11.829784291Z][kmsg                  ] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[2025-06-03T09:12:11.829822291Z][kmsg                  ] ip6_gre: GRE over IPv6 tunneling driver
+[2025-06-03T09:12:11.829843291Z][kmsg                  ] NET: Registered PF_PACKET protocol family
+[2025-06-03T09:12:11.829845291Z][kmsg                  ] NET: Registered PF_KEY protocol family
+[2025-06-03T09:12:11.829854291Z][kmsg                  ] Bridge firewalling registered
+[2025-06-03T09:12:11.829864291Z][kmsg                  ] l2tp_core: L2TP core driver, V2.0
+[2025-06-03T09:12:11.829865291Z][kmsg                  ] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[2025-06-03T09:12:11.829865291Z][kmsg                  ] 8021q: 802.1Q VLAN Support v1.8
+[2025-06-03T09:12:13.216022125Z][init.fs               ] Filesystem mounted to root /run/grpcfuse
+[2025-06-03T09:12:11.829868291Z][kmsg                  ] sctp: Hash tables configured (bind 256/256)
+[2025-06-03T09:12:11.829885291Z][kmsg                  ] 9pnet: Installing 9P2000 support
+[2025-06-03T09:12:11.829895291Z][kmsg                  ] Key type dns_resolver registered
+[2025-06-03T09:12:13.216265541Z][init.fs               ] grpcfuse mounted on /run/grpcfuse
+[2025-06-03T09:12:11.829896291Z][kmsg                  ] openvswitch: Open vSwitch switching datapath
+[2025-06-03T09:12:11.830426291Z][kmsg                  ] NET: Registered PF_VSOCK protocol family
+[2025-06-03T09:12:11.830875291Z][kmsg                  ] mpls_gso: MPLS GSO support
+[2025-06-03T09:12:11.831387291Z][kmsg                  ] Timer migration: 2 hierarchy levels; 8 children per group; 2 crossnode level
+[2025-06-03T09:12:11.831814291Z][kmsg                  ] registered taskstats version 1
+[2025-06-03T09:12:11.832473291Z][kmsg                  ] Key type .fscrypt registered
+[2025-06-03T09:12:11.832475291Z][kmsg                  ] Key type fscrypt-provisioning registered
+[2025-06-03T09:12:11.832609291Z][kmsg                  ] Btrfs loaded, zoned=no, fsverity=no
+[2025-06-03T09:12:11.832635291Z][kmsg                  ] Key type encrypted registered
+[2025-06-03T09:12:11.832756291Z][kmsg                  ] gtp: GTP module loaded (pdp ctx size 128 bytes)
+[2025-06-03T09:12:11.839187291Z][kmsg                  ] clk: Disabling unused clocks
+[2025-06-03T09:12:11.839266291Z][kmsg                  ] erofs: (device vdb): mounted with root inode @ nid 36.
+[2025-06-03T09:12:11.839273291Z][kmsg                  ] VFS: Mounted root (erofs filesystem) readonly on device 254:16.
+[2025-06-03T09:12:13.216457166Z][init.fs               ] mounted virtiofs0 on /run/host_virtiofs/Users on /Users
+[2025-06-03T09:12:11.839382291Z][kmsg                  ] devtmpfs: mounted
+[2025-06-03T09:12:13.217197958Z][init.fs               ] mounted virtiofs1 on /run/host_virtiofs/Volumes on /Volumes
+[2025-06-03T09:12:11.839812291Z][kmsg                  ] Freeing unused kernel memory: 6336K
+[2025-06-03T09:12:13.217270083Z][init.fs               ] mounted virtiofs2 on /run/host_virtiofs/private on /private
+[2025-06-03T09:12:13.217487250Z][init.fs               ] mounted virtiofs3 on /run/host_virtiofs/tmp on /tmp
+[2025-06-03T09:12:11.839825291Z][kmsg                  ] Run /init as init process
+[2025-06-03T09:12:11.839826291Z][kmsg                  ] with arguments:
+[2025-06-03T09:12:11.839826291Z][kmsg                  ] /init
+[2025-06-03T09:12:11.839826291Z][kmsg                  ] with environment:
+[2025-06-03T09:12:11.839826291Z][kmsg                  ] HOME=/
+[2025-06-03T09:12:11.839826291Z][kmsg                  ] TERM=linux
+[2025-06-03T09:12:11.839827291Z][kmsg                  ] vsyscall=emulate
+[2025-06-03T09:12:11.965024291Z][kmsg                  ] netlink: 'init': attribute type 4 has an invalid length.
+[2025-06-03T09:12:11.991711291Z][kmsg                  ] fakeowner: loading out-of-tree module taints kernel.
+[2025-06-03T09:12:13.217300333Z][init.disk             ] /dev/vda1: recovering journal
+
+[2025-06-03T09:12:12.024619291Z][kmsg                  ] grpcfuse module loaded
+[2025-06-03T09:12:13.217559250Z][init.fs               ] mounted virtiofs4 on /run/host_virtiofs/var/folders on /var/folders
+[2025-06-03T09:12:13.218042375Z][init.fs               ] all fakeowner mounts ok
+[2025-06-03T09:12:13.218085208Z][init                  ] fs is ready
+[2025-06-03T09:12:13.218104333Z][init                  ] fs is ready
+[2025-06-03T09:12:13.219097250Z][init.binfmt           ] rosetta mounted in /run/rosetta
+[2025-06-03T09:12:13.219205875Z][init.binfmt           ] rosetta registered
+[2025-06-03T09:12:13.219680083Z][init.binfmt           ] rosetta workarounds registered
+[2025-06-03T09:12:13.227407291Z][init.vpnkitcontrol    ] connected data connection on /run/host-services/vpnkit-data.sock after 101.924917ms
+[2025-06-03T09:12:13.228366916Z][init.vpnkitcontrol    ] established connection to vpnkit-forwarder
+[2025-06-03T09:12:13.278103375Z][init.ipc              ] d8cc7c5c-oom-tracer ->  
+[2025-06-03T09:12:13.278160916Z][init.oom-tracer       ] oom-tracer started
+[2025-06-03T09:12:13.278175875Z][init                  ] vsock is ready
+[2025-06-03T09:12:13.278179375Z][init                  ] vsock is ready
+[2025-06-03T09:12:13.278111125Z][init.vsock            ] AF_VSOCK LSM started
+[2025-06-03T09:12:13.710588750Z][init.disk             ] /dev/vda1: clean, 427115/67108864 files, 9749910/268435200 blocks
+
+[2025-06-03T09:12:13.755964208Z][init.disk             ] initial fsck ran in 553.578125ms
+[2025-06-03T09:12:13.756032958Z][init.disk             ] no free space on device to extend partition
+[2025-06-03T09:12:12.619040291Z][kmsg                  ] EXT4-fs (vda1): mounted filesystem 6fffe918-2ab2-42e1-9990-fc61cd401fb0 r/w with ordered data mode. Quota mode: none.
+[2025-06-03T09:12:13.760645291Z][init.disk             ] disk created in 632.762666ms
+[2025-06-03T09:12:13.760695958Z][init                  ] disk is ready
+[2025-06-03T09:12:13.760696000Z][init                  ] disk is ready
+[2025-06-03T09:12:13.761099916Z][init.disk             ] recreating swap because there is a hole in the file at offset 4096
+[2025-06-03T09:12:13.762749833Z][init.ipc              ] run 5dfd95cd-jfs for component jfs on /run/guest-services/jfs.sock
+[2025-06-03T09:12:13.784178166Z][init.disk             ] recreated swap in 23.049583ms
+[2025-06-03T09:12:13.784755916Z][init                  ] swap created in 24.079292ms
+[2025-06-03T09:12:12.644480291Z][kmsg                  ] Adding 1048572k swap on /var/lib/swap.  Priority:-2 extents:11 across:1171456k
+[2025-06-03T09:12:12.673184291Z][kmsg                  ] capability: warning: `lifecycle-serve' uses 32-bit capabilities (legacy support in use)
+[2025-06-03T09:12:14.831550375Z][init                  ] reaped pid 721
+[2025-06-03T09:12:14.920689292Z][init.trim             ] (Re-)connected to the Docker daemon
+[2025-06-03T09:12:14.926983334Z][init.ipc              ] (089ced46-0) 62f41509-volume-contents S<-C c57a8e59-volume-contents GET /ping
+[2025-06-03T09:12:14.927293625Z][init.ipc              ] (089ced46-0) 62f41509-volume-contents S->C c57a8e59-volume-contents GET /ping (303.084µs): {"serverTime":1748941934927244800}
+[2025-06-03T09:12:14.933074125Z][init.ipc              ] (089ced46-1) 62f41509-volume-contents S<-C c57a8e59-volume-contents GET /metrics
+[2025-06-03T09:12:14.933437209Z][init.ipc              ] (089ced46-1) 62f41509-volume-contents S->C c57a8e59-volume-contents GET /metrics (363.334µs): {"count":33}
+[2025-06-03T09:12:15.062034209Z][init                  ] reaped pid 1086
+[2025-06-03T09:12:15.417457834Z][init                  ] reaped pid 1205
+[2025-06-03T09:12:15.595382334Z][init                  ] reaped pid 720
+[2025-06-03T09:12:15.929461084Z][init                  ] reaped pid 1444
+[2025-06-03T09:12:16.074572459Z][init                  ] reaped pid 1328
+[2025-06-03T09:12:16.632424168Z][init                  ] reaped pid 1558
+[2025-06-03T09:12:16.853404251Z][init                  ] reaped pid 1642
+[2025-06-03T09:12:17.360464460Z][init                  ] reaped pid 1732
+[2025-06-03T09:12:25.421306797Z][init.ipc              ] (a594cd50-0) ab904999-dns-forwarder S<-C 606900fb-dns-forwarder POST /refresh
+[2025-06-03T09:12:25.421816297Z][init.ipc              ] 8bbb6316-dns-forwarder ->  
+[2025-06-03T09:12:25.421999214Z][init.ipc              ] (ecf4b157-0) 8bbb6316-dns-forwarder C->S  GET /registry/access
+[2025-06-03T09:12:25.423627547Z][init.ipc              ] (ecf4b157-0) 8bbb6316-dns-forwarder C<-S 832a3351-BackendAPI GET /registry/access (1.644542ms)
+[2025-06-03T09:12:25.424113130Z][init.ipc              ] (a594cd50-0) ab904999-dns-forwarder S->C 606900fb-dns-forwarder POST /refresh (2.816708ms): OK
+[2025-06-03T09:35:28.663084879Z][init                  ] reaped pid 1819
+[2025-06-03T09:35:28.756391046Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:35:28.766490796Z][init                  ] reaped pid 1879
+[2025-06-03T09:35:28.912541213Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:35:28.929538213Z][init                  ] reaped pid 722
+[2025-06-03T09:35:29.101892963Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:35:29.705034255Z][init                  ] reaped pid 719
+[2025-06-03T09:35:29.946175380Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:35:38.762365509Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-06-03T09:35:40.408409718Z][init.trim             ] /var/lib/docker: 986.8 GiB (1059566886912 bytes) trimmed
+
+[2025-06-03T09:38:11.694768094Z][init                  ] reaped pid 2364
+[2025-06-03T09:38:11.884019886Z][init                  ] reaped pid 2536
+[2025-06-03T09:38:12.168177219Z][init                  ] reaped pid 2636
+[2025-06-03T09:38:12.668662719Z][init                  ] reaped pid 2737
+[2025-06-03T09:38:13.564629261Z][init                  ] reaped pid 2838
+[2025-06-03T09:38:15.262942721Z][init                  ] reaped pid 2940
+[2025-06-03T09:38:18.569027708Z][init                  ] reaped pid 3040
+[2025-06-03T09:38:25.065856711Z][init                  ] reaped pid 3142
+[2025-06-03T09:38:37.966739967Z][init                  ] reaped pid 3258
+[2025-06-03T09:39:03.663270507Z][init                  ] reaped pid 3361
+[2025-06-03T09:39:46.053777929Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:39:46.057149388Z][init                  ] reaped pid 2347
+[2025-06-03T09:39:46.217268596Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:39:49.087818791Z][init                  ] reaped pid 3584
+[2025-06-03T09:39:49.283669125Z][init                  ] reaped pid 3753
+[2025-06-03T09:39:49.561728125Z][init                  ] reaped pid 3853
+[2025-06-03T09:39:50.065928125Z][init                  ] reaped pid 3955
+[2025-06-03T09:39:50.964119209Z][init                  ] reaped pid 4057
+[2025-06-03T09:39:52.658408210Z][init                  ] reaped pid 4162
+[2025-06-03T09:39:55.953193961Z][init                  ] reaped pid 4285
+[2025-06-03T09:39:56.053635670Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-06-03T09:39:56.064397253Z][init.trim             ] /var/lib/docker: 35.1 MiB (36818944 bytes) trimmed
+
+[2025-06-03T09:40:02.447751089Z][init                  ] reaped pid 4400
+[2025-06-03T09:40:15.342843971Z][init                  ] reaped pid 4528
+[2025-06-03T09:40:41.040001344Z][init                  ] reaped pid 4639
+[2025-06-03T09:41:32.356303798Z][init                  ] reaped pid 4744
+[2025-06-03T09:42:32.453294214Z][init                  ] reaped pid 4846
+[2025-06-03T09:43:32.555862839Z][init                  ] reaped pid 4952
+[2025-06-03T09:44:32.637531006Z][init                  ] reaped pid 5089
+[2025-06-03T09:45:25.050198128Z][init                  ] reaped pid 5215
+[2025-06-03T09:45:25.257140461Z][init                  ] reaped pid 5314
+[2025-06-03T09:45:25.547213544Z][init                  ] reaped pid 5416
+[2025-06-03T09:45:26.049248503Z][init                  ] reaped pid 5517
+[2025-06-03T09:45:26.946915003Z][init                  ] reaped pid 5618
+[2025-06-03T09:45:28.644230254Z][init                  ] reaped pid 5720
+[2025-06-03T09:45:31.941155423Z][init                  ] reaped pid 5830
+[2025-06-03T09:45:38.433850467Z][init                  ] reaped pid 5943
+[2025-06-03T09:45:51.331250917Z][init                  ] reaped pid 6044
+[2025-06-03T09:46:04.141351090Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:46:04.146900840Z][init                  ] reaped pid 3575
+[2025-06-03T09:46:04.289631715Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T09:46:14.146935887Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-06-03T09:46:14.169108178Z][init.trim             ] /var/lib/docker: 35.9 MiB (37642240 bytes) trimmed
+
+[2025-06-03T09:46:40.357362385Z][init                  ] reaped pid 6270
+[2025-06-03T09:46:40.541666760Z][init                  ] reaped pid 6445
+[2025-06-03T09:46:40.817176802Z][init                  ] reaped pid 6548
+[2025-06-03T09:46:41.317514635Z][init                  ] reaped pid 6647
+[2025-06-03T09:46:42.218502636Z][init                  ] reaped pid 6748
+[2025-06-03T09:46:43.924595928Z][init                  ] reaped pid 6849
+[2025-06-03T09:46:47.230507888Z][init                  ] reaped pid 6948
+[2025-06-03T09:46:53.728584044Z][init                  ] reaped pid 7049
+[2025-06-03T09:47:06.626824716Z][init                  ] reaped pid 7153
+[2025-06-03T09:47:32.316410589Z][init                  ] reaped pid 7254
+[2025-06-03T09:48:23.620170085Z][init                  ] reaped pid 7391
+[2025-06-03T09:49:23.721776044Z][init                  ] reaped pid 7504
+[2025-06-03T09:50:23.823721502Z][init                  ] reaped pid 7609
+[2025-06-03T09:51:08.805688467Z][init                  ] reaped pid 6265
+[2025-06-03T09:51:08.951341426Z][init                  ] reaped pid 7738
+[2025-06-03T09:51:09.173921759Z][init                  ] reaped pid 7952
+[2025-06-03T09:51:09.457940343Z][init                  ] reaped pid 8054
+[2025-06-03T09:51:09.962830093Z][init                  ] reaped pid 8156
+[2025-06-03T09:51:10.868103427Z][init                  ] reaped pid 8260
+[2025-06-03T09:51:12.568276511Z][init                  ] reaped pid 8367
+[2025-06-03T09:51:15.873886637Z][init                  ] reaped pid 8477
+[2025-06-03T09:51:22.371675876Z][init                  ] reaped pid 8578
+[2025-06-03T09:51:35.276951216Z][init                  ] reaped pid 8680
+[2025-06-03T09:52:00.977133422Z][init                  ] reaped pid 8784
+[2025-06-03T09:52:24.731127502Z][init                  ] reaped pid 7859
+[2025-06-03T09:52:25.056289753Z][init                  ] reaped pid 8908
+[2025-06-03T10:53:55.220537507Z][init                  ] reaped pid 9124
+[2025-06-03T10:53:55.225093257Z][init                  ] reaped pid 9013
+[2025-06-03T10:53:55.493022007Z][init                  ] reaped pid 9394
+[2025-06-03T10:53:55.735120632Z][init                  ] reaped pid 9584
+[2025-06-03T10:53:56.013007840Z][init                  ] reaped pid 9685
+[2025-06-03T10:53:56.503991341Z][init                  ] reaped pid 9785
+[2025-06-03T10:53:57.404152924Z][init                  ] reaped pid 9893
+[2025-06-03T10:53:59.093118634Z][init                  ] reaped pid 9994
+[2025-06-03T10:54:02.389401052Z][init                  ] reaped pid 10102
+[2025-06-03T10:54:08.882258222Z][init                  ] reaped pid 10209
+[2025-06-03T10:54:21.780527297Z][init                  ] reaped pid 10309
+[2025-06-03T10:54:47.474880670Z][init                  ] reaped pid 10412
+[2025-06-03T10:55:38.769656888Z][init                  ] reaped pid 10517
+[2025-06-03T10:56:38.853792305Z][init                  ] reaped pid 10619
+[2025-06-03T10:57:38.954065722Z][init                  ] reaped pid 10722
+[2025-06-03T10:58:39.046337722Z][init                  ] reaped pid 10825
+[2025-06-03T10:58:44.473975585Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-06-03T10:58:44.561808210Z][init                  ] reaped pid 10938
+[2025-06-03T10:58:44.774780127Z][init                  ] reaped pid 11040
+[2025-06-03T10:58:45.050822668Z][init                  ] reaped pid 11141
+[2025-06-03T10:58:45.556555752Z][init                  ] reaped pid 11243
+[2025-06-03T10:58:45.706828835Z][init                  ] reaped pid 9420
+[2025-06-03T10:58:45.803745669Z][init                  ] reaped pid 11357
+[2025-06-03T10:58:45.999225127Z][init                  ] reaped pid 11533
+[2025-06-03T10:58:46.278947502Z][init                  ] reaped pid 11673
+[2025-06-03T10:58:46.775934711Z][init                  ] reaped pid 11773
+[2025-06-03T10:58:47.665297170Z][init                  ] reaped pid 11872
+[2025-06-03T10:58:49.362094046Z][init                  ] reaped pid 11979
+[2025-06-03T10:58:52.652903464Z][init                  ] reaped pid 12079
+[2025-06-03T10:58:54.478910090Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-06-03T10:58:54.501158215Z][init.trim             ] /var/lib/docker: 37.6 MiB (39428096 bytes) trimmed
+
+[2025-06-03T10:58:59.148967759Z][init                  ] reaped pid 12181
+[2025-06-03T10:59:12.049467459Z][init                  ] reaped pid 12282
+[2025-06-03T10:59:37.132667471Z][init                  ] reaped pid 11484
+[2025-06-03T10:59:37.282523512Z][init                  ] reaped pid 12427
+[2025-06-03T10:59:37.511464846Z][init                  ] reaped pid 12645
+[2025-06-03T10:59:37.809889179Z][init                  ] reaped pid 12748
+[2025-06-03T10:59:38.319830680Z][init                  ] reaped pid 12853
+[2025-06-03T10:59:39.221655055Z][init                  ] reaped pid 12964
+[2025-06-03T10:59:40.923560167Z][init                  ] reaped pid 13066
+[2025-06-03T10:59:44.231451668Z][init                  ] reaped pid 13178
+[2025-06-03T10:59:50.740190088Z][init                  ] reaped pid 13287
+[2025-06-03T11:00:06.630685262Z][init                  ] reaped pid 13392
+[2025-06-03T11:00:06.636494720Z][init                  ] reaped pid 12551
+[2025-06-03T11:01:09.341884138Z][init.eth0             ] DHCPv4
+[2025-06-03T11:01:09.379459930Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x5c11b199 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T11:01:09.379662430Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x5c11b199 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T11:01:09.380401138Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x5c11b199 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T11:01:09.380768430Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x5c11b199 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T11:01:09.381410972Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-03T11:01:09.381715888Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-03T11:01:09.382216597Z][init                  ] eth0: MTU is 65535
+[2025-06-03T11:01:09.382373180Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-03T11:01:09.382878722Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-03T11:01:09.383140722Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-03T11:01:09.383435180Z][init                  ] eth0: MTU is 65535
+[2025-06-03T11:01:09.383619472Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-03T11:01:09.383830847Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-03T11:01:09.384193597Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-03T11:01:33.928583844Z][init                  ] reaped pid 13552
+[2025-06-03T11:01:33.935071302Z][init                  ] reaped pid 13577
+[2025-06-03T11:01:34.235036511Z][init                  ] reaped pid 13894
+[2025-06-03T17:47:27.285213013Z][init.eth0             ] DHCPv4
+[2025-06-03T17:47:27.312829305Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xf2c268c8 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T17:47:27.313099513Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xf2c268c8 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T17:47:27.313450263Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xf2c268c8 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T17:47:27.313813513Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xf2c268c8 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T17:47:27.314621180Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-03T17:47:27.315093513Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-03T17:47:27.315461888Z][init                  ] eth0: MTU is 65535
+[2025-06-03T17:47:27.315757180Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-03T17:47:27.316532388Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-03T17:47:27.316661805Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-03T17:47:27.316879013Z][init                  ] eth0: MTU is 65535
+[2025-06-03T17:47:27.317182763Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-03T17:47:27.317359971Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-03T17:47:27.317731221Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-03T19:32:32.212197054Z][init.eth0             ] DHCPv4
+[2025-06-03T19:32:32.251410138Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x06db40d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T19:32:32.251624388Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x06db40d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T19:32:32.251764054Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x06db40d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T19:32:32.252408054Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x06db40d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T19:32:32.252817304Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-03T19:32:32.253337846Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-03T19:32:32.253924763Z][init                  ] eth0: MTU is 65535
+[2025-06-03T19:32:32.254671763Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-03T19:32:32.255364346Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-03T19:32:32.255563179Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-03T19:32:32.255814971Z][init                  ] eth0: MTU is 65535
+[2025-06-03T19:32:32.256538429Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-03T19:32:32.256959929Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-03T19:32:32.257467638Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-03T20:31:32.224284012Z][init.eth0             ] DHCPv4
+[2025-06-03T20:31:32.269167887Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x9b2206fe hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T20:31:32.269402054Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x9b2206fe hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T20:31:32.270100179Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x9b2206fe hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-03T20:31:32.270740304Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x9b2206fe hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-03T20:31:32.271153554Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-03T20:31:32.271307887Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-03T20:31:32.271936512Z][init                  ] eth0: MTU is 65535
+[2025-06-03T20:31:32.272227970Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-03T20:31:32.272531720Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-03T20:31:32.272950387Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-03T20:31:32.273454679Z][init                  ] eth0: MTU is 65535
+[2025-06-03T20:31:32.273904304Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-03T20:31:32.274056679Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-03T20:31:32.274379095Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-04T08:36:02.814817762Z][init.eth0             ] DHCPv4
+[2025-06-04T08:36:02.862403137Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x4a8e2bee hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T08:36:02.862594887Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x4a8e2bee hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T08:36:02.863149803Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x4a8e2bee hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T08:36:02.863721178Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x4a8e2bee hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T08:36:02.864049053Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-04T08:36:02.864207428Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-04T08:36:02.865496262Z][init                  ] eth0: MTU is 65535
+[2025-06-04T08:36:02.865724762Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-04T08:36:02.866355720Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-04T08:36:02.866622887Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-04T08:36:02.866953637Z][init                  ] eth0: MTU is 65535
+[2025-06-04T08:36:02.867150970Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-04T08:36:02.867399303Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-04T08:36:02.867621053Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-04T15:35:46.415430053Z][init.eth0             ] DHCPv4
+[2025-06-04T15:35:46.448424928Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xb3d7031f hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T15:35:46.449229469Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xb3d7031f hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T15:35:46.450166803Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xb3d7031f hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T15:35:46.451098969Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xb3d7031f hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T15:35:46.451547553Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-04T15:35:46.451970428Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-04T15:35:46.452511094Z][init                  ] eth0: MTU is 65535
+[2025-06-04T15:35:46.452816761Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-04T15:35:46.453069011Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-04T15:35:46.453216969Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-04T15:35:46.453538344Z][init                  ] eth0: MTU is 65535
+[2025-06-04T15:35:46.453780844Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-04T15:35:46.454062803Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-04T15:35:46.454381553Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-06-04T17:06:35.218916594Z][init.eth0             ] DHCPv4
+[2025-06-04T17:06:35.269420052Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xcc7a9d23 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T17:06:35.269768927Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xcc7a9d23 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T17:06:35.270556802Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xcc7a9d23 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-06-04T17:06:35.270971136Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xcc7a9d23 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-06-04T17:06:35.271794011Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-06-04T17:06:35.272538261Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-06-04T17:06:35.273151802Z][init                  ] eth0: MTU is 65535
+[2025-06-04T17:06:35.273382844Z][init                  ] eth0: adding router 192.168.65.1
+[2025-06-04T17:06:35.275041261Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-06-04T17:06:35.275548719Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-06-04T17:06:35.275798927Z][init                  ] eth0: MTU is 65535
+[2025-06-04T17:06:35.275981386Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-06-04T17:06:35.276332927Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-06-04T17:06:35.276690261Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+-------------------------------------------------------------------------------->8

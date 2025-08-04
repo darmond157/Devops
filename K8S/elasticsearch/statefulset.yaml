@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: elasticsearch
+  namespace: monitoring
+spec:
+  serviceName: elasticsearch
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elasticsearch
+  template:
+    metadata:
+      labels:
+        app: elasticsearch
+    spec:
+      imagePullSecrets:
+        - name: harbor
+      containers:
+        - name: elasticsearch
+          image: harbor.arcaptcha.ir/utils/elasticsearch:7.17.13
+          env:
+            - name: ES_JAVA_OPTS
+              value: "-Xmx512m -Xms512m"
+            - name: ELASTIC_USERNAME
+              value: "elastic"
+            - name: ELASTIC_PASSWORD
+              value: "hNA6iQxwNcgZse2vZm4iLHhothC77J"
+            - name: node.name
+              value: "elasticsearch-0"
+            - name: network.host
+              value: "0.0.0.0"
+            - name: http.port
+              value: "9200"
+            - name: cluster.name
+              value: "docker-cluster"
+            - name: discovery.type
+              value: "single-node"
+            - name: bootstrap.memory_lock
+              value: "true"
+            - name: http.cors.enabled
+              value: "true"
+            - name: xpack.security.authc.api_key.enabled
+              value: "true"
+            - name: xpack.license.self_generated.type
+              value: "basic"
+            - name: xpack.security.enabled
+              value: "true"
+            - name: xpack.monitoring.collection.enabled
+              value: "true"
+          ports:
+            - containerPort: 9200
+              name: http
+            - containerPort: 9300
+              name: transport
+          volumeMounts:
+            - name: elasticsearch-data
+              mountPath: /usr/share/elasticsearch/data
+  volumeClaimTemplates:
+    - metadata:
+        name: elasticsearch-data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 10Gi

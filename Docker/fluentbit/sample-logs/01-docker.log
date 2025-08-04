@@ -1,0 +1,815 @@
+[2025-08-01T20:30:12.988898546Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:30:12.988971546Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:30:12.989011629Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:30:12.988898838Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:30:12.988933546Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:30:12.991004213Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (2.103791ms)
+[2025-08-01T20:30:12.991037421Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (2.023208ms)
+[2025-08-01T20:30:12.991065546Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (2.166291ms)
+[2025-08-01T20:30:12.991123463Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (2.147708ms)
+[2025-08-01T20:30:12.991147546Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (2.210875ms)
+[2025-08-01T20:30:13.008423879Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (24.335375ms)
+[2025-08-01T20:30:13.046829463Z][lifecycle-server.apiproxy] << GET /images/json (62.690792ms)
+[2025-08-01T20:30:14.862553505Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:30:14.862553714Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:30:14.862570547Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:30:14.863442714Z][lifecycle-server.apiproxy] << GET /networks (868.667µs)
+[2025-08-01T20:30:14.868341339Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:30:14.868404130Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:30:14.868425505Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:30:14.868809797Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:30:14.868856297Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:30:14.868872505Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (445.666µs)
+[2025-08-01T20:30:14.868900047Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (496.667µs)
+[2025-08-01T20:30:14.868912464Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (573.917µs)
+[2025-08-01T20:30:14.869511547Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (653.625µs)
+[2025-08-01T20:30:14.869605755Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (791.625µs)
+[2025-08-01T20:30:14.885269339Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (22.716458ms)
+[2025-08-01T20:30:14.920620005Z][lifecycle-server.apiproxy] << GET /images/json (58.067542ms)
+[2025-08-01T20:40:32.761237128Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:40:32.761237170Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:40:32.761237336Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:40:32.762304211Z][lifecycle-server.apiproxy] << GET /networks (1.070625ms)
+[2025-08-01T20:40:32.766706336Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:40:32.766804545Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:40:32.766847420Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:40:32.767169795Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (362.25µs)
+[2025-08-01T20:40:32.767214336Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (510.792µs)
+[2025-08-01T20:40:32.767258628Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:40:32.767261586Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:40:32.767342836Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (494.958µs)
+[2025-08-01T20:40:32.767689670Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (429.792µs)
+[2025-08-01T20:40:32.767761920Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (500.583µs)
+[2025-08-01T20:40:32.787596878Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (26.362792ms)
+[2025-08-01T20:40:32.821842503Z][lifecycle-server.apiproxy] << GET /images/json (60.609125ms)
+[2025-08-01T20:51:23.799146170Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:51:23.799146795Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:51:23.799150836Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:51:23.803037170Z][lifecycle-server.apiproxy] << GET /networks (3.879667ms)
+[2025-08-01T20:51:23.806192795Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:51:23.806381878Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:51:23.806431211Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:51:23.806523711Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:51:23.807386461Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:51:23.807430170Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.239125ms)
+[2025-08-01T20:51:23.807459378Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.037208ms)
+[2025-08-01T20:51:23.807719420Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.194458ms)
+[2025-08-01T20:51:23.808200086Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (814.833µs)
+[2025-08-01T20:51:23.808260628Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.895708ms)
+[2025-08-01T20:51:23.829071253Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (29.939917ms)
+[2025-08-01T20:51:23.867326836Z][lifecycle-server.apiproxy] << GET /images/json (68.1965ms)
+[2025-08-01T20:52:23.799695086Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:52:23.800000170Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:52:23.800388086Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:52:23.804358920Z][lifecycle-server.apiproxy] << GET /networks (4.372708ms)
+[2025-08-01T20:52:23.807409045Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:52:23.807566086Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:52:23.807443420Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:52:23.807831920Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:52:23.808126545Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:52:23.809097336Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.261792ms)
+[2025-08-01T20:52:23.809097670Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.698459ms)
+[2025-08-01T20:52:23.809107670Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (976.708µs)
+[2025-08-01T20:52:23.809150086Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.746ms)
+[2025-08-01T20:52:23.809151170Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.585041ms)
+[2025-08-01T20:52:23.830481211Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (30.091875ms)
+[2025-08-01T20:52:23.868130961Z][lifecycle-server.apiproxy] << GET /images/json (68.523083ms)
+[2025-08-01T20:52:34.743110925Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:34.744594091Z][lifecycle-server.apiproxy] << HEAD /_ping (1.4855ms)
+[2025-08-01T20:52:34.745637383Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:52:34.752743925Z][lifecycle-server.apiproxy] << GET /v1.48/info (7.106584ms)
+[2025-08-01T20:52:36.642169176Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:36.643434509Z][lifecycle-server.apiproxy] << HEAD /_ping (1.2705ms)
+[2025-08-01T20:52:36.645645634Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:52:36.654823217Z][lifecycle-server.apiproxy] << GET /v1.48/info (9.187875ms)
+[2025-08-01T20:52:36.662105634Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T20:52:36.663287009Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (1.181417ms)
+[2025-08-01T20:52:36.749363301Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T20:52:50.342230960Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:50.342707710Z][lifecycle-server.apiproxy] << HEAD /_ping (478.125µs)
+[2025-08-01T20:52:50.344592585Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:52:50.348595918Z][lifecycle-server.apiproxy] << GET /v1.48/info (4.002833ms)
+[2025-08-01T20:52:50.349821043Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T20:52:50.352702168Z][lifecycle-server.apiproxy] << GET /v1.48/version (2.879541ms)
+[2025-08-01T20:52:50.353301585Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?filters=%7B%22label%22%3A%7B%22com.docker.compose.project%22%3Atrue%7D%2C%22status%22%3A%7B%22running%22%3Atrue%7D%7D
+[2025-08-01T20:52:50.353611835Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?filters=%7B%22label%22%3A%7B%22com.docker.compose.project%22%3Atrue%7D%2C%22status%22%3A%7B%22running%22%3Atrue%7D%7D (293.167µs)
+[2025-08-01T20:52:52.745271336Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:52.745271794Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:52.746193086Z][lifecycle-server.apiproxy] << HEAD /_ping (925.959µs)
+[2025-08-01T20:52:52.746436544Z][lifecycle-server.apiproxy] << HEAD /_ping (1.1715ms)
+[2025-08-01T20:52:52.747143169Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.747389627Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.748253794Z][lifecycle-server.apiproxy] << POST /grpc (1.108083ms)
+[2025-08-01T20:52:52.748449294Z][lifecycle-server.apiproxy] << POST /grpc (1.058791ms)
+[2025-08-01T20:52:52.751890252Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:52.752036586Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:52.752252294Z][lifecycle-server.apiproxy] << HEAD /_ping (357.875µs)
+[2025-08-01T20:52:52.752383919Z][lifecycle-server.apiproxy] << HEAD /_ping (346.584µs)
+[2025-08-01T20:52:52.752943502Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T20:52:52.753025169Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:52:52.753176836Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/buildx_buildkit_mybuilder0/json
+[2025-08-01T20:52:52.753256461Z][lifecycle-server.apiproxy] << HEAD /_ping (229.959µs)
+[2025-08-01T20:52:52.753865127Z][lifecycle-server.apiproxy] << GET /v1.48/containers/buildx_buildkit_mybuilder0/json (685.125µs)
+[2025-08-01T20:52:52.753959669Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T20:52:52.755585586Z][lifecycle-server.apiproxy] >> POST /v1.48/containers/buildx_buildkit_mybuilder0/exec
+[2025-08-01T20:52:52.756113544Z][lifecycle-server.apiproxy] << POST /v1.48/containers/buildx_buildkit_mybuilder0/exec (527.5µs)
+[2025-08-01T20:52:52.757215002Z][lifecycle-server.apiproxy] >> POST /v1.48/exec/5e6dae993f0a45fae22b93b1ed0d7d00cfa8a46b140a5c68af480008bc18bf9f/start
+[2025-08-01T20:52:52.757913377Z][lifecycle-server.apiproxy] << GET /v1.48/version (3.952709ms)
+[2025-08-01T20:52:52.758333252Z][lifecycle-server.apiproxy] << GET /v1.48/version (5.389333ms)
+[2025-08-01T20:52:52.758994211Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.759281211Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.776657252Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.777777836Z][lifecycle-server.apiproxy] << POST /grpc (1.119291ms)
+[2025-08-01T20:52:52.778241127Z][lifecycle-server.apiproxy] << POST /grpc (15m0.021301161s)
+[2025-08-01T20:52:52.796729752Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T20:52:52.797815377Z][lifecycle-server.apiproxy] << POST /grpc (1.0855ms)
+[2025-08-01T20:52:52.798284544Z][lifecycle-server.apiproxy] << POST /grpc (15m0.041962077s)
+[2025-08-01T20:52:52.813803419Z][lifecycle-server.apiproxy] << POST /v1.48/exec/11f7e250ad24e68e1261e6b8844cbd47f0b343fef129cbed49eb6b1dbf23dc06/start (15m0.059576786s)
+[2025-08-01T20:53:05.575272300Z][lifecycle-server.apiproxy] Context canceled, closing connection for "/v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest"
+[2025-08-01T20:53:05.577096342Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (28.828120471s)
+[2025-08-01T20:53:06.597345759Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:53:06.599388384Z][lifecycle-server.apiproxy] << HEAD /_ping (2.035666ms)
+[2025-08-01T20:53:06.603802051Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:53:06.610136634Z][lifecycle-server.apiproxy] << GET /v1.48/info (6.34625ms)
+[2025-08-01T20:53:06.616129551Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T20:53:06.617302426Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (1.176083ms)
+[2025-08-01T20:53:06.678291926Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T20:53:16.783040541Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (10.104578713s)
+[2025-08-01T20:53:23.806248336Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:53:23.806453961Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:53:23.806319753Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:53:23.809081378Z][lifecycle-server.apiproxy] << GET /networks (2.838125ms)
+[2025-08-01T20:53:23.811914586Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:53:23.811943170Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:53:23.812008545Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:53:23.812039086Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:53:23.811927378Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:53:23.813155795Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.242792ms)
+[2025-08-01T20:53:23.813192170Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.184125ms)
+[2025-08-01T20:53:23.813157753Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.21275ms)
+[2025-08-01T20:53:23.813541128Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.615ms)
+[2025-08-01T20:53:23.813735170Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.697791ms)
+[2025-08-01T20:53:23.838876086Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (32.639042ms)
+[2025-08-01T20:53:23.870945545Z][lifecycle-server.apiproxy] << GET /images/json (64.502167ms)
+[2025-08-01T20:54:07.020926009Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:54:07.022461509Z][lifecycle-server.apiproxy] << HEAD /_ping (1.504458ms)
+[2025-08-01T20:54:07.023627593Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:54:07.030601051Z][lifecycle-server.apiproxy] << GET /v1.48/info (6.975958ms)
+[2025-08-01T20:54:07.035151801Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T20:54:07.036126301Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (973.417µs)
+[2025-08-01T20:54:07.103323718Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T20:54:23.809544295Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:54:23.809851128Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:54:23.809855086Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:54:23.810884628Z][lifecycle-server.apiproxy] << GET /networks (1.02475ms)
+[2025-08-01T20:54:23.814307753Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:54:23.814431545Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:54:23.814472253Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:54:23.814432628Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:54:23.814436336Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:54:23.815798836Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.465292ms)
+[2025-08-01T20:54:23.815834253Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.427375ms)
+[2025-08-01T20:54:23.815860086Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.4525ms)
+[2025-08-01T20:54:23.816055836Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.618167ms)
+[2025-08-01T20:54:23.816066170Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.595125ms)
+[2025-08-01T20:54:23.836299545Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (26.760583ms)
+[2025-08-01T20:54:23.873457753Z][lifecycle-server.apiproxy] << GET /images/json (63.607ms)
+[2025-08-01T20:54:47.139803625Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (40.035739976s)
+[2025-08-01T20:55:23.811341336Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:55:23.811617586Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:55:23.811440461Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:55:23.814325461Z][lifecycle-server.apiproxy] << GET /networks (2.989792ms)
+[2025-08-01T20:55:23.818205878Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:55:23.818319045Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:55:23.818580003Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:55:23.818653086Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:55:23.818707878Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:55:23.819438961Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.238334ms)
+[2025-08-01T20:55:23.819465128Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.16725ms)
+[2025-08-01T20:55:23.819511836Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (804.041µs)
+[2025-08-01T20:55:23.819564295Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (985.625µs)
+[2025-08-01T20:55:23.819568753Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (912.875µs)
+[2025-08-01T20:55:23.849794586Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (38.353375ms)
+[2025-08-01T20:55:23.890239045Z][lifecycle-server.apiproxy] << GET /images/json (78.621417ms)
+[2025-08-01T20:56:23.817931170Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:56:23.818267170Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:56:23.818335336Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:56:23.820037670Z][lifecycle-server.apiproxy] << GET /networks (1.755917ms)
+[2025-08-01T20:56:23.824068961Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:56:23.824132586Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:56:23.824185045Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:56:23.824130961Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:56:23.824099461Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:56:23.825472711Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.334708ms)
+[2025-08-01T20:56:23.825981003Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.917042ms)
+[2025-08-01T20:56:23.825998253Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.8705ms)
+[2025-08-01T20:56:23.826018086Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.951458ms)
+[2025-08-01T20:56:23.825993711Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.83375ms)
+[2025-08-01T20:56:23.845697961Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (27.828417ms)
+[2025-08-01T20:56:23.887377920Z][lifecycle-server.apiproxy] << GET /images/json (69.037917ms)
+[2025-08-01T20:57:23.820055253Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:57:23.820063378Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:57:23.820135295Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:57:23.824738961Z][lifecycle-server.apiproxy] << GET /networks (4.688416ms)
+[2025-08-01T20:57:23.828196336Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:57:23.828391211Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:57:23.828517295Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:57:23.828702128Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:57:23.828804711Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:57:23.829185295Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (771.083µs)
+[2025-08-01T20:57:23.829546961Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (845.208µs)
+[2025-08-01T20:57:23.829735461Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.217667ms)
+[2025-08-01T20:57:23.829784545Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (978.625µs)
+[2025-08-01T20:57:23.830121003Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.926708ms)
+[2025-08-01T20:57:23.849376670Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (29.240625ms)
+[2025-08-01T20:57:23.883722545Z][lifecycle-server.apiproxy] << GET /images/json (63.661417ms)
+[2025-08-01T20:58:23.822893211Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:58:23.823124044Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:58:23.822893211Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:58:23.826334586Z][lifecycle-server.apiproxy] << GET /networks (3.208292ms)
+[2025-08-01T20:58:23.830025336Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:58:23.830047961Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:58:23.830278545Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:58:23.830800253Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:58:23.830868670Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:58:23.830870753Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (876.208µs)
+[2025-08-01T20:58:23.831508128Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.518875ms)
+[2025-08-01T20:58:23.831629170Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.390125ms)
+[2025-08-01T20:58:23.831652961Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (784.583µs)
+[2025-08-01T20:58:23.832479503Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.609667ms)
+[2025-08-01T20:58:23.850763378Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (27.937542ms)
+[2025-08-01T20:58:23.887949003Z][lifecycle-server.apiproxy] << GET /images/json (65.094542ms)
+[2025-08-01T20:59:23.832935503Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T20:59:23.832935878Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T20:59:23.832935544Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T20:59:23.834294794Z][lifecycle-server.apiproxy] << GET /networks (1.363542ms)
+[2025-08-01T20:59:23.838613753Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T20:59:23.839408669Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T20:59:23.839493586Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T20:59:23.839613961Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.003167ms)
+[2025-08-01T20:59:23.839626003Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T20:59:23.839693878Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T20:59:23.840697003Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (992.458µs)
+[2025-08-01T20:59:23.840827003Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.336167ms)
+[2025-08-01T20:59:23.840859836Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.451333ms)
+[2025-08-01T20:59:23.840754753Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.124875ms)
+[2025-08-01T20:59:23.860463628Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (27.538042ms)
+[2025-08-01T20:59:23.898666795Z][lifecycle-server.apiproxy] << GET /images/json (65.740625ms)
+[2025-08-01T20:59:39.159522385Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T20:59:39.161294218Z][lifecycle-server.apiproxy] << HEAD /_ping (1.766583ms)
+[2025-08-01T20:59:39.162872843Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T20:59:39.169949177Z][lifecycle-server.apiproxy] << GET /v1.48/info (7.076333ms)
+[2025-08-01T20:59:39.178633468Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T20:59:39.179614427Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (981.375µs)
+[2025-08-01T20:59:39.278671469Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T21:00:13.909890377Z][lifecycle-server.apiproxy] Context canceled, closing connection for "/v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest"
+[2025-08-01T21:00:13.918056710Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (12.432098463s)
+[2025-08-01T21:00:14.741945711Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:00:14.744448419Z][lifecycle-server.apiproxy] << HEAD /_ping (2.505583ms)
+[2025-08-01T21:00:14.746081961Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T21:00:14.752427961Z][lifecycle-server.apiproxy] << GET /v1.48/info (6.328625ms)
+[2025-08-01T21:00:14.757138669Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:00:14.758258544Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (1.11825ms)
+[2025-08-01T21:00:14.819995877Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T21:00:23.836027173Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:00:23.836046423Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:00:23.836027257Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:00:23.837464465Z][lifecycle-server.apiproxy] << GET /networks (1.440208ms)
+[2025-08-01T21:00:23.840267465Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:00:23.840293173Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:00:23.840520757Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:00:23.840316757Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:00:23.840268715Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:00:23.841516257Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.254625ms)
+[2025-08-01T21:00:23.841544757Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.271875ms)
+[2025-08-01T21:00:23.841625840Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.332125ms)
+[2025-08-01T21:00:23.841744007Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.424875ms)
+[2025-08-01T21:00:23.841786798Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.27575ms)
+[2025-08-01T21:00:23.864505673Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (28.48325ms)
+[2025-08-01T21:00:23.895770173Z][lifecycle-server.apiproxy] << GET /images/json (59.723833ms)
+[2025-08-01T21:00:41.516729876Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (26.696902971s)
+[2025-08-01T21:00:46.423360170Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:00:46.424638586Z][lifecycle-server.apiproxy] << HEAD /_ping (1.281834ms)
+[2025-08-01T21:00:46.426363170Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T21:00:46.434976836Z][lifecycle-server.apiproxy] << GET /v1.48/info (8.614542ms)
+[2025-08-01T21:00:46.439104795Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:00:46.439912253Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (821.667µs)
+[2025-08-01T21:00:46.502177836Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T21:01:20.211298963Z][lifecycle-server.apiproxy] Context canceled, closing connection for "/v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest"
+[2025-08-01T21:01:20.213833296Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (33.711938515s)
+[2025-08-01T21:01:23.832918590Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:01:23.833080423Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:01:23.832918632Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:01:23.835363382Z][lifecycle-server.apiproxy] << GET /networks (2.372417ms)
+[2025-08-01T21:01:23.839739298Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:01:23.839755132Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:01:23.840079715Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:01:23.840235048Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:01:23.840258090Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:01:23.840534840Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (797.959µs)
+[2025-08-01T21:01:23.840686507Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (611.292µs)
+[2025-08-01T21:01:23.840735590Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (980.333µs)
+[2025-08-01T21:01:23.840894882Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (661.833µs)
+[2025-08-01T21:01:23.840971132Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (729.75µs)
+[2025-08-01T21:01:23.870542715Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (37.625542ms)
+[2025-08-01T21:01:23.908206673Z][lifecycle-server.apiproxy] << GET /images/json (75.29175ms)
+[2025-08-01T21:02:23.842677715Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:02:23.842790757Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:02:23.842751632Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:02:23.845889382Z][lifecycle-server.apiproxy] << GET /networks (3.087042ms)
+[2025-08-01T21:02:23.849021048Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:02:23.849021090Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:02:23.849022257Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:02:23.849070840Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:02:23.849063048Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:02:23.850092007Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.026125ms)
+[2025-08-01T21:02:23.850294548Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.308166ms)
+[2025-08-01T21:02:23.850105715Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.121542ms)
+[2025-08-01T21:02:23.850158465Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.10425ms)
+[2025-08-01T21:02:23.850688507Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.705708ms)
+[2025-08-01T21:02:23.871579173Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (28.834125ms)
+[2025-08-01T21:02:23.907705048Z][lifecycle-server.apiproxy] << GET /images/json (65.081333ms)
+[2025-08-01T21:03:23.845413715Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:03:23.845424382Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:03:23.845544215Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:03:23.848201673Z][lifecycle-server.apiproxy] << GET /networks (2.774125ms)
+[2025-08-01T21:03:23.851506423Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:03:23.851549257Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:03:23.851530132Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:03:23.851506757Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:03:23.851565007Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:03:23.852666090Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.165208ms)
+[2025-08-01T21:03:23.853331298Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.78175ms)
+[2025-08-01T21:03:23.853456257Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.953583ms)
+[2025-08-01T21:03:23.853486173Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.955709ms)
+[2025-08-01T21:03:23.853540298Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.971708ms)
+[2025-08-01T21:03:23.872797923Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (27.256291ms)
+[2025-08-01T21:03:23.905512715Z][lifecycle-server.apiproxy] << GET /images/json (60.109333ms)
+[2025-08-01T21:04:23.851460423Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:04:23.853902173Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:04:23.854066173Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:04:23.856673048Z][lifecycle-server.apiproxy] << GET /networks (2.594209ms)
+[2025-08-01T21:04:23.859241048Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:04:23.859397298Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:04:23.859486215Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:04:23.860043173Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (644.125µs)
+[2025-08-01T21:04:23.860050215Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:04:23.860113590Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:04:23.860202798Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (988.834µs)
+[2025-08-01T21:04:23.860318173Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (831.083µs)
+[2025-08-01T21:04:23.860427382Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (329.125µs)
+[2025-08-01T21:04:23.860445215Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (410.5µs)
+[2025-08-01T21:04:23.878919673Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (25.019209ms)
+[2025-08-01T21:04:23.918288673Z][lifecycle-server.apiproxy] << GET /images/json (66.854875ms)
+[2025-08-01T21:04:30.155104135Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:04:30.156332260Z][lifecycle-server.apiproxy] << HEAD /_ping (1.225666ms)
+[2025-08-01T21:04:30.157512593Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T21:04:30.166171343Z][lifecycle-server.apiproxy] << GET /v1.48/info (8.65875ms)
+[2025-08-01T21:04:30.170585176Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:04:30.171771468Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (1.186542ms)
+[2025-08-01T21:04:30.265946926Z][lifecycle-server.apiproxy] >> POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest
+[2025-08-01T21:04:59.535646551Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:04:59.536322884Z][lifecycle-server.apiproxy] << POST /v1.48/images/create?fromImage=fluent%2Ffluent-bit&tag=latest (29.270574264s)
+[2025-08-01T21:04:59.537033676Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:04:59.587043676Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (50.008042ms)
+[2025-08-01T21:04:59.591194176Z][lifecycle-server.apiproxy] << GET /images/json (55.56425ms)
+[2025-08-01T21:04:59.592783009Z][lifecycle-server.apiproxy] >> GET /images/sha256:ef17f25f3a76c11a267f95467cda283dddd69bdd1079f5134b0926a7998ba356/json
+[2025-08-01T21:04:59.607301009Z][lifecycle-server.apiproxy] << GET /images/sha256:ef17f25f3a76c11a267f95467cda283dddd69bdd1079f5134b0926a7998ba356/json (14.515666ms)
+[2025-08-01T21:05:23.854003298Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:05:23.854003715Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:05:23.855834465Z][lifecycle-server.apiproxy] << GET /networks (1.828375ms)
+[2025-08-01T21:05:23.859772757Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:05:23.859905965Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:05:23.859855257Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:05:23.859914965Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:05:23.860146882Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:05:23.861033215Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.126334ms)
+[2025-08-01T21:05:23.861610590Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.48275ms)
+[2025-08-01T21:05:23.861623465Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.85675ms)
+[2025-08-01T21:05:23.861635590Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.818208ms)
+[2025-08-01T21:05:23.861611798Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.695625ms)
+[2025-08-01T21:05:23.870141798Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (16.15475ms)
+[2025-08-01T21:05:59.542062176Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:05:59.616182093Z][lifecycle-server.apiproxy] << GET /images/json (74.129834ms)
+[2025-08-01T21:06:23.861617673Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:06:23.861925298Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:06:23.863503465Z][lifecycle-server.apiproxy] << GET /networks (2.012834ms)
+[2025-08-01T21:06:23.866145423Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:06:23.866179673Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:06:23.866145756Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:06:23.866269881Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:06:23.866620631Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:06:23.867048756Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (921.125µs)
+[2025-08-01T21:06:23.867060798Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (939.875µs)
+[2025-08-01T21:06:23.867208048Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (594.958µs)
+[2025-08-01T21:06:23.867244298Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (972.833µs)
+[2025-08-01T21:06:23.867249965Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.068041ms)
+[2025-08-01T21:06:23.874268298Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (12.722001ms)
+[2025-08-01T21:06:59.546219968Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:06:59.619124343Z][lifecycle-server.apiproxy] << GET /images/json (72.913458ms)
+[2025-08-01T21:07:23.861025381Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:07:23.861025340Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:07:23.863620381Z][lifecycle-server.apiproxy] << GET /networks (2.598375ms)
+[2025-08-01T21:07:23.866029215Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:07:23.866110006Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:07:23.866140131Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:07:23.866274840Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:07:23.866358548Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:07:23.866782423Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (754.083µs)
+[2025-08-01T21:07:23.867374381Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.097208ms)
+[2025-08-01T21:07:23.867404048Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.100209ms)
+[2025-08-01T21:07:23.867467256Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.363583ms)
+[2025-08-01T21:07:23.867488965Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.350792ms)
+[2025-08-01T21:07:23.874507631Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (13.492083ms)
+[2025-08-01T21:07:59.550084634Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:07:59.617527051Z][lifecycle-server.apiproxy] << GET /images/json (67.464375ms)
+[2025-08-01T21:08:14.949354794Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:08:14.949354711Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:08:14.950364294Z][lifecycle-server.apiproxy] << HEAD /_ping (1.012917ms)
+[2025-08-01T21:08:14.950390627Z][lifecycle-server.apiproxy] << HEAD /_ping (1.036625ms)
+[2025-08-01T21:08:14.951641252Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.951758294Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.952903627Z][lifecycle-server.apiproxy] << POST /grpc (1.260292ms)
+[2025-08-01T21:08:14.953021752Z][lifecycle-server.apiproxy] << POST /grpc (1.261292ms)
+[2025-08-01T21:08:14.956931461Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:08:14.956948419Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:08:14.957313419Z][lifecycle-server.apiproxy] << HEAD /_ping (362.084µs)
+[2025-08-01T21:08:14.957589002Z][lifecycle-server.apiproxy] << HEAD /_ping (653.334µs)
+[2025-08-01T21:08:14.958362836Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/buildx_buildkit_mybuilder0/json
+[2025-08-01T21:08:14.958397461Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:08:14.958389294Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T21:08:14.958692586Z][lifecycle-server.apiproxy] << HEAD /_ping (290.209µs)
+[2025-08-01T21:08:14.959008419Z][lifecycle-server.apiproxy] << GET /v1.48/containers/buildx_buildkit_mybuilder0/json (645.25µs)
+[2025-08-01T21:08:14.959394836Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T21:08:14.960469419Z][lifecycle-server.apiproxy] >> POST /v1.48/containers/buildx_buildkit_mybuilder0/exec
+[2025-08-01T21:08:14.961119794Z][lifecycle-server.apiproxy] << POST /v1.48/containers/buildx_buildkit_mybuilder0/exec (650.166µs)
+[2025-08-01T21:08:14.962337002Z][lifecycle-server.apiproxy] >> POST /v1.48/exec/c9843aba7ab0d149f2492b43956a168c9a8342082a249ef6f2e1b1786ff85b99/start
+[2025-08-01T21:08:14.962718044Z][lifecycle-server.apiproxy] << GET /v1.48/version (4.325917ms)
+[2025-08-01T21:08:14.963722586Z][lifecycle-server.apiproxy] << GET /v1.48/version (4.325125ms)
+[2025-08-01T21:08:14.964142169Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.964724586Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.981860461Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.983128627Z][lifecycle-server.apiproxy] << POST /grpc (1.268667ms)
+[2025-08-01T21:08:14.983643169Z][lifecycle-server.apiproxy] << POST /grpc (15m0.019171946s)
+[2025-08-01T21:08:14.984035752Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:08:14.985228169Z][lifecycle-server.apiproxy] << POST /grpc (1.190166ms)
+[2025-08-01T21:08:14.985517377Z][lifecycle-server.apiproxy] << POST /grpc (15m0.02133378s)
+[2025-08-01T21:08:15.020437669Z][lifecycle-server.apiproxy] << POST /v1.48/exec/5e6dae993f0a45fae22b93b1ed0d7d00cfa8a46b140a5c68af480008bc18bf9f/start (15m0.058023696s)
+[2025-08-01T21:08:23.869965090Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:08:23.870417631Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:08:23.871613798Z][lifecycle-server.apiproxy] << GET /networks (1.195375ms)
+[2025-08-01T21:08:23.873605465Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:08:23.874182340Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:08:23.874246298Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:08:23.874269756Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (679.958µs)
+[2025-08-01T21:08:23.874283131Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:08:23.874347590Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:08:23.874719631Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (432.625µs)
+[2025-08-01T21:08:23.874849590Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (666.875µs)
+[2025-08-01T21:08:23.875440381Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.10925ms)
+[2025-08-01T21:08:23.875440673Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.190625ms)
+[2025-08-01T21:08:23.881694215Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (11.730666ms)
+[2025-08-01T21:08:59.553408343Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:08:59.622255301Z][lifecycle-server.apiproxy] << GET /images/json (68.858042ms)
+[2025-08-01T21:09:23.866602048Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:09:23.866621131Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:09:23.868428840Z][lifecycle-server.apiproxy] << GET /networks (1.830334ms)
+[2025-08-01T21:09:23.871652506Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:09:23.871812965Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:09:23.871860298Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:09:23.871917673Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:09:23.871893631Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:09:23.872693090Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (796.667µs)
+[2025-08-01T21:09:23.872698590Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (840.792µs)
+[2025-08-01T21:09:23.872711548Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (898.375µs)
+[2025-08-01T21:09:23.872812215Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (914.334µs)
+[2025-08-01T21:09:23.872830798Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.122292ms)
+[2025-08-01T21:09:23.879639590Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (13.021083ms)
+[2025-08-01T21:09:59.556856468Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:09:59.623985884Z][lifecycle-server.apiproxy] << GET /images/json (67.128708ms)
+[2025-08-01T21:10:23.869454215Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:10:23.870025965Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:10:23.874521465Z][lifecycle-server.apiproxy] << GET /networks (5.060833ms)
+[2025-08-01T21:10:23.877319131Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:10:23.877360423Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:10:23.877387131Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:10:23.877406756Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:10:23.877412715Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:10:23.878176798Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (789.875µs)
+[2025-08-01T21:10:23.878598256Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.203791ms)
+[2025-08-01T21:10:23.878633631Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.259125ms)
+[2025-08-01T21:10:23.878643131Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.298416ms)
+[2025-08-01T21:10:23.879300423Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.986167ms)
+[2025-08-01T21:10:23.884921173Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (14.898709ms)
+[2025-08-01T21:10:59.558703259Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:10:59.630432384Z][lifecycle-server.apiproxy] << GET /images/json (71.741416ms)
+[2025-08-01T21:11:23.873030131Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:11:23.873030090Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:11:23.876224215Z][lifecycle-server.apiproxy] << GET /networks (3.196459ms)
+[2025-08-01T21:11:23.879430965Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:11:23.879521965Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:11:23.879489131Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:11:23.879532548Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:11:23.879450256Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:11:23.880372840Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (925.625µs)
+[2025-08-01T21:11:23.880495673Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.070833ms)
+[2025-08-01T21:11:23.880634756Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.105125ms)
+[2025-08-01T21:11:23.880744548Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.251333ms)
+[2025-08-01T21:11:23.881067673Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.543ms)
+[2025-08-01T21:11:23.887856048Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (14.83575ms)
+[2025-08-01T21:11:59.563580926Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:11:59.636983593Z][lifecycle-server.apiproxy] << GET /images/json (73.413584ms)
+[2025-08-01T21:12:23.872870465Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:12:23.872870756Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:12:23.878398340Z][lifecycle-server.apiproxy] << GET /networks (5.532ms)
+[2025-08-01T21:12:23.881662298Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:12:23.881787590Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:12:23.881741840Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:12:23.881799840Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:12:23.881691131Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:12:23.882830715Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.127083ms)
+[2025-08-01T21:12:23.882974298Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.311209ms)
+[2025-08-01T21:12:23.883550923Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.88675ms)
+[2025-08-01T21:12:23.882975215Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.175042ms)
+[2025-08-01T21:12:23.882979090Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.349625ms)
+[2025-08-01T21:12:23.889756840Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (16.896584ms)
+[2025-08-01T21:12:59.568673342Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:12:59.639027301Z][lifecycle-server.apiproxy] << GET /images/json (70.410792ms)
+[2025-08-01T21:13:23.876241090Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:13:23.876241131Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:13:23.879462590Z][lifecycle-server.apiproxy] << GET /networks (3.219667ms)
+[2025-08-01T21:13:23.882843131Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:13:23.883032381Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:13:23.883109423Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:13:23.883139465Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:13:23.883133131Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:13:23.883946131Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (810.25µs)
+[2025-08-01T21:13:23.883948131Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (914.833µs)
+[2025-08-01T21:13:23.884003631Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.165417ms)
+[2025-08-01T21:13:23.884039381Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (929.75µs)
+[2025-08-01T21:13:23.884102548Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (962.125µs)
+[2025-08-01T21:13:23.892357840Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (16.124792ms)
+[2025-08-01T21:13:59.571807217Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:13:59.639229009Z][lifecycle-server.apiproxy] << GET /images/json (67.43525ms)
+[2025-08-01T21:14:23.881521715Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:14:23.881521590Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:14:23.884638548Z][lifecycle-server.apiproxy] << GET /networks (3.115125ms)
+[2025-08-01T21:14:23.888368506Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:14:23.888473548Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:14:23.888591756Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:14:23.888642215Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:14:23.888992881Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:14:23.889403631Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (970.167µs)
+[2025-08-01T21:14:23.889468215Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.126292ms)
+[2025-08-01T21:14:23.889415715Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (820µs)
+[2025-08-01T21:14:23.889597548Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (604.25µs)
+[2025-08-01T21:14:23.889637965Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.010334ms)
+[2025-08-01T21:14:23.897626923Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (16.116625ms)
+[2025-08-01T21:14:59.574200092Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:14:59.642000468Z][lifecycle-server.apiproxy] << GET /images/json (67.865001ms)
+[2025-08-01T21:15:23.887474673Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:15:23.887482215Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:15:23.889536548Z][lifecycle-server.apiproxy] << GET /networks (2.050708ms)
+[2025-08-01T21:15:23.893305673Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:15:23.893532840Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:15:23.893595465Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:15:23.893856631Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:15:23.893868965Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:15:23.894229590Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (694.333µs)
+[2025-08-01T21:15:23.894421090Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (553.958µs)
+[2025-08-01T21:15:23.894276881Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (968.833µs)
+[2025-08-01T21:15:23.894566506Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (712.125µs)
+[2025-08-01T21:15:23.894617590Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.025292ms)
+[2025-08-01T21:15:23.901426381Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (13.965ms)
+[2025-08-01T21:15:59.574661717Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:15:59.645911093Z][lifecycle-server.apiproxy] << GET /images/json (71.25ms)
+[2025-08-01T21:16:23.891691173Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:16:23.891807923Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:16:23.893817673Z][lifecycle-server.apiproxy] << GET /networks (2.169084ms)
+[2025-08-01T21:16:23.896296715Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:16:23.896479173Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:16:23.896314256Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:16:23.896389298Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:16:23.896411506Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:16:23.897245965Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (978.291µs)
+[2025-08-01T21:16:23.897318090Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (906.584µs)
+[2025-08-01T21:16:23.897335215Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (943.625µs)
+[2025-08-01T21:16:23.897271548Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (957.709µs)
+[2025-08-01T21:16:23.897441840Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (991.917µs)
+[2025-08-01T21:16:23.904307881Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (12.511875ms)
+[2025-08-01T21:16:59.579538801Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:16:59.655002842Z][lifecycle-server.apiproxy] << GET /images/json (75.556459ms)
+[2025-08-01T21:17:23.881737215Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:17:23.881742506Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:17:23.882899548Z][lifecycle-server.apiproxy] << GET /networks (1.164166ms)
+[2025-08-01T21:17:23.886774548Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:17:23.886832381Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:17:23.886884340Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:17:23.886845006Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:17:23.886958215Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:17:23.889096090Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (2.26575ms)
+[2025-08-01T21:17:23.890618423Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (3.773917ms)
+[2025-08-01T21:17:23.890739256Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (3.78375ms)
+[2025-08-01T21:17:23.890775590Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (4.005625ms)
+[2025-08-01T21:17:23.891536048Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (4.650375ms)
+[2025-08-01T21:17:23.897677506Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (15.933209ms)
+[2025-08-01T21:17:59.570305717Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:17:59.639489509Z][lifecycle-server.apiproxy] << GET /images/json (69.195375ms)
+[2025-08-01T21:18:23.881128423Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:18:23.883096923Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:18:23.885094965Z][lifecycle-server.apiproxy] << GET /networks (4.020625ms)
+[2025-08-01T21:18:23.887384673Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:18:23.887648673Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:18:23.887751090Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:18:23.888055215Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:18:23.888202381Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (844.083µs)
+[2025-08-01T21:18:23.888368965Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (717.042µs)
+[2025-08-01T21:18:23.888581215Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (830.5µs)
+[2025-08-01T21:18:23.888625298Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:18:23.888715381Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (663.291µs)
+[2025-08-01T21:18:23.890245631Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.888042ms)
+[2025-08-01T21:18:23.895819631Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (12.735875ms)
+[2025-08-01T21:18:59.573986301Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:18:59.641855759Z][lifecycle-server.apiproxy] << GET /images/json (67.879542ms)
+[2025-08-01T21:19:23.884980423Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:19:23.884980923Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:19:23.887142215Z][lifecycle-server.apiproxy] << GET /networks (2.165959ms)
+[2025-08-01T21:19:23.889648590Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:19:23.889751506Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:19:23.889829381Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:19:23.890219631Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:19:23.890716131Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:19:23.890800298Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.048666ms)
+[2025-08-01T21:19:23.890840423Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.192792ms)
+[2025-08-01T21:19:23.890930006Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.099708ms)
+[2025-08-01T21:19:23.890935006Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (733.416µs)
+[2025-08-01T21:19:23.892010381Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.299542ms)
+[2025-08-01T21:19:23.899845381Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (14.867625ms)
+[2025-08-01T21:19:59.576585092Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:19:59.646059217Z][lifecycle-server.apiproxy] << GET /images/json (69.482917ms)
+[2025-08-01T21:20:23.883355715Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:20:23.883355881Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:20:23.887615798Z][lifecycle-server.apiproxy] << GET /networks (4.252959ms)
+[2025-08-01T21:20:23.891246465Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:20:23.891316715Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:20:23.891316798Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:20:23.891382131Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:20:23.891332131Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:20:23.891919256Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (622.083µs)
+[2025-08-01T21:20:23.892088256Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (798.083µs)
+[2025-08-01T21:20:23.892151673Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (835.708µs)
+[2025-08-01T21:20:23.891949590Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (579.459µs)
+[2025-08-01T21:20:23.892026131Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (807.792µs)
+[2025-08-01T21:20:23.899076840Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (15.733167ms)
+[2025-08-01T21:20:59.579698759Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:20:59.650415509Z][lifecycle-server.apiproxy] << GET /images/json (70.729708ms)
+[2025-08-01T21:21:23.887802173Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:21:23.887802631Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:21:23.889540840Z][lifecycle-server.apiproxy] << GET /networks (1.742583ms)
+[2025-08-01T21:21:23.892382715Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:21:23.892654506Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:21:23.892773048Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:21:23.892783715Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:21:23.892870256Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:21:23.893363506Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (709.083µs)
+[2025-08-01T21:21:23.893673631Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.294708ms)
+[2025-08-01T21:21:23.893739881Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (873.584µs)
+[2025-08-01T21:21:23.893779590Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.004291ms)
+[2025-08-01T21:21:23.893904048Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.11625ms)
+[2025-08-01T21:21:23.900982006Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (13.190958ms)
+[2025-08-01T21:21:59.580163634Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:21:59.650183426Z][lifecycle-server.apiproxy] << GET /images/json (70.03075ms)
+[2025-08-01T21:22:11.895623709Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:22:11.896947042Z][lifecycle-server.apiproxy] << HEAD /_ping (1.320834ms)
+[2025-08-01T21:22:11.898420792Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T21:22:11.907515709Z][lifecycle-server.apiproxy] << GET /v1.48/info (9.093084ms)
+[2025-08-01T21:22:11.915720251Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:22:11.939045876Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (23.323875ms)
+[2025-08-01T21:22:11.940947834Z][lifecycle-server.apiproxy] >> GET /v1.48/networks/fluentbit_default
+[2025-08-01T21:22:11.941242334Z][lifecycle-server.apiproxy] << GET /v1.48/networks/fluentbit_default (293.917µs)
+[2025-08-01T21:22:11.941973126Z][lifecycle-server.apiproxy] >> GET /v1.48/networks?filters=%7B%22name%22%3A%7B%22fluentbit_default%22%3Atrue%7D%7D
+[2025-08-01T21:22:11.942311251Z][lifecycle-server.apiproxy] << GET /v1.48/networks?filters=%7B%22name%22%3A%7B%22fluentbit_default%22%3Atrue%7D%7D (336.209µs)
+[2025-08-01T21:22:11.942824459Z][lifecycle-server.apiproxy] >> POST /v1.48/networks/create
+[2025-08-01T21:22:11.957397459Z][lifecycle-server.apiproxy] << POST /v1.48/networks/create (14.569833ms)
+[2025-08-01T21:22:11.958461334Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:22:11.958529334Z][lifecycle-server.apiproxy] >> GET /v1.48/networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee
+[2025-08-01T21:22:11.958584376Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D
+[2025-08-01T21:22:11.958777042Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D (204.583µs)
+[2025-08-01T21:22:11.958860959Z][lifecycle-server.apiproxy] << GET /networks (400.208µs)
+[2025-08-01T21:22:11.958911126Z][lifecycle-server.apiproxy] << GET /v1.48/networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee (383.167µs)
+[2025-08-01T21:22:11.959743042Z][lifecycle-server.apiproxy] >> GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee
+[2025-08-01T21:22:11.959798376Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:22:11.959976292Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:22:11.960082876Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T21:22:11.960107126Z][lifecycle-server.apiproxy] << GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee (363.25µs)
+[2025-08-01T21:22:11.960003251Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:22:11.960109126Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (309.459µs)
+[2025-08-01T21:22:11.960229042Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (252.25µs)
+[2025-08-01T21:22:11.960032334Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:22:11.960016751Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:22:11.960407959Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (406.292µs)
+[2025-08-01T21:22:11.960540792Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (531.584µs)
+[2025-08-01T21:22:11.960549417Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (516.292µs)
+[2025-08-01T21:22:11.962800459Z][lifecycle-server.apiproxy] << GET /v1.48/version (2.716958ms)
+[2025-08-01T21:22:11.963265876Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:22:11.979980292Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (16.713209ms)
+[2025-08-01T21:22:11.982024084Z][lifecycle-server.apiproxy] >> POST /v1.48/containers/create?name=fluentbit
+[2025-08-01T21:22:11.982170209Z][lifecycle-server.ipc] (56d7cea6-7) 02971e28-lifecycle-server C->S BackendAPI GET /app/settings/flat
+[2025-08-01T21:22:11.983292626Z][lifecycle-server.ipc] (56d7cea6-7) 02971e28-lifecycle-server C<-S 80d4a958-BackendAPI GET /app/settings/flat (992.125µs): {"acceptCanaryUpdates":false,"activeOrganizationName":"","allowBetaFeatures":true,"allowExperimentalFeatures":true,"analyticsEnabled":true,"autoDownloadUpdates":false,"autoPauseTimedActivitySeconds":30,"autoPauseTimeoutSeconds":300,"autoStart":true,"backupData":false,"blockDockerLoad":false,"composeAutoFileShares":null,"composeBridgeEnabled":false,"containerTerminal":"integrated","containersOverrideProxyExclude":"","containersOverrideProxyHttp":"","containersOverrideProxyHttps":"","containersOverrideProxyPAC":"","containersOverrideProxyTCP":"","containersOverrideProxyTransparentPorts":"...","containersProxyHttpMode":"","cpus":14,"credentialHelper":"docker-credential-osxkeychain","customWslDistroDir":"","dataFolder":"<HOME>/Library/Containers/com.docker.docker/Data/vms/0/data","defaultSnapshotter":"overlayfs","deprecatedCgroupv1":false,"desktopTermi
+[2025-08-01T21:22:12.002903417Z][lifecycle-server.apiproxy] << POST /v1.48/containers/create?name=fluentbit (20.879167ms)
+[2025-08-01T21:22:12.003427584Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json
+[2025-08-01T21:22:12.003504626Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:22:12.003786626Z][lifecycle-server.apiproxy] << GET /v1.48/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json (376.125µs)
+[2025-08-01T21:22:12.003885334Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:22:12.003930667Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?all=1
+[2025-08-01T21:22:12.004591167Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D
+[2025-08-01T21:22:12.012581584Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D (7.998083ms)
+[2025-08-01T21:22:12.013682501Z][lifecycle-server.apiproxy] >> GET /v1.43/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json
+[2025-08-01T21:22:12.014022376Z][lifecycle-server.apiproxy] << GET /v1.43/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json (338.667µs)
+[2025-08-01T21:22:12.015856709Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?all=1 (11.924708ms)
+[2025-08-01T21:22:12.017077709Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (13.572291ms)
+[2025-08-01T21:22:12.018222584Z][lifecycle-server.apiproxy] >> GET /containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json
+[2025-08-01T21:22:12.018632209Z][lifecycle-server.apiproxy] << GET /containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json (411.584µs)
+[2025-08-01T21:22:12.023287501Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (19.396875ms)
+[2025-08-01T21:22:59.582772634Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:22:59.651928301Z][lifecycle-server.apiproxy] << GET /images/json (69.228209ms)
+[2025-08-01T21:23:11.962215667Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:23:11.963872417Z][lifecycle-server.apiproxy] << GET /networks (1.663667ms)
+[2025-08-01T21:23:11.967613167Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:23:11.967692417Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:23:11.967617501Z][lifecycle-server.apiproxy] >> GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee
+[2025-08-01T21:23:11.967790709Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:23:11.967671501Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:23:11.967648042Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:23:11.968524834Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (850.041µs)
+[2025-08-01T21:23:11.968525626Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (753.834µs)
+[2025-08-01T21:23:11.968885334Z][lifecycle-server.apiproxy] << GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee (1.264417ms)
+[2025-08-01T21:23:11.968754292Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (1.104209ms)
+[2025-08-01T21:23:11.968818667Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.205416ms)
+[2025-08-01T21:23:11.968600501Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (906.959µs)
+[2025-08-01T21:23:12.010555251Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:23:12.031105501Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (20.598708ms)
+[2025-08-01T21:23:14.937179585Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:14.937179544Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:14.938114544Z][lifecycle-server.apiproxy] << HEAD /_ping (937µs)
+[2025-08-01T21:23:14.938223502Z][lifecycle-server.apiproxy] << HEAD /_ping (1.050208ms)
+[2025-08-01T21:23:14.939295960Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.939373835Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.940464710Z][lifecycle-server.apiproxy] << POST /grpc (1.168208ms)
+[2025-08-01T21:23:14.940599002Z][lifecycle-server.apiproxy] << POST /grpc (1.222959ms)
+[2025-08-01T21:23:14.944752877Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:14.944857669Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:14.945192419Z][lifecycle-server.apiproxy] << HEAD /_ping (440.375µs)
+[2025-08-01T21:23:14.945195835Z][lifecycle-server.apiproxy] << HEAD /_ping (331.959µs)
+[2025-08-01T21:23:14.945885460Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:14.946304044Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/buildx_buildkit_mybuilder0/json
+[2025-08-01T21:23:14.946361085Z][lifecycle-server.apiproxy] << HEAD /_ping (476.375µs)
+[2025-08-01T21:23:14.946342377Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T21:23:14.947136627Z][lifecycle-server.apiproxy] >> GET /v1.48/version
+[2025-08-01T21:23:14.947153419Z][lifecycle-server.apiproxy] << GET /v1.48/containers/buildx_buildkit_mybuilder0/json (848.958µs)
+[2025-08-01T21:23:14.948484294Z][lifecycle-server.apiproxy] >> POST /v1.48/containers/buildx_buildkit_mybuilder0/exec
+[2025-08-01T21:23:14.949049502Z][lifecycle-server.apiproxy] << POST /v1.48/containers/buildx_buildkit_mybuilder0/exec (564.417µs)
+[2025-08-01T21:23:14.950410085Z][lifecycle-server.apiproxy] >> POST /v1.48/exec/ea2eae822d39f9ae8a59036b44759823e19a5635816aa6616a003c9834d4ef12/start
+[2025-08-01T21:23:14.951609169Z][lifecycle-server.apiproxy] << GET /v1.48/version (4.471375ms)
+[2025-08-01T21:23:14.951659544Z][lifecycle-server.apiproxy] << GET /v1.48/version (5.315167ms)
+[2025-08-01T21:23:14.952518627Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.952775044Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.970662502Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.971603544Z][lifecycle-server.apiproxy] << POST /grpc (941µs)
+[2025-08-01T21:23:14.972191460Z][lifecycle-server.apiproxy] << POST /grpc (15m0.022740868s)
+[2025-08-01T21:23:14.985528919Z][lifecycle-server.apiproxy] >> POST /grpc
+[2025-08-01T21:23:14.986638127Z][lifecycle-server.apiproxy] << POST /grpc (1.10975ms)
+[2025-08-01T21:23:14.986918252Z][lifecycle-server.apiproxy] << POST /grpc (15m0.036886826s)
+[2025-08-01T21:23:15.005624960Z][lifecycle-server.apiproxy] << POST /v1.48/exec/c9843aba7ab0d149f2492b43956a168c9a8342082a249ef6f2e1b1786ff85b99/start (15m0.057978326s)
+[2025-08-01T21:23:22.167280672Z][lifecycle-server.apiproxy] >> HEAD /_ping
+[2025-08-01T21:23:22.168555631Z][lifecycle-server.apiproxy] << HEAD /_ping (1.299583ms)
+[2025-08-01T21:23:22.169863464Z][lifecycle-server.apiproxy] >> GET /v1.48/info
+[2025-08-01T21:23:22.177095172Z][lifecycle-server.apiproxy] << GET /v1.48/info (7.233209ms)
+[2025-08-01T21:23:22.181534464Z][lifecycle-server.apiproxy] >> GET /v1.48/images/fluent/fluent-bit:latest/json
+[2025-08-01T21:23:22.207536881Z][lifecycle-server.apiproxy] << GET /v1.48/images/fluent/fluent-bit:latest/json (25.999666ms)
+[2025-08-01T21:23:22.208874422Z][lifecycle-server.apiproxy] >> GET /v1.48/networks/fluentbit_default
+[2025-08-01T21:23:22.209349297Z][lifecycle-server.apiproxy] << GET /v1.48/networks/fluentbit_default (474.792µs)
+[2025-08-01T21:23:22.210288839Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D
+[2025-08-01T21:23:22.215815172Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D (5.536333ms)
+[2025-08-01T21:23:22.216636881Z][lifecycle-server.apiproxy] >> GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D
+[2025-08-01T21:23:22.222017964Z][lifecycle-server.apiproxy] << GET /v1.48/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dfluentbit%22%3Atrue%7D%7D (5.379959ms)
+[2025-08-01T21:23:22.223090881Z][lifecycle-server.apiproxy] >> GET /v1.43/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json
+[2025-08-01T21:23:22.223602631Z][lifecycle-server.apiproxy] << GET /v1.43/containers/7ca1847e51848d42dbf03ee4d97db0aa558b9a06f97db77065d13dc340ba0333/json (512.75µs)
+[2025-08-01T21:23:59.588392134Z][lifecycle-server.apiproxy] >> GET /images/json
+[2025-08-01T21:23:59.660474884Z][lifecycle-server.apiproxy] << GET /images/json (72.095792ms)
+[2025-08-01T21:24:11.967753959Z][lifecycle-server.apiproxy] >> GET /networks
+[2025-08-01T21:24:11.968693542Z][lifecycle-server.apiproxy] << GET /networks (952.208µs)
+[2025-08-01T21:24:11.971766292Z][lifecycle-server.apiproxy] >> GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731
+[2025-08-01T21:24:11.971832167Z][lifecycle-server.apiproxy] >> GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee
+[2025-08-01T21:24:11.971766376Z][lifecycle-server.apiproxy] >> GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823
+[2025-08-01T21:24:11.971797084Z][lifecycle-server.apiproxy] >> GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3
+[2025-08-01T21:24:11.971775334Z][lifecycle-server.apiproxy] >> GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208
+[2025-08-01T21:24:11.971810417Z][lifecycle-server.apiproxy] >> GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707
+[2025-08-01T21:24:11.973296334Z][lifecycle-server.apiproxy] << GET /networks/c5cfaf0eb0f4b14d3b0cab5243a19985053a0a7d12de4b78cfbd25f8e984d707 (1.48025ms)
+[2025-08-01T21:24:11.973664126Z][lifecycle-server.apiproxy] << GET /networks/36487c710d5928a418f0d29c3777cd326e9951c0ddb15e7e07e33438338eb3d3 (1.865ms)
+[2025-08-01T21:24:11.973706876Z][lifecycle-server.apiproxy] << GET /networks/ccf699ac3bea2ed66baa9df9e50f5e9e35722188658455ec1b5262b147b80731 (1.939583ms)
+[2025-08-01T21:24:11.973711209Z][lifecycle-server.apiproxy] << GET /networks/7d6c038980eed33b65609199d148704c679ed84cf1bc824063a6dba9c2f6e4ee (1.876542ms)
+[2025-08-01T21:24:11.973711876Z][lifecycle-server.apiproxy] << GET /networks/e51925e027787f870f818027bb221054ca16d2e45957f45665480dcae422e208 (1.935791ms)
+[2025-08-01T21:24:11.974103334Z][lifecycle-server.apiproxy] << GET /networks/2693a664b9feb57e68613fbe53330f163b1f4acbe677e9e05723a26a39f3b823 (2.337333ms)
+[2025-08-01T21:24:12.016798417Z][lifecycle-server.apiproxy] >> GET /containers/json?all=true
+[2025-08-01T21:24:12.038358584Z][lifecycle-server.apiproxy] << GET /containers/json?all=true (21.572458ms)

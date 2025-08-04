@@ -11,17 +11,6 @@ services:
         fluentd-address: localhost:24224
         tag: httpd.access
 
-  fluentd:
-    build: ./fluentd
-    volumes:
-      - ./fluentd/conf:/fluentd/etc
-    depends_on:
-      elasticsearch:
-        condition: service_healthy
-    ports:
-      - "24224:24224"
-      - "24224:24224/udp"
-
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.17.1
     container_name: elasticsearch

@@ -1,0 +1,547 @@
+[2025-07-29T18:06:51.603795625Z][init.modules          ] loading: /lib/modules/selfowner.ko
+[2025-07-29T18:06:51.622700125Z][init.modules          ] loading: /lib/modules/shiftfs.ko
+[2025-07-29T18:06:51.622713083Z][init                  ] selfowner is ready
+[2025-07-29T18:06:51.622715291Z][init                  ] selfowner is ready
+[2025-07-29T18:06:51.624182458Z][init.binfmt           ] rosetta mounted in /run/rosetta
+[2025-07-29T18:06:51.624272666Z][init.binfmt           ] rosetta registered
+[2025-07-29T18:06:51.624491666Z][init.binfmt           ] rosetta workarounds registered
+[2025-07-29T18:06:51.735638666Z][init.disk             ] /dev/vda1: clean, 126463/67108864 files, 7031518/268435200 blocks
+
+[2025-07-29T18:06:51.786226333Z][init.disk             ] initial fsck ran in 273.524833ms
+[2025-07-29T18:06:51.786269208Z][init.disk             ] no free space on device to extend partition
+[2025-07-29T18:06:51.790828208Z][init.disk             ] disk created in 377.955708ms
+[2025-07-29T18:06:51.790886833Z][init                  ] disk is ready
+[2025-07-29T18:06:51.790892041Z][init                  ] disk is ready
+[2025-07-29T18:06:51.791281500Z][init.disk             ] recreating swap because there is a hole in the file at offset 4096
+[2025-07-29T18:06:51.793018541Z][init.ipc              ] run bf5ec57d-jfs for component jfs on /run/guest-services/jfs.sock
+[2025-07-29T18:06:51.797763250Z][init.disk             ] recreated swap in 6.45225ms
+[2025-07-29T18:06:51.798441333Z][init                  ] swap created in 7.578458ms
+[2025-07-29T18:06:52.444548417Z][init.trim             ] (Re-)connected to the Docker daemon
+[2025-07-29T18:06:52.449497167Z][init.ipc              ] (8fec4c6e-0) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /ping
+[2025-07-29T18:06:52.450084875Z][init.ipc              ] (8fec4c6e-0) 422f913e-volume-contents S->C c22575f4-volume-contents GET /ping (568.833µs): {"serverTime":1753812412450033400}
+[2025-07-29T18:06:52.456229750Z][init.ipc              ] (8fec4c6e-1) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /metrics
+[2025-07-29T18:06:52.456644625Z][init.ipc              ] (8fec4c6e-1) 422f913e-volume-contents S->C c22575f4-volume-contents GET /metrics (404.459µs): {"count":16}
+[2025-07-29T18:06:53.671993126Z][init.ipc              ] (b89e7220-0) 5bbabced-certs C<-S 80d4a958-BackendAPI GET /certificates (2.197248292s): {"authorities":"...","client":{}}
+[2025-07-29T18:06:53.673859834Z][init                  ] installed TLS certificates
+[2025-07-29T18:07:45.014188886Z][init.ipc              ] (4242e548-0) 257dad56-dns-forwarder S<-C d83a3e3c-dns-forwarder POST /refresh
+[2025-07-29T18:07:45.014289677Z][init.ipc              ] d329ebbf-dns-forwarder ->  
+[2025-07-29T18:07:45.014472136Z][init.ipc              ] (0e7ee2b1-0) d329ebbf-dns-forwarder C->S  GET /registry/access
+[2025-07-29T18:07:45.016180844Z][init.ipc              ] (0e7ee2b1-0) d329ebbf-dns-forwarder C<-S 80d4a958-BackendAPI GET /registry/access (1.725125ms)
+[2025-07-29T18:07:45.016532761Z][init.ipc              ] (4242e548-0) 257dad56-dns-forwarder S->C d83a3e3c-dns-forwarder POST /refresh (2.362333ms): OK
+[2025-07-29T19:05:51.373115347Z][init.eth0             ] DHCPv4
+[2025-07-29T19:05:51.416314097Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xc8ed4be5 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-29T19:05:51.416585222Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xc8ed4be5 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-29T19:05:51.417167930Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xc8ed4be5 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-29T19:05:51.417529222Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xc8ed4be5 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-29T19:05:51.418791597Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-29T19:05:51.418963972Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-29T19:05:51.420277263Z][init                  ] eth0: MTU is 65535
+[2025-07-29T19:05:51.420461888Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-29T19:05:51.420621055Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-29T19:05:51.420934055Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-29T19:05:51.421143888Z][init                  ] eth0: MTU is 65535
+[2025-07-29T19:05:51.421552180Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-29T19:05:51.421784680Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-29T19:05:51.422109138Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T04:07:43.791849930Z][init.eth0             ] DHCPv4
+[2025-07-30T04:07:43.837757305Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x3c1e128f hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T04:07:43.838024430Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x3c1e128f hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T04:07:43.838472430Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x3c1e128f hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T04:07:43.839185930Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x3c1e128f hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T04:07:43.839735638Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T04:07:43.840106805Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T04:07:43.840926971Z][init                  ] eth0: MTU is 65535
+[2025-07-30T04:07:43.841844555Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T04:07:43.842390346Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T04:07:43.842859555Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T04:07:43.843245555Z][init                  ] eth0: MTU is 65535
+[2025-07-30T04:07:43.843434096Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T04:07:43.843632888Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T04:07:43.843798263Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T09:42:07.699186721Z][init.eth0             ] DHCPv4
+[2025-07-30T09:42:07.731395596Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0051b193 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T09:42:07.731634012Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0051b193 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T09:42:07.732542929Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0051b193 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T09:42:07.733823846Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0051b193 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T09:42:07.734448846Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T09:42:07.734810054Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T09:42:07.735295096Z][init                  ] eth0: MTU is 65535
+[2025-07-30T09:42:07.735766637Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T09:42:07.735999012Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T09:42:07.736294804Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T09:42:07.736529679Z][init                  ] eth0: MTU is 65535
+[2025-07-30T09:42:07.736913887Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T09:42:07.737577887Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T09:42:07.737998512Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T10:59:18.393609345Z][init.eth0             ] DHCPv4
+[2025-07-30T10:59:18.424777262Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0c74951b hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T10:59:18.425258387Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0c74951b hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T10:59:18.426665929Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0c74951b hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T10:59:18.427882595Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0c74951b hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T10:59:18.428288804Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T10:59:18.430405137Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T10:59:18.430987929Z][init                  ] eth0: MTU is 65535
+[2025-07-30T10:59:18.431470179Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T10:59:18.431838179Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T10:59:18.432180345Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T10:59:18.433769387Z][init                  ] eth0: MTU is 65535
+[2025-07-30T10:59:18.433900887Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T10:59:18.433983262Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T10:59:18.434215387Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T11:04:37.677867882Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-30T11:04:37.843748590Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-30T11:04:47.678556137Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-07-30T11:04:50.752408638Z][init.trim             ] /var/lib/docker: 997.1 GiB (1070672420864 bytes) trimmed
+
+[2025-07-30T12:21:06.269264345Z][init.eth0             ] DHCPv4
+[2025-07-30T12:21:06.309711678Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xe21743d2 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T12:21:06.310223595Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xe21743d2 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T12:21:06.311044803Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xe21743d2 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T12:21:06.312306678Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xe21743d2 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T12:21:06.312613095Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T12:21:06.313319345Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T12:21:06.313605637Z][init                  ] eth0: MTU is 65535
+[2025-07-30T12:21:06.313815595Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T12:21:06.313982012Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T12:21:06.314119262Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T12:21:06.314267595Z][init                  ] eth0: MTU is 65535
+[2025-07-30T12:21:06.314445678Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T12:21:06.314781970Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T12:21:06.315032345Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T13:23:12.842644345Z][init.eth0             ] DHCPv4
+[2025-07-30T13:23:12.884676053Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x09cd5b20 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T13:23:12.884892970Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x09cd5b20 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T13:23:12.885062803Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x09cd5b20 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T13:23:12.885302345Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x09cd5b20 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T13:23:12.885459053Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T13:23:12.885951928Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T13:23:12.886497761Z][init                  ] eth0: MTU is 65535
+[2025-07-30T13:23:12.886796636Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T13:23:12.887145303Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T13:23:12.887351136Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T13:23:12.887566803Z][init                  ] eth0: MTU is 65535
+[2025-07-30T13:23:12.887708511Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T13:23:12.888291178Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T13:23:12.888576345Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T14:24:32.300267136Z][init.eth0             ] DHCPv4
+[2025-07-30T14:24:32.345064511Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0fb10383 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T14:24:32.345341219Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0fb10383 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T14:24:32.345870094Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0fb10383 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T14:24:32.346585178Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0fb10383 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T14:24:32.347283719Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T14:24:32.347965553Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T14:24:32.350138011Z][init                  ] eth0: MTU is 65535
+[2025-07-30T14:24:32.350477761Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T14:24:32.350787094Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T14:24:32.351071428Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T14:24:32.351395928Z][init                  ] eth0: MTU is 65535
+[2025-07-30T14:24:32.352125719Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T14:24:32.352433928Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T14:24:32.352782344Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T15:23:32.402747802Z][init.eth0             ] DHCPv4
+[2025-07-30T15:23:32.429778594Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xb9aa7844 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T15:23:32.429922719Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xb9aa7844 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T15:23:32.430058802Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xb9aa7844 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T15:23:32.430255386Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xb9aa7844 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T15:23:32.430560344Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T15:23:32.430829594Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T15:23:32.431026469Z][init                  ] eth0: MTU is 65535
+[2025-07-30T15:23:32.431183136Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T15:23:32.431346511Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T15:23:32.431435052Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T15:23:32.431567302Z][init                  ] eth0: MTU is 65535
+[2025-07-30T15:23:32.431953302Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T15:23:32.432084011Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T15:23:32.432407761Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T16:22:32.428212510Z][init.eth0             ] DHCPv4
+[2025-07-30T16:22:32.468242969Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x39a1e078 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T16:22:32.469568135Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x39a1e078 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T16:22:32.469952010Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x39a1e078 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T16:22:32.470167594Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x39a1e078 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T16:22:32.470421844Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T16:22:32.470574052Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T16:22:32.470890427Z][init                  ] eth0: MTU is 65535
+[2025-07-30T16:22:32.471353760Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T16:22:32.471525219Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T16:22:32.472799344Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T16:22:32.473325677Z][init                  ] eth0: MTU is 65535
+[2025-07-30T16:22:32.473722802Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T16:22:32.473894677Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T16:22:32.474101219Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T17:21:32.505039052Z][init.eth0             ] DHCPv4
+[2025-07-30T17:21:32.548335427Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x05cb4a8d hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T17:21:32.548530343Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x05cb4a8d hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T17:21:32.548738343Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x05cb4a8d hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T17:21:32.549748510Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x05cb4a8d hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T17:21:32.549886677Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T17:21:32.550408885Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T17:21:32.550793218Z][init                  ] eth0: MTU is 65535
+[2025-07-30T17:21:32.551021593Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T17:21:32.551123552Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T17:21:32.551203760Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T17:21:32.551300093Z][init                  ] eth0: MTU is 65535
+[2025-07-30T17:21:32.551361802Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T17:21:32.551437343Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T17:21:32.551688802Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-30T21:26:30.933981677Z][init.eth0             ] DHCPv4
+[2025-07-30T21:26:30.970450552Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0429d868 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T21:26:30.970535718Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0429d868 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T21:26:30.970595218Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0429d868 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-30T21:26:30.970635802Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0429d868 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-30T21:26:30.970679677Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-30T21:26:30.970742968Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-30T21:26:30.970992677Z][init                  ] eth0: MTU is 65535
+[2025-07-30T21:26:30.971149218Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-30T21:26:30.971355593Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-30T21:26:30.971498427Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-30T21:26:30.971638635Z][init                  ] eth0: MTU is 65535
+[2025-07-30T21:26:30.971732760Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-30T21:26:30.971871635Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-30T21:26:30.972133635Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T09:10:31.226720718Z][init.eth0             ] DHCPv4
+[2025-07-31T09:10:31.257043510Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xe6e84d78 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T09:10:31.258227218Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xe6e84d78 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T09:10:31.261283843Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xe6e84d78 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T09:10:31.261545176Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xe6e84d78 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T09:10:31.261958760Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T09:10:31.262745510Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T09:10:31.263171635Z][init                  ] eth0: MTU is 65535
+[2025-07-31T09:10:31.263692176Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T09:10:31.264194801Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T09:10:31.265561343Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T09:10:31.265937218Z][init                  ] eth0: MTU is 65535
+[2025-07-31T09:10:31.266146926Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T09:10:31.266323301Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T09:10:31.266523885Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T10:09:31.137152343Z][init.eth0             ] DHCPv4
+[2025-07-31T10:09:31.176856134Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x8d51f60a hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T10:09:31.177014634Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x8d51f60a hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T10:09:31.177110009Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x8d51f60a hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T10:09:31.177150468Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x8d51f60a hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T10:09:31.177184551Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T10:09:31.177375718Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T10:09:31.177917426Z][init                  ] eth0: MTU is 65535
+[2025-07-31T10:09:31.178310634Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T10:09:31.178677426Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T10:09:31.178805176Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T10:09:31.178903176Z][init                  ] eth0: MTU is 65535
+[2025-07-31T10:09:31.178985009Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T10:09:31.179091926Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T10:09:31.179390884Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T11:08:31.125803509Z][init.eth0             ] DHCPv4
+[2025-07-31T11:08:31.159057217Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x83450e64 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T11:08:31.159728759Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x83450e64 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T11:08:31.160085092Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x83450e64 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T11:08:31.160910509Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x83450e64 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T11:08:31.161091759Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T11:08:31.161349717Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T11:08:31.161804426Z][init                  ] eth0: MTU is 65535
+[2025-07-31T11:08:31.162247384Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T11:08:31.163105176Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T11:08:31.163193384Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T11:08:31.163357842Z][init                  ] eth0: MTU is 65535
+[2025-07-31T11:08:31.163715176Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T11:08:31.163809676Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T11:08:31.163992884Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T11:23:31.196872384Z][init                  ] processed image docker.elastic.co/elasticsearch/elasticsearch:8.5.1
+[2025-07-31T11:33:51.084413212Z][init                  ] processed image docker.elastic.co/kibana/kibana:8.5.1
+[2025-07-31T12:10:41.984132009Z][init.eth0             ] DHCPv4
+[2025-07-31T12:10:42.025144467Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x8a54a99e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T12:10:42.025525425Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x8a54a99e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T12:10:42.025932675Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x8a54a99e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T12:10:42.026076009Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x8a54a99e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T12:10:42.028328592Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T12:10:42.029077384Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T12:10:42.029846217Z][init                  ] eth0: MTU is 65535
+[2025-07-31T12:10:42.030145259Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T12:10:42.031854425Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T12:10:42.032249675Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T12:10:42.033094884Z][init                  ] eth0: MTU is 65535
+[2025-07-31T12:10:42.033932467Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T12:10:42.034112092Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T12:10:42.034385800Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T13:09:41.994952758Z][init.eth0             ] DHCPv4
+[2025-07-31T13:09:42.033533758Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xee253979 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T13:09:42.034106633Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xee253979 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T13:09:42.034480717Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xee253979 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T13:09:42.034620342Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xee253979 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T13:09:42.036399217Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T13:09:42.036970300Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T13:09:42.037273550Z][init                  ] eth0: MTU is 65535
+[2025-07-31T13:09:42.037565467Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T13:09:42.038220258Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T13:09:42.038552258Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T13:09:42.039015217Z][init                  ] eth0: MTU is 65535
+[2025-07-31T13:09:42.039626175Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T13:09:42.040486800Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T13:09:42.040735842Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T13:35:15.440468174Z][init.ipc              ] (8fec4c6e-2) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /ping
+[2025-07-31T13:35:15.440596591Z][init.ipc              ] (8fec4c6e-2) 422f913e-volume-contents S->C c22575f4-volume-contents GET /ping (143.041µs): {"serverTime":1753968915440533000}
+[2025-07-31T13:35:15.443993091Z][init.ipc              ] (8fec4c6e-3) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /metrics
+[2025-07-31T13:35:15.444104341Z][init.ipc              ] (8fec4c6e-3) 422f913e-volume-contents S->C c22575f4-volume-contents GET /metrics (125.5µs): {"count":17}
+[2025-07-31T14:18:17.064698550Z][init.eth0             ] DHCPv4
+[2025-07-31T14:18:17.108056466Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xd25b1adb hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T14:18:17.108322425Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xd25b1adb hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T14:18:17.109294175Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xd25b1adb hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T14:18:17.113347091Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xd25b1adb hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T14:18:17.115783133Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T14:18:17.116070966Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T14:18:17.116536341Z][init                  ] eth0: MTU is 65535
+[2025-07-31T14:18:17.116702133Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T14:18:17.117087883Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T14:18:17.117187883Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T14:18:17.117534633Z][init                  ] eth0: MTU is 65535
+[2025-07-31T14:18:17.117674550Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T14:18:17.117828050Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T14:18:17.118053258Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T15:23:36.347226133Z][init.eth0             ] DHCPv4
+[2025-07-31T15:23:36.393789424Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x18503c3e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T15:23:36.396235883Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x18503c3e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T15:23:36.397938174Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x18503c3e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T15:23:36.399155341Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x18503c3e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T15:23:36.399850841Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T15:23:36.400106299Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T15:23:36.400368674Z][init                  ] eth0: MTU is 65535
+[2025-07-31T15:23:36.400734341Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T15:23:36.401077758Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T15:23:36.401241633Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T15:23:36.401423258Z][init                  ] eth0: MTU is 65535
+[2025-07-31T15:23:36.401572008Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T15:23:36.401830341Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T15:23:36.402349299Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T16:25:38.186796966Z][init.eth0             ] DHCPv4
+[2025-07-31T16:25:38.221435007Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0c939905 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T16:25:38.222590632Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0c939905 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T16:25:38.223261424Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0c939905 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T16:25:38.224579841Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0c939905 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T16:25:38.225300507Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T16:25:38.225832424Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T16:25:38.229356507Z][init                  ] eth0: MTU is 65535
+[2025-07-31T16:25:38.229812299Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T16:25:38.230460174Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T16:25:38.231194091Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T16:25:38.231328466Z][init                  ] eth0: MTU is 65535
+[2025-07-31T16:25:38.231501882Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T16:25:38.231603966Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T16:25:38.231737174Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T17:26:54.027724299Z][init.eth0             ] DHCPv4
+[2025-07-31T17:26:54.067704007Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xb5e7ae75 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T17:26:54.068054924Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xb5e7ae75 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T17:26:54.069674215Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xb5e7ae75 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T17:26:54.070056715Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xb5e7ae75 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T17:26:54.070805007Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T17:26:54.071129382Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T17:26:54.071735507Z][init                  ] eth0: MTU is 65535
+[2025-07-31T17:26:54.071968715Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T17:26:54.072072424Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T17:26:54.072465549Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T17:26:54.072820799Z][init                  ] eth0: MTU is 65535
+[2025-07-31T17:26:54.073685382Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T17:26:54.073852007Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T17:26:54.074139674Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T19:04:45.044674381Z][init.eth0             ] DHCPv4
+[2025-07-31T19:04:45.085748381Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0cce44e0 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T19:04:45.086459048Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0cce44e0 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T19:04:45.087929715Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0cce44e0 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T19:04:45.088060090Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0cce44e0 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T19:04:45.088974215Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T19:04:45.089760923Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T19:04:45.090665548Z][init                  ] eth0: MTU is 65535
+[2025-07-31T19:04:45.091066381Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T19:04:45.091365256Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T19:04:45.091714215Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T19:04:45.092075298Z][init                  ] eth0: MTU is 65535
+[2025-07-31T19:04:45.092318090Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T19:04:45.093005506Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T19:04:45.093231965Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T20:22:03.847284756Z][init.eth0             ] DHCPv4
+[2025-07-31T20:22:03.882015381Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x4b17286f hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T20:22:03.883043131Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x4b17286f hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T20:22:03.883869798Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x4b17286f hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T20:22:03.886443464Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x4b17286f hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T20:22:03.887478173Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T20:22:03.887790131Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T20:22:03.888077548Z][init                  ] eth0: MTU is 65535
+[2025-07-31T20:22:03.888236964Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T20:22:03.888390131Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T20:22:03.888523964Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T20:22:03.888657464Z][init                  ] eth0: MTU is 65535
+[2025-07-31T20:22:03.888846214Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T20:22:03.889008298Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T20:22:03.889182506Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-31T23:25:59.976748047Z][init.eth0             ] DHCPv4
+[2025-07-31T23:26:00.025974547Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xa9fc579e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T23:26:00.026262464Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xa9fc579e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T23:26:00.026455589Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xa9fc579e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-31T23:26:00.026618839Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xa9fc579e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-31T23:26:00.026916589Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-31T23:26:00.027275672Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-31T23:26:00.027496172Z][init                  ] eth0: MTU is 65535
+[2025-07-31T23:26:00.027698672Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-31T23:26:00.027782506Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-31T23:26:00.028006214Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-31T23:26:00.028385589Z][init                  ] eth0: MTU is 65535
+[2025-07-31T23:26:00.028536214Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-31T23:26:00.028681964Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-31T23:26:00.028948922Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T09:40:14.785859005Z][init.eth0             ] DHCPv4
+[2025-08-01T09:40:14.821737422Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x2e17bec5 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T09:40:14.821865505Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x2e17bec5 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T09:40:14.822148922Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x2e17bec5 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T09:40:14.822205505Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x2e17bec5 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T09:40:14.822560880Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T09:40:14.822727089Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T09:40:14.822967380Z][init                  ] eth0: MTU is 65535
+[2025-08-01T09:40:14.823090672Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T09:40:14.823159922Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T09:40:14.823228422Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T09:40:14.823398380Z][init                  ] eth0: MTU is 65535
+[2025-08-01T09:40:14.823553964Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T09:40:14.823827089Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T09:40:14.823973547Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T10:39:14.907698338Z][init.eth0             ] DHCPv4
+[2025-08-01T10:39:14.952610130Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xd9432930 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T10:39:14.952868172Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xd9432930 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T10:39:14.954645755Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xd9432930 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T10:39:14.955631505Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xd9432930 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T10:39:14.956003422Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T10:39:14.957409297Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T10:39:14.958156713Z][init                  ] eth0: MTU is 65535
+[2025-08-01T10:39:14.959572380Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T10:39:14.959832047Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T10:39:14.960317588Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T10:39:14.960626588Z][init                  ] eth0: MTU is 65535
+[2025-08-01T10:39:14.960935672Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T10:39:14.961605797Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T10:39:14.961938255Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T11:38:14.835600005Z][init.eth0             ] DHCPv4
+[2025-08-01T11:38:14.877700630Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xa95e2f64 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T11:38:14.877775296Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xa95e2f64 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T11:38:14.877827755Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xa95e2f64 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T11:38:14.877862255Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xa95e2f64 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T11:38:14.877899505Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T11:38:14.877947213Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T11:38:14.878139088Z][init                  ] eth0: MTU is 65535
+[2025-08-01T11:38:14.878297921Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T11:38:14.878375046Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T11:38:14.878423838Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T11:38:14.878475296Z][init                  ] eth0: MTU is 65535
+[2025-08-01T11:38:14.878528088Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T11:38:14.878582921Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T11:38:14.878728380Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T14:24:49.080506879Z][init.eth0             ] DHCPv4
+[2025-08-01T14:24:49.126517671Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x0a36b2f3 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T14:24:49.126705379Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x0a36b2f3 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T14:24:49.126763129Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x0a36b2f3 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T14:24:49.126821129Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x0a36b2f3 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T14:24:49.127071254Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T14:24:49.127225713Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T14:24:49.127654379Z][init                  ] eth0: MTU is 65535
+[2025-08-01T14:24:49.127993629Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T14:24:49.128083338Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T14:24:49.128274963Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T14:24:49.128373129Z][init                  ] eth0: MTU is 65535
+[2025-08-01T14:24:49.128484213Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T14:24:49.128544713Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T14:24:49.128700129Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T15:23:48.975815587Z][init.eth0             ] DHCPv4
+[2025-08-01T15:23:49.017806296Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x639841e3 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T15:23:49.017965129Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x639841e3 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T15:23:49.018411837Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x639841e3 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T15:23:49.018611879Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x639841e3 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T15:23:49.018850379Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T15:23:49.019445837Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T15:23:49.019740421Z][init                  ] eth0: MTU is 65535
+[2025-08-01T15:23:49.020034671Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T15:23:49.020487129Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T15:23:49.021033671Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T15:23:49.021178712Z][init                  ] eth0: MTU is 65535
+[2025-08-01T15:23:49.021566087Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T15:23:49.021870296Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T15:23:49.023054546Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T16:22:49.044736795Z][init.eth0             ] DHCPv4
+[2025-08-01T16:22:49.088138879Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x3f271176 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T16:22:49.088277670Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x3f271176 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T16:22:49.088371545Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x3f271176 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T16:22:49.088467420Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x3f271176 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T16:22:49.088562670Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T16:22:49.088748629Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T16:22:49.089087087Z][init                  ] eth0: MTU is 65535
+[2025-08-01T16:22:49.089324629Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T16:22:49.089505129Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T16:22:49.089624920Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T16:22:49.090577004Z][init                  ] eth0: MTU is 65535
+[2025-08-01T16:22:49.090829504Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T16:22:49.091009712Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T16:22:49.091249670Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T17:45:32.927824420Z][init.eth0             ] DHCPv4
+[2025-08-01T17:45:32.974100587Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x4abc819c hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T17:45:32.974910920Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x4abc819c hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T17:45:32.975176378Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x4abc819c hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T17:45:32.978010378Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x4abc819c hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T17:45:32.978307587Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T17:45:32.978957587Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T17:45:32.980106170Z][init                  ] eth0: MTU is 65535
+[2025-08-01T17:45:32.980250670Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T17:45:32.980406920Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T17:45:32.980532420Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T17:45:32.980618337Z][init                  ] eth0: MTU is 65535
+[2025-08-01T17:45:32.980673045Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T17:45:32.980723712Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T17:45:32.980887753Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T18:44:32.783335170Z][init.eth0             ] DHCPv4
+[2025-08-01T18:44:32.827686628Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x03fea0d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T18:44:32.828358670Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x03fea0d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T18:44:32.828726545Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x03fea0d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T18:44:32.828927461Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x03fea0d1 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T18:44:32.829495211Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T18:44:32.831385670Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T18:44:32.831780295Z][init                  ] eth0: MTU is 65535
+[2025-08-01T18:44:32.832850920Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T18:44:32.834099378Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T18:44:32.834904336Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T18:44:32.835635795Z][init                  ] eth0: MTU is 65535
+[2025-08-01T18:44:32.835845086Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T18:44:32.836450711Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T18:44:32.836712211Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T19:58:36.333384919Z][init.eth0             ] DHCPv4
+[2025-08-01T19:58:36.371631044Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x8369cc8b hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T19:58:36.371800419Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x8369cc8b hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T19:58:36.372192711Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x8369cc8b hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T19:58:36.373175294Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x8369cc8b hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T19:58:36.373330878Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T19:58:36.373742253Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T19:58:36.373908711Z][init                  ] eth0: MTU is 65535
+[2025-08-01T19:58:36.374205044Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T19:58:36.374596919Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T19:58:36.374709461Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T19:58:36.374964586Z][init                  ] eth0: MTU is 65535
+[2025-08-01T19:58:36.375606461Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T19:58:36.375693669Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T19:58:36.375866836Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-08-01T20:00:41.179666505Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-08-01T20:00:43.453272548Z][init.trim             ] A volume has been removed: will run the action at least once more
+[2025-08-01T20:00:43.762606964Z][init.trim             ] Unused volumes have been removed: will run the action at least once more
+[2025-08-01T20:00:51.185306385Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-08-01T20:00:51.313607385Z][init.trim             ] /var/lib/docker: 7.9 GiB (8517660672 bytes) trimmed
+
+[2025-08-01T20:52:50.324007001Z][init.ipc              ] (8fec4c6e-4) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /ping
+[2025-08-01T20:52:50.324235751Z][init.ipc              ] (8fec4c6e-4) 422f913e-volume-contents S->C c22575f4-volume-contents GET /ping (203.333µs): {"serverTime":1754081570324116000}
+[2025-08-01T20:52:50.333507668Z][init.ipc              ] (8fec4c6e-5) 422f913e-volume-contents S<-C c22575f4-volume-contents GET /metrics
+[2025-08-01T20:52:50.333692793Z][init.ipc              ] (8fec4c6e-5) 422f913e-volume-contents S->C c22575f4-volume-contents GET /metrics (192.041µs): {"count":16}
+[2025-08-01T21:04:59.534800884Z][init                  ] processed image fluent/fluent-bit:latest
+[2025-08-01T21:20:14.885493169Z][init.eth0             ] DHCPv4
+[2025-08-01T21:20:14.921632460Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xbc96688d hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T21:20:14.921951669Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xbc96688d hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T21:20:14.923008210Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xbc96688d hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-08-01T21:20:14.923225585Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xbc96688d hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-08-01T21:20:14.924320960Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-08-01T21:20:14.924834835Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-08-01T21:20:14.925690002Z][init                  ] eth0: MTU is 65535
+[2025-08-01T21:20:14.925932085Z][init                  ] eth0: adding router 192.168.65.1
+[2025-08-01T21:20:14.926331460Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-08-01T21:20:14.926912127Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-08-01T21:20:14.927909502Z][init                  ] eth0: MTU is 65535
+[2025-08-01T21:20:14.928155585Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-08-01T21:20:14.928460419Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-08-01T21:20:14.930153252Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s

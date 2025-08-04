@@ -1,0 +1,1484 @@
+[2025-07-02T14:35:34.529354458Z][init                  ] VM init started
+[2025-07-02T14:35:34.529426375Z][init                  ] error mounting devtmpfs to /dev: device or resource busy
+[2025-07-02T14:35:34.534407666Z][init                  ] added cpuset to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534520833Z][init                  ] added cpu to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534535875Z][init                  ] added io to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534547833Z][init                  ] added memory to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534564166Z][init                  ] added hugetlb to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534575500Z][init                  ] added pids to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.534590666Z][init                  ] added rdma to /sys/fs/cgroup/cgroup.subtree_control
+[2025-07-02T14:35:34.537013666Z][init                  ][W] chmod 0666 /dev/fd: chmod /dev/fd: operation not permitted
+[2025-07-02T14:35:34.537653166Z][init.socketforward    ] listening on virtual address: debug-socketforwarder
+[2025-07-02T14:35:34.537675000Z][init.socketforward    ] listening on virtual address: perf-socketforwarder
+grep: /etc/securetty: No such file or directory
+getty: cmdline has console=hvc0 but does not exist in /etc/securetty; will not be able to log in as root on this tty hvc0.
+getty: cmdline has console=hvc0 but does not exist in /etc/securetty; will not be able to log in as root on this tty hvc0.
+[2025-07-02T14:35:34.541990500Z][init.socketforward    ] listening on virtual address: control-init
+[2025-07-02T14:35:34.542099958Z][init.ipc              ] a3e48259-pause/unpause ->  
+
+                        ##         .
+                  ## ## ##        ==
+               ## ## ## ## ##    ===
+           /"""""""""""""""""___/ ===
+          {                       /  ===-
+           ______ O           __/
+                          __/
+              ___________/
+
+docker-desktop login: root (automatic login)
+
+[2025-07-02T14:35:34.543499166Z][init                  ] platform has a virtio-net eth0, no need for a TAP AF_VSOCK
+[2025-07-02T14:35:34.543569083Z][init                  ] listening on TCP port 5555 for internal Docker Hub proxy
+[2025-07-02T14:35:34.543591458Z][init                  ] listening on TCP port 3128 for internal HTTP proxy
+[2025-07-02T14:35:34.543857708Z][init.ipc              ] run 807ad56d-control for component init on control-init
+[2025-07-02T14:35:34.543881500Z][init                  ] starting debug service
+[2025-07-02T14:35:34.543901750Z][init.ipc              ] run fa804f36-volume-contents for component volume-contents on /run/guest-services/volume-contents.sock
+[2025-07-02T14:35:34.544148541Z][init                  ] starting performance service
+[2025-07-02T14:35:34.543922250Z][init.ipc              ] 4df06e94-metadata ->  
+[2025-07-02T14:35:34.545124916Z][init.socketforward    ] connecting to AF_VSOCK connect://2/1999
+[2025-07-02T14:35:34.545393541Z][init.binfmt           ] arm registered
+[2025-07-02T14:35:34.545490125Z][init.binfmt           ] mips64 registered
+[2025-07-02T14:35:34.545213208Z][init.gpio             ] waiting for poweroff request
+[2025-07-02T14:35:34.545137208Z][init.ipc              ] (f540b827-0) 4df06e94-metadata C->S  GET /app/settings/flat
+[2025-07-02T14:35:34.545763333Z][init.binfmt           ] mips64le registered
+[2025-07-02T14:35:34.545775041Z][init.eth0             ] DHCPv4
+[2025-07-02T14:35:34.546007958Z][init.binfmt           ] ppc64le registered
+[2025-07-02T14:35:34.546207291Z][init.binfmt           ] riscv64 registered
+[2025-07-02T14:35:34.546249625Z][init.socketforward    ] connected to connect://2/1999
+[2025-07-02T14:35:34.546392875Z][init.binfmt           ] s390x registered
+[2025-07-02T14:35:34.546489625Z][init.binfmt           ] i386 registered
+[2025-07-02T14:35:34.546615500Z][init.binfmt           ] x86_64 registered
+[2025-07-02T14:35:34.547022875Z][init.ipc              ] run e2afe2a8-image-inspector for component image-inspector on /run/guest-services/image-inspector.sock
+[2025-07-02T14:35:34.547060708Z][init.modules          ] loading: /lib/modules/fakeowner.ko
+[2025-07-02T14:35:34.547234000Z][init                  ] cgroupv2 detected in /sys/fs/cgroup
+[2025-07-02T14:35:34.547286000Z][init                  ] unfreezing cgroup /sys/fs/cgroup/kubepods
+[2025-07-02T14:35:34.547365083Z][init                  ] unfreezing cgroup /sys/fs/cgroup/podruntime
+[2025-07-02T14:35:34.547494416Z][init.ipc              ] run 7ff93d16-procd for component procd on /run/guest-services/procd.sock
+[2025-07-02T14:35:34.547523625Z][init.dns              ] loading bpf bpf.o: program egress: Call at insn 1: symbol "handle_pkt": unsatisfied program reference, falling back to bpf-legacy.o
+[2025-07-02T14:35:34.547080083Z][init.ipc              ] aec35353-time ->  
+[2025-07-02T14:35:34.548988125Z][init.ipc              ] run eec51765-container-filesystem for component container-filesystem on /run/guest-services/container-filesystem.sock
+[2025-07-02T14:35:34.549277208Z][init.vpnkitcontrol    ] dialing /run/host-services/vpnkit-data.sock for data connection
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+[2025-07-02T14:35:34.549562625Z][init.ipc              ] 57c927c6-certs ->  
+[2025-07-02T14:35:34.549637166Z][init.ipc              ] (a0f59b1f-0) 57c927c6-certs C->S  GET /certificates
+[2025-07-02T14:35:34.549365083Z][init.ipc              ] run 2cc9da9e-stats for component stats on /run/guest-services/stats.sock
+Linux docker-desktop 6.10.14-linuxkit #1 SMP Mon Feb 24 16:35:16 UTC 2025 aarch64
+System services are namespaced; to access, use `nsenter -a -t <pid>`
+root@docker-desktop:~# [2025-07-02T14:35:33.543640541Z][kmsg                  ] Linux version 6.10.14-linuxkit (root@buildkitsandbox) (gcc (Alpine 13.2.1_git20240309) 13.2.1 20240309, GNU ld (GNU Binutils) 2.42) #1 SMP Mon Feb 24 16:35:16 UTC 2025
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Zone ranges:
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] DMA      [mem 0x0000000070000000-0x00000000ffffffff]
+[2025-07-02T14:35:34.566519750Z][init.dns              ] eBPF loaded
+[2025-07-02T14:35:34.566576250Z][init.dns              ] pinned IPv4 allowlist map to /sys/fs/bpf/allowed_map
+[2025-07-02T14:35:34.566609958Z][init.dns              ] pinned IPv6 allowlist map to /sys/fs/bpf/allowed_map6
+[2025-07-02T14:35:34.566644583Z][init.dns              ] pinned IPv4 blocked_packets map to /sys/fs/bpf/blocked_packets
+[2025-07-02T14:35:34.566664625Z][init.dns              ] pinned IPv6 blocked_packets map to /sys/fs/bpf/blocked_packets6
+[2025-07-02T14:35:34.566689208Z][init.dns              ] pinned IPv4 allowlist trie to /sys/fs/bpf/allowed_trie
+[2025-07-02T14:35:34.566731541Z][init.dns              ] pinned IPv6 allowlist trie to /sys/fs/bpf/allowed_trie6
+[2025-07-02T14:35:34.566752750Z][init.dns              ] detected cgroup2 on /sys/fs/cgroup
+[2025-07-02T14:35:34.566787750Z][init.dns              ] applying policy to /sys/fs/cgroup/restricted
+[2025-07-02T14:35:34.566885375Z][init.dns              ] created /sys/fs/cgroup/restricted
+[2025-07-02T14:35:34.567069833Z][init.dns              ] attached eBPF to egress of cgroup /sys/fs/cgroup/restricted
+[2025-07-02T14:35:34.567102291Z][init.dns              ] pinned link to /sys/fs/bpf/link/restricted
+[2025-07-02T14:35:34.567130500Z][init.dns              ] detected cgroup2 on /sys/fs/cgroup
+[2025-07-02T14:35:34.567178500Z][init.dns              ] applying policy to /sys/fs/cgroup/docker/buildx
+[2025-07-02T14:35:34.567224666Z][init.dns              ] created /sys/fs/cgroup/docker/buildx
+[2025-07-02T14:35:34.567248916Z][init.dns              ] attached eBPF to egress of cgroup /sys/fs/cgroup/docker/buildx
+[2025-07-02T14:35:34.567268000Z][init.dns              ] pinned link to /sys/fs/bpf/link/buildx
+[2025-07-02T14:35:34.567414583Z][init.ipc              ] da534cc6-dns-forwarder ->  
+[2025-07-02T14:35:34.567439041Z][init.ipc              ] (766e8310-0) da534cc6-dns-forwarder C->S  GET /registry/access
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] DMA32    empty
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Normal   [mem 0x0000000100000000-0x0000000269bfffff]
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Movable zone start for each node
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Early memory node ranges
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] node   0: [mem 0x0000000070000000-0x0000000269bfffff]
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Initmem setup node 0 [mem 0x0000000070000000-0x0000000269bfffff]
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] On node 0, zone Normal: 25600 pages in unavailable ranges
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] psci: probing for conduit method from DT.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] psci: PSCIv1.1 detected in firmware.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] psci: Using standard PSCI v0.2 function IDs
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] psci: Trusted OS migration not required
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] psci: SMC Calling Convention v1.1
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] percpu: Embedded 34 pages/cpu s99240 r8192 d31832 u139264
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] pcpu-alloc: s99240 r8192 d31832 u139264 alloc=34*4096
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11 [0] 12 [0] 13
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Detected PIPT I-cache on CPU0
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] CPU features: detected: Address authentication (IMP DEF algorithm)
+[2025-07-02T14:35:34.567916291Z][init.ipc              ] run 851a455e-diagnosticsd for component diagnosticsd on /run/guest-services/diagnosticd.sock
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] CPU features: detected: GIC system register CPU interface
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] CPU features: detected: Spectre-v4
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] alternatives: applying boot alternatives
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Kernel command line: init=/init loglevel=1 root=/dev/vdb rootfstype=erofs ro vsyscall=emulate panic=0 eth0.dhcp eth1.dhcp linuxkit.unified_cgroup_hierarchy=1 console=hvc0   virtio_net.disable_csum=1 vpnkit.connect=connect://2/1999 com.docker.VMID=6c2f0e74-224b-4bf3-8699-38945dcad0ae
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Unknown kernel command line parameters "vsyscall=emulate", will be passed to user space.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Built 1 zonelists, mobility grouping on.  Total pages: 2071552
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] mem auto-init: stack:all(zero), heap alloc:off, heap free:off
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] software IO TLB: area num 16.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] software IO TLB: mapped [mem 0x00000000fbfff000-0x00000000fffff000] (64MB)
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Memory: 8018540K/8286208K available (19072K kernel code, 2820K rwdata, 10684K rodata, 6336K init, 750K bss, 267668K reserved, 0K cma-reserved)
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=14, Nodes=1
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] ftrace: allocating 57229 entries in 224 pages
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] ftrace: allocated 224 pages with 3 groups
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] trace event string verifier disabled
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: Hierarchical RCU implementation.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: \x09RCU restricting CPUs from NR_CPUS=24 to nr_cpu_ids=14.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] \x09Rude variant of Tasks RCU enabled.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] \x09Tracing variant of Tasks RCU enabled.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=14
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] RCU Tasks Rude: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=14.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] RCU Tasks Trace: Setting shift to 4 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=14.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] GICv3: 988 SPIs implemented
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] GICv3: 0 Extended SPIs implemented
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] Root IRQ handler: gic_handle_irq
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] GICv3: GICv3 features: 16 PPIs, RSS
+[2025-07-02T14:35:34.567922916Z][init.metadata         ] writing metadata to /run/config
+[2025-07-02T14:35:34.569278666Z][init.modules          ] loading: /lib/modules/grpcfuse.ko
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] GICv3: CPU0: found redistributor 0 region 0:0x0000000010010000
+[2025-07-02T14:35:34.569294083Z][init.disk             ] /dev/vda has content. blkid returned: /dev/vda: PTUUID="4585d764" PTTYPE="dos"
+[2025-07-02T14:35:34.569495166Z][init.disk             ] no disks require formatting
+[2025-07-02T14:35:34.569306416Z][init.socketforward    ] starting to forward dials
+[2025-07-02T14:35:34.570927291Z][init.modules          ] loading: /lib/modules/rosetta.ko
+[2025-07-02T14:35:34.570988166Z][init.socketforward    ] http-proxy: publishing on /run/host-services/http-proxy.sock
+[2025-07-02T14:35:34.571022875Z][init.socketforward    ] osxfs-data: publishing on /run/host-services/osxfs-data.sock
+[2025-07-02T14:35:34.571009208Z][init.socketforward    ] filesystem: publishing on /run/host-services/filesystem.sock
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: \x09Offload RCU callbacks from CPUs: 0-13.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] arch_timer: cp15 timer(s) running at 24.00MHz (virt).
+[2025-07-02T14:35:34.571024541Z][init.socketforward    ] hubproxy: publishing on /run/host-services/hubproxy.sock
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+[2025-07-02T14:35:34.570984041Z][init.socketforward    ] webgpu: publishing on /run/host-services/webgpu.sock
+[2025-07-02T14:35:33.543640541Z][kmsg                  ] sched_clock: 56 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+[2025-07-02T14:35:33.543688541Z][kmsg                  ] Console: colour dummy device 80x25
+[2025-07-02T14:35:34.571017333Z][init.socketforward    ] gvisor: publishing on /run/host-services/gvisor-ethernet-vpnkit-protocol.sock
+[2025-07-02T14:35:33.543692541Z][kmsg                  ] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=24000)
+[2025-07-02T14:35:33.543693541Z][kmsg                  ] pid_max: default: 32768 minimum: 301
+[2025-07-02T14:35:33.543704541Z][kmsg                  ] LSM: initializing lsm=capability,bpf
+[2025-07-02T14:35:33.543706541Z][kmsg                  ] LSM support for eBPF active
+[2025-07-02T14:35:33.543736541Z][kmsg                  ] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[2025-07-02T14:35:34.571019375Z][init.socketforward    ] http-proxy-restricted: publishing on /run/host-services/http-proxy-restricted.sock
+[2025-07-02T14:35:33.543747541Z][kmsg                  ] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[2025-07-02T14:35:33.544356541Z][kmsg                  ] rcu: Hierarchical SRCU implementation.
+[2025-07-02T14:35:33.544356541Z][kmsg                  ] rcu: \x09Max phase no-delay instances is 400.
+[2025-07-02T14:35:33.544896541Z][kmsg                  ] smp: Bringing up secondary CPUs ...
+[2025-07-02T14:35:33.545181541Z][kmsg                  ] Detected PIPT I-cache on CPU1
+[2025-07-02T14:35:33.545193541Z][kmsg                  ] GICv3: CPU1: found redistributor 1 region 0:0x0000000010030000
+[2025-07-02T14:35:34.571318791Z][init.socketforward    ] otel-system-telemetry: publishing on /run/host-services/system-telemetry.otlp.grpc.sock
+[2025-07-02T14:35:33.545238541Z][kmsg                  ] CPU1: Booted secondary processor 0x0000000001 [0x610f0000]
+[2025-07-02T14:35:33.545575541Z][kmsg                  ] Detected PIPT I-cache on CPU2
+[2025-07-02T14:35:33.545588541Z][kmsg                  ] GICv3: CPU2: found redistributor 2 region 0:0x0000000010050000
+[2025-07-02T14:35:33.545635541Z][kmsg                  ] CPU2: Booted secondary processor 0x0000000002 [0x610f0000]
+[2025-07-02T14:35:34.571020958Z][init.socketforward    ] backend-native: publishing on /run/host-services/backend.native.sock
+[2025-07-02T14:35:33.545953541Z][kmsg                  ] Detected PIPT I-cache on CPU3
+[2025-07-02T14:35:33.545965541Z][kmsg                  ] GICv3: CPU3: found redistributor 3 region 0:0x0000000010070000
+[2025-07-02T14:35:33.546009541Z][kmsg                  ] CPU3: Booted secondary processor 0x0000000003 [0x610f0000]
+[2025-07-02T14:35:33.546356541Z][kmsg                  ] Detected PIPT I-cache on CPU4
+[2025-07-02T14:35:33.546370541Z][kmsg                  ] GICv3: CPU4: found redistributor 4 region 0:0x0000000010090000
+[2025-07-02T14:35:33.546414541Z][kmsg                  ] CPU4: Booted secondary processor 0x0000000004 [0x610f0000]
+[2025-07-02T14:35:33.546737541Z][kmsg                  ] Detected PIPT I-cache on CPU5
+[2025-07-02T14:35:33.546753541Z][kmsg                  ] GICv3: CPU5: found redistributor 5 region 0:0x00000000100b0000
+[2025-07-02T14:35:33.546795541Z][kmsg                  ] CPU5: Booted secondary processor 0x0000000005 [0x610f0000]
+[2025-07-02T14:35:33.547105541Z][kmsg                  ] Detected PIPT I-cache on CPU6
+[2025-07-02T14:35:33.547124541Z][kmsg                  ] GICv3: CPU6: found redistributor 6 region 0:0x00000000100d0000
+[2025-07-02T14:35:33.547168541Z][kmsg                  ] CPU6: Booted secondary processor 0x0000000006 [0x610f0000]
+[2025-07-02T14:35:33.547492541Z][kmsg                  ] Detected PIPT I-cache on CPU7
+[2025-07-02T14:35:33.547513541Z][kmsg                  ] GICv3: CPU7: found redistributor 7 region 0:0x00000000100f0000
+[2025-07-02T14:35:33.547556541Z][kmsg                  ] CPU7: Booted secondary processor 0x0000000007 [0x610f0000]
+[2025-07-02T14:35:34.571021000Z][init.socketforward    ] network-proxy: publishing on /run/host-services/network-proxy.sock
+[2025-07-02T14:35:33.547932541Z][kmsg                  ] Detected PIPT I-cache on CPU8
+[2025-07-02T14:35:33.547955541Z][kmsg                  ] GICv3: CPU8: found redistributor 8 region 0:0x0000000010110000
+[2025-07-02T14:35:33.548002541Z][kmsg                  ] CPU8: Booted secondary processor 0x0000000008 [0x610f0000]
+[2025-07-02T14:35:33.548334541Z][kmsg                  ] Detected PIPT I-cache on CPU9
+[2025-07-02T14:35:33.548359541Z][kmsg                  ] GICv3: CPU9: found redistributor 9 region 0:0x0000000010130000
+[2025-07-02T14:35:33.548406541Z][kmsg                  ] CPU9: Booted secondary processor 0x0000000009 [0x610f0000]
+[2025-07-02T14:35:33.548747541Z][kmsg                  ] Detected PIPT I-cache on CPU10
+[2025-07-02T14:35:33.548777541Z][kmsg                  ] GICv3: CPU10: found redistributor a region 0:0x0000000010150000
+[2025-07-02T14:35:33.548839541Z][kmsg                  ] CPU10: Booted secondary processor 0x000000000a [0x610f0000]
+[2025-07-02T14:35:33.549175541Z][kmsg                  ] Detected PIPT I-cache on CPU11
+[2025-07-02T14:35:33.549208541Z][kmsg                  ] GICv3: CPU11: found redistributor b region 0:0x0000000010170000
+[2025-07-02T14:35:33.549256541Z][kmsg                  ] CPU11: Booted secondary processor 0x000000000b [0x610f0000]
+[2025-07-02T14:35:33.549603541Z][kmsg                  ] Detected PIPT I-cache on CPU12
+[2025-07-02T14:35:33.549646541Z][kmsg                  ] GICv3: CPU12: found redistributor c region 0:0x0000000010190000
+[2025-07-02T14:35:33.549697541Z][kmsg                  ] CPU12: Booted secondary processor 0x000000000c [0x610f0000]
+[2025-07-02T14:35:33.550046541Z][kmsg                  ] Detected PIPT I-cache on CPU13
+[2025-07-02T14:35:33.550094541Z][kmsg                  ] GICv3: CPU13: found redistributor d region 0:0x00000000101b0000
+[2025-07-02T14:35:33.550137541Z][kmsg                  ] CPU13: Booted secondary processor 0x000000000d [0x610f0000]
+[2025-07-02T14:35:33.550189541Z][kmsg                  ] smp: Brought up 1 node, 14 CPUs
+[2025-07-02T14:35:33.550190541Z][kmsg                  ] SMP: Total of 14 processors activated.
+[2025-07-02T14:35:33.550190541Z][kmsg                  ] CPU: All CPU(s) started at EL1
+[2025-07-02T14:35:33.550190541Z][kmsg                  ] CPU features: detected: ARMv8.4 Translation Table Level
+[2025-07-02T14:35:33.550191541Z][kmsg                  ] CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+[2025-07-02T14:35:33.550191541Z][kmsg                  ] CPU features: detected: Common not Private translations
+[2025-07-02T14:35:33.550191541Z][kmsg                  ] CPU features: detected: CRC32 instructions
+[2025-07-02T14:35:33.550192541Z][kmsg                  ] CPU features: detected: Data independent timing control (DIT)
+[2025-07-02T14:35:33.550192541Z][kmsg                  ] CPU features: detected: E0PD
+[2025-07-02T14:35:33.550192541Z][kmsg                  ] CPU features: detected: Enhanced Privileged Access Never
+[2025-07-02T14:35:33.550193541Z][kmsg                  ] CPU features: detected: Generic authentication (IMP DEF algorithm)
+[2025-07-02T14:35:33.550193541Z][kmsg                  ] CPU features: detected: RCpc load-acquire (LDAPR)
+[2025-07-02T14:35:33.550193541Z][kmsg                  ] CPU features: detected: LSE atomic instructions
+[2025-07-02T14:35:33.550193541Z][kmsg                  ] CPU features: detected: Privileged Access Never
+[2025-07-02T14:35:33.550193541Z][kmsg                  ] CPU features: detected: RAS Extension Support
+[2025-07-02T14:35:33.550194541Z][kmsg                  ] CPU features: detected: Speculation barrier (SB)
+[2025-07-02T14:35:34.571026500Z][init.socketforward    ] vpnkit-data: publishing on /run/host-services/vpnkit-data.sock
+[2025-07-02T14:35:33.550194541Z][kmsg                  ] CPU features: detected: TLB range maintenance instructions
+[2025-07-02T14:35:33.562091541Z][kmsg                  ] alternatives: applying system-wide alternatives
+[2025-07-02T14:35:33.563052541Z][kmsg                  ] devtmpfs: initialized
+[2025-07-02T14:35:34.463782166Z][init.ipc              ] (f540b827-0) 4df06e94-metadata C<-S 419dc54f-BackendAPI GET /app/settings/flat (29.339ms): {"acceptCanaryUpdates":false,"activeOrganizationName":"","allowBetaFeatures":true,"allowExperimentalFeatures":true,"analyticsEnabled":true,"autoDownloadUpdates":false,"autoPauseTimedActivitySeconds":30,"autoPauseTimeoutSeconds":300,"autoStart":true,"backupData":false,"blockDockerLoad":false,"composeAutoFileShares":null,"composeBridgeEnabled":false,"containerTerminal":"integrated","containersOverrideProxyExclude":"","containersOverrideProxyHttp":"","containersOverrideProxyHttps":"","containersOverrideProxyPAC":"","containersOverrideProxyTCP":"","containersOverrideProxyTransparentPorts":"...","containersProxyHttpMode":"","cpus":14,"credentialHelper":"docker-credential-osxkeychain","customWslDistroDir":"","dataFolder":"/Users/darmond/Library/Containers/com.docker.docker/Data/vms/0/data","defaultSnapshotter":"overlayfs","deprecatedCgroupv1":false,"desktopTerminalEnabled":true,"devEnvironmentsEnabled":false,"disableHardwareAcceleration":false,"disableModulesUpdate":false,"disableUpdate":false,"diskFlush":"os","diskSizeMiB":1048576,"diskStats":"","diskTRIM":true,"displayRestartDialog":true,"displaySwitchWinLinContainers":false,"displayed18362Deprecation":false,"displayedElectronPopup":[],"displayedOnboarding":true,"dockerAppLaunchPath":"/Applications/Docker.app","dockerBinInstallPath":"system","dockerDebugDefaultEnabled":false,"dockerDesktopServerURL":"","dogfoodFeatureFlagsEnabled":false,"eciDockerSocketAllowDerivedImages":true,"eciDockerSocketCmdList":"[]interface {}","eciDockerSocketCmdListType":"...","eciDockerSocketImgList":"[]interface {}","enableDefaultDockerSocket":true,"enableDockerAI":false,"enableIntegrationWithDefaultWslDistro":false,"enableIntegrityCheck":true,"enableSegmentDebug":false,"enableWasmShims":false,"enhancedContainerIsolation":false,"exposeDockerAPIOnTCP2375":false,"extensionsEnabled":true,"extensionsPrivateMarketplace":false,"extensionsPrivateMarketplaceAdminContactURL":"","filesharingDirectories":["/tmp","/Users","/Volumes","/private","/var/folders"],"hostNetworkingEnabled":false,"installType":"brew","integratedWslDistros":null,"ipV4Only":false,"ipV6Only":false,"kernelForUDP":false,"kubernetesDashboardEnabled":false,"kubernetesEnabled":false,"kubernetesImagesRepository":"","kubernetesMode":"kubeadm","kubernetesNodesCount":0,"kubernetesNodesVersion":"1.31.1","lastContainerdSnapshotterEnable":1741212715,"lastLoginDate":0,"latestBannerKey":"","licenseTermsVersion":2,"lifecycleTimeoutSeconds":600,"linuxDockerdConfiguration":{"builder":{"gc":{"defaultKeepStorage":"20GB","enabled":true}},"default-address-pools":[{"base":"10.10.0.0/16","size":24}]},"memoryMiB":8092,"networkType":"gvisor","noWindowsContainers":false,"onlyMarketplaceExtensions":true,"openUIOnStartupDisabled":true,"overrideProxyExclude":"","overrideProxyHttp":"","overrideProxyHttps":"","overrideProxyPAC":"","overrideProxyTCP":"","overrideWindowsDockerdPort":-1,"proxyEnableKerberosNTLM":false,"proxyHttpMode":"...","proxyLocalhostPort":0,"requireVmnetd":true,"runWinServiceInWslMode":false,"sbomIndexing":true,"scoutNotificationPopupsEnabled":true,"scoutOsNotificationsEnabled":false,"settingsVersion":41,"showAnnouncementNotifications":true,"showExtensionsSystemContainers":false,"showGeneralNotifications":true,"showInstallScreen":false,"showKubernetesSystemContainers":false,"showPromotionalNotifications":true,"showSurveyNotifications":true,"skipUpdateToWSLPrompt":false,"skipWSLMountPerfWarning":false,"socksProxyPort":0,"stage":false,"swapMiB":1024,"synchronizedDirectories":[],"terminalFontFamily":"","terminalFontSize":0,"themeSource":"dark","updateAvailableTime":0,"updateHostsFile":false,"updateInstallTime":0,"useBackgroundIndexing":false,"useContainerdSnapshotter":true,"useCredentialHelper":true,"useGrpcfuse":true,"useLibkrun":false,"useNightlyBuildUpdates":false,"useResourceSaver":true,"useVirtualizationFramework":true,"useVirtualizationFrameworkRosetta":true,"useVirtualizationFrameworkVirtioFS":true,"useVpnkit":true,"useWindowsContainers":false,"vpnKitAllowedBindAddresses":"0.0.0.0","vpnKitMTU":1500,"vpnKitMaxConnections":2000,"vpnKitMaxPortIdleTime":300,"vpnKitTransparentProxy":true,"vpnkitCIDR":"...","windowsDockerdConfiguration":null,"wslDiskCompactionThresholdGb":0,"wslEnableGrpcfuse":false,"wslEngineEnabled":false,"wslInstallMode":"installLatestWsl","wslUpdateRequired":false}
+[2025-07-02T14:35:33.563235541Z][kmsg                  ] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[2025-07-02T14:35:34.570977166Z][init.socketforward    ] vpnkit: publishing on /run/host-services/vpnkit.sock
+[2025-07-02T14:35:33.563237541Z][kmsg                  ] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[2025-07-02T14:35:33.563268541Z][kmsg                  ] 22800 pages in range for non-PLT usage
+[2025-07-02T14:35:33.563269541Z][kmsg                  ] 514320 pages in range for PLT usage
+[2025-07-02T14:35:33.563771541Z][kmsg                  ] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[2025-07-02T14:35:33.564383541Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations
+[2025-07-02T14:35:33.564498541Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[2025-07-02T14:35:33.564604541Z][kmsg                  ] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[2025-07-02T14:35:33.564608541Z][kmsg                  ] audit: initializing netlink subsys (disabled)
+[2025-07-02T14:35:33.564667541Z][kmsg                  ] audit: type=2000 audit(0.011:1): state=initialized audit_enabled=0 res=1
+[2025-07-02T14:35:33.564683541Z][kmsg                  ] cpuidle: using governor menu
+[2025-07-02T14:35:33.564692541Z][kmsg                  ] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[2025-07-02T14:35:33.565131541Z][kmsg                  ] ASID allocator initialised with 65536 entries
+[2025-07-02T14:35:33.565178541Z][kmsg                  ] Serial: AMBA PL011 UART driver
+[2025-07-02T14:35:33.565571541Z][kmsg                  ] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[2025-07-02T14:35:33.565571541Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[2025-07-02T14:35:33.565572541Z][kmsg                  ] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[2025-07-02T14:35:33.565572541Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[2025-07-02T14:35:33.565573541Z][kmsg                  ] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[2025-07-02T14:35:33.565573541Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[2025-07-02T14:35:33.565573541Z][kmsg                  ] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[2025-07-02T14:35:33.565573541Z][kmsg                  ] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[2025-07-02T14:35:33.565857541Z][kmsg                  ] raid6: skipped pq benchmark and selected neonx8
+[2025-07-02T14:35:33.565858541Z][kmsg                  ] raid6: using neon recovery algorithm
+[2025-07-02T14:35:33.566564541Z][kmsg                  ] SCSI subsystem initialized
+[2025-07-02T14:35:33.566576541Z][kmsg                  ] usbcore: registered new interface driver usbfs
+[2025-07-02T14:35:33.566578541Z][kmsg                  ] usbcore: registered new interface driver hub
+[2025-07-02T14:35:33.566580541Z][kmsg                  ] usbcore: registered new device driver usb
+[2025-07-02T14:35:33.566586541Z][kmsg                  ] pps_core: LinuxPPS API ver. 1 registered
+[2025-07-02T14:35:33.566586541Z][kmsg                  ] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[2025-07-02T14:35:33.566700541Z][kmsg                  ] vgaarb: loaded
+[2025-07-02T14:35:33.566878541Z][kmsg                  ] clocksource: Switched to clocksource arch_sys_counter
+[2025-07-02T14:35:33.566925541Z][kmsg                  ] VFS: Disk quotas dquot_6.6.0
+[2025-07-02T14:35:33.566927541Z][kmsg                  ] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[2025-07-02T14:35:33.566947541Z][kmsg                  ] netfs: FS-Cache loaded
+[2025-07-02T14:35:33.567000541Z][kmsg                  ] CacheFiles: Loaded
+[2025-07-02T14:35:33.570225541Z][kmsg                  ] NET: Registered PF_INET protocol family
+[2025-07-02T14:35:33.570329541Z][kmsg                  ] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[2025-07-02T14:35:33.576679541Z][kmsg                  ] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[2025-07-02T14:35:33.576682541Z][kmsg                  ] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[2025-07-02T14:35:33.576682541Z][kmsg                  ] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+[2025-07-02T14:35:33.576701541Z][kmsg                  ] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[2025-07-02T14:35:33.576924541Z][kmsg                  ] TCP: Hash tables configured (established 65536 bind 65536)
+[2025-07-02T14:35:33.576932541Z][kmsg                  ] UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[2025-07-02T14:35:33.576936541Z][kmsg                  ] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+[2025-07-02T14:35:33.576950541Z][kmsg                  ] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[2025-07-02T14:35:33.577105541Z][kmsg                  ] RPC: Registered named UNIX socket transport module.
+[2025-07-02T14:35:33.577105541Z][kmsg                  ] RPC: Registered udp transport module.
+[2025-07-02T14:35:33.577106541Z][kmsg                  ] RPC: Registered tcp transport module.
+[2025-07-02T14:35:33.577106541Z][kmsg                  ] RPC: Registered tcp-with-tls transport module.
+[2025-07-02T14:35:33.577106541Z][kmsg                  ] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[2025-07-02T14:35:33.577107541Z][kmsg                  ] NET: Registered PF_XDP protocol family
+[2025-07-02T14:35:33.577109541Z][kmsg                  ] PCI: CLS 0 bytes, default 64
+[2025-07-02T14:35:33.577886541Z][kmsg                  ] workingset: timestamp_bits=46 max_order=21 bucket_order=0
+[2025-07-02T14:35:33.577895541Z][kmsg                  ] zbud: loaded
+[2025-07-02T14:35:33.577949541Z][kmsg                  ] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[2025-07-02T14:35:33.578040541Z][kmsg                  ] NFS: Registering the id_resolver key type
+[2025-07-02T14:35:34.571029541Z][init.socketforward    ] docker-proxy: publishing on /run/host-services/docker.proxy.sock
+[2025-07-02T14:35:33.578046541Z][kmsg                  ] Key type id_resolver registered
+[2025-07-02T14:35:33.578046541Z][kmsg                  ] Key type id_legacy registered
+[2025-07-02T14:35:33.578048541Z][kmsg                  ] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[2025-07-02T14:35:33.578049541Z][kmsg                  ] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[2025-07-02T14:35:33.578589541Z][kmsg                  ] Key type cifs.idmap registered
+[2025-07-02T14:35:33.578656541Z][kmsg                  ] fuse: init (API version 7.40)
+[2025-07-02T14:35:33.578787541Z][kmsg                  ] SGI XFS with security attributes, no debug enabled
+[2025-07-02T14:35:33.578951541Z][kmsg                  ] 9p: Installing v9fs 9p2000 file system support
+[2025-07-02T14:35:34.571015750Z][init.socketforward    ] dns.system/grpc: publishing on /run/host-services/dns.system.grpc.sock
+[2025-07-02T14:35:33.584434541Z][kmsg                  ] NET: Registered PF_ALG protocol family
+[2025-07-02T14:35:33.584435541Z][kmsg                  ] xor: measuring software checksum speed
+[2025-07-02T14:35:33.584488541Z][kmsg                  ] 8regs           : 63094 MB/sec
+[2025-07-02T14:35:33.584539541Z][kmsg                  ] 32regs          : 64489 MB/sec
+[2025-07-02T14:35:33.584580541Z][kmsg                  ] arm64_neon      : 80429 MB/sec
+[2025-07-02T14:35:33.584580541Z][kmsg                  ] xor: using function: arm64_neon (80429 MB/sec)
+[2025-07-02T14:35:33.584581541Z][kmsg                  ] Key type asymmetric registered
+[2025-07-02T14:35:34.462127541Z][init                  ] set time delta 110.9375ms, rtt 25.24325ms
+[2025-07-02T14:35:34.571031708Z][init.socketforward    ] backend: publishing on /run/host-services/backend.sock
+[2025-07-02T14:35:34.571035875Z][init.socketforward    ] ssh-auth: publishing on /run/host-services/ssh-auth.sock
+[2025-07-02T14:35:34.571013708Z][init.socketforward    ] dns.internal/grpc: publishing on /run/host-services/dns.internal.grpc.sock
+[2025-07-02T14:35:34.468372625Z][init.disk             ] performing an initial fsck of ext4 /dev/vda1
+[2025-07-02T14:35:33.584581541Z][kmsg                  ] Asymmetric key parser 'x509' registered
+[2025-07-02T14:35:33.584585541Z][kmsg                  ] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[2025-07-02T14:35:33.584648541Z][kmsg                  ] io scheduler mq-deadline registered
+[2025-07-02T14:35:34.462129833Z][init                  ] time is ready
+[2025-07-02T14:35:34.462142125Z][init                  ] time is ready
+[2025-07-02T14:35:34.462397666Z][init.modules          ] loading: /lib/modules/selfowner.ko
+[2025-07-02T14:35:33.584649541Z][kmsg                  ] io scheduler kyber registered
+[2025-07-02T14:35:33.585420541Z][kmsg                  ] pl061_gpio 20060000.pl061: PL061 GPIO chip registered
+ SUBSYSTEM=amba
+ DEVICE=+amba:20060000.pl061
+[2025-07-02T14:35:33.585431541Z][kmsg                  ] pci-host-generic 40000000.pci: host bridge /pci ranges:
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:34.465552166Z][init.ipc              ] bc18c249-metadata ->  
+[2025-07-02T14:35:33.585433541Z][kmsg                  ] pci-host-generic 40000000.pci:       IO 0x006fff0000..0x006fffffff -> 0x0000000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:34.465545916Z][init                  ] IPv6 supported
+[2025-07-02T14:35:33.585435541Z][kmsg                  ] pci-host-generic 40000000.pci:      MEM 0x0050000000..0x006ffdffff -> 0x0050000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:33.585436541Z][kmsg                  ] pci-host-generic 40000000.pci:      MEM 0x0280000000..0x02bfffffff -> 0x0280000000
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:33.585443541Z][kmsg                  ] pci-host-generic 40000000.pci: ECAM at [mem 0x40000000-0x4fffffff] for [bus 00-ff]
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:33.585450541Z][kmsg                  ] pci-host-generic 40000000.pci: PCI host bridge to bus 0000:00
+ SUBSYSTEM=platform
+ DEVICE=+platform:40000000.pci
+[2025-07-02T14:35:33.585450541Z][kmsg                  ] pci_bus 0000:00: root bus resource [bus 00-ff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-07-02T14:35:34.462140166Z][init.ipc              ] (766e8310-0) da534cc6-dns-forwarder C<-S 419dc54f-BackendAPI GET /registry/access (5.643375ms)
+[2025-07-02T14:35:34.470202666Z][init.ipc              ] (0b2cec08-0) bc18c249-metadata C->S  GET /system/info
+[2025-07-02T14:35:34.470959500Z][init.socketforward    ] listening on virtual address: /run/guest-services/dns-forwarder.sock
+[2025-07-02T14:35:33.585451541Z][kmsg                  ] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-07-02T14:35:33.585451541Z][kmsg                  ] pci_bus 0000:00: root bus resource [mem 0x50000000-0x6ffdffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-07-02T14:35:33.585451541Z][kmsg                  ] pci_bus 0000:00: root bus resource [mem 0x280000000-0x2bfffffff]
+ SUBSYSTEM=pci_bus
+ DEVICE=+pci_bus:0000:00
+[2025-07-02T14:35:34.471208791Z][init.ipc              ] run d8cb08ca-dns-forwarder for component dns-forwarder on /run/guest-services/dns-forwarder.sock
+[2025-07-02T14:35:33.585466541Z][kmsg                  ] pci 0000:00:00.0: [106b:1a05] type 00 class 0x060000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:00.0
+[2025-07-02T14:35:33.585571541Z][kmsg                  ] pci 0000:00:01.0: [1af4:1041] type 00 class 0x020000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.585585541Z][kmsg                  ] pci 0000:00:01.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.585597541Z][kmsg                  ] pci 0000:00:01.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.585719541Z][kmsg                  ] pci 0000:00:05.0: [1af4:1043] type 00 class 0x078000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:33.585733541Z][kmsg                  ] pci 0000:00:05.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:33.585745541Z][kmsg                  ] pci 0000:00:05.0: BAR 2 [mem 0x00000000-0x0000007f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:34.472997000Z][init.modules          ] loading: /lib/modules/shiftfs.ko
+[2025-07-02T14:35:33.585876541Z][kmsg                  ] pci 0000:00:06.0: [1af4:1042] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:33.585896541Z][kmsg                  ] pci 0000:00:06.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:33.585912541Z][kmsg                  ] pci 0000:00:06.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:33.586028541Z][kmsg                  ] pci 0000:00:07.0: [1af4:1042] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:34.473256750Z][init                  ] selfowner is ready
+[2025-07-02T14:35:34.473258625Z][init                  ] selfowner is ready
+[2025-07-02T14:35:33.586041541Z][kmsg                  ] pci 0000:00:07.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:33.586053541Z][kmsg                  ] pci 0000:00:07.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:33.586169541Z][kmsg                  ] pci 0000:00:08.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:34.473340875Z][init.ipc              ] (0b2cec08-0) bc18c249-metadata C<-S 419dc54f-BackendAPI GET /system/info (3.247625ms): {"goos":"darwin","osMajorVersion":"15"}
+[2025-07-02T14:35:34.474034416Z][init.ipc              ] 628f8f67-metadata ->  
+[2025-07-02T14:35:34.474087250Z][init.ipc              ] (4b2516c4-0) 628f8f67-metadata C->S  GET /telemetry
+[2025-07-02T14:35:33.586182541Z][kmsg                  ] pci 0000:00:08.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:33.586194541Z][kmsg                  ] pci 0000:00:08.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:33.586310541Z][kmsg                  ] pci 0000:00:09.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:33.586323541Z][kmsg                  ] pci 0000:00:09.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:33.586335541Z][kmsg                  ] pci 0000:00:09.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:34.473811375Z][init.ipc              ] (a0f59b1f-0) 57c927c6-certs C<-S 419dc54f-BackendAPI GET /certificates (35.033625ms): {"authorities":"...","client":{}}
+[2025-07-02T14:35:33.586451541Z][kmsg                  ] pci 0000:00:0a.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.586464541Z][kmsg                  ] pci 0000:00:0a.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.586476541Z][kmsg                  ] pci 0000:00:0a.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.586605541Z][kmsg                  ] pci 0000:00:0b.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.586621541Z][kmsg                  ] pci 0000:00:0b.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.586634541Z][kmsg                  ] pci 0000:00:0b.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.586749541Z][kmsg                  ] pci 0000:00:0c.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:33.586762541Z][kmsg                  ] pci 0000:00:0c.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:34.475640291Z][init                  ] installed TLS certificates
+[2025-07-02T14:35:33.586774541Z][kmsg                  ] pci 0000:00:0c.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:33.586893541Z][kmsg                  ] pci 0000:00:0d.0: [1af4:105a] type 00 class 0x018000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.586906541Z][kmsg                  ] pci 0000:00:0d.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.586919541Z][kmsg                  ] pci 0000:00:0d.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.587034541Z][kmsg                  ] pci 0000:00:0e.0: [1af4:1053] type 00 class 0x078000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.587047541Z][kmsg                  ] pci 0000:00:0e.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.587060541Z][kmsg                  ] pci 0000:00:0e.0: BAR 2 [mem 0x00000000-0x0000007f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.587174541Z][kmsg                  ] pci 0000:00:0f.0: [1af4:1044] type 00 class 0x100000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.587187541Z][kmsg                  ] pci 0000:00:0f.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.587199541Z][kmsg                  ] pci 0000:00:0f.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.587305541Z][kmsg                  ] pci 0000:00:10.0: [1af4:1045] type 00 class 0x058000 conventional PCI endpoint
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.587319541Z][kmsg                  ] pci 0000:00:10.0: BAR 0 [mem 0x00000000-0x00003fff]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.587331541Z][kmsg                  ] pci 0000:00:10.0: BAR 2 [mem 0x00000000-0x0000003f]
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.587455541Z][kmsg                  ] pci 0000:00:01.0: BAR 0 [mem 0x50000000-0x50003fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.587458541Z][kmsg                  ] pci 0000:00:05.0: BAR 0 [mem 0x50004000-0x50007fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:33.587461541Z][kmsg                  ] pci 0000:00:06.0: BAR 0 [mem 0x50008000-0x5000bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:33.587464541Z][kmsg                  ] pci 0000:00:07.0: BAR 0 [mem 0x5000c000-0x5000ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:33.587466541Z][kmsg                  ] pci 0000:00:08.0: BAR 0 [mem 0x50010000-0x50013fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:33.587469541Z][kmsg                  ] pci 0000:00:09.0: BAR 0 [mem 0x50014000-0x50017fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:33.587472541Z][kmsg                  ] pci 0000:00:0a.0: BAR 0 [mem 0x50018000-0x5001bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.587475541Z][kmsg                  ] pci 0000:00:0b.0: BAR 0 [mem 0x5001c000-0x5001ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.587477541Z][kmsg                  ] pci 0000:00:0c.0: BAR 0 [mem 0x50020000-0x50023fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:33.587480541Z][kmsg                  ] pci 0000:00:0d.0: BAR 0 [mem 0x50024000-0x50027fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.587483541Z][kmsg                  ] pci 0000:00:0e.0: BAR 0 [mem 0x50028000-0x5002bfff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.587485541Z][kmsg                  ] pci 0000:00:0f.0: BAR 0 [mem 0x5002c000-0x5002ffff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.587488541Z][kmsg                  ] pci 0000:00:10.0: BAR 0 [mem 0x50030000-0x50033fff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.587491541Z][kmsg                  ] pci 0000:00:05.0: BAR 2 [mem 0x50034000-0x5003407f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:33.587493541Z][kmsg                  ] pci 0000:00:0e.0: BAR 2 [mem 0x50034080-0x500340ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.587496541Z][kmsg                  ] pci 0000:00:01.0: BAR 2 [mem 0x50034100-0x5003413f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.587499541Z][kmsg                  ] pci 0000:00:06.0: BAR 2 [mem 0x50034140-0x5003417f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:34.476451416Z][init.disk             ] /dev/vda1: clean, 918460/67108864 files, 13503388/268435200 blocks
+
+[2025-07-02T14:35:33.587502541Z][kmsg                  ] pci 0000:00:07.0: BAR 2 [mem 0x50034180-0x500341bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:33.587504541Z][kmsg                  ] pci 0000:00:08.0: BAR 2 [mem 0x500341c0-0x500341ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:33.587507541Z][kmsg                  ] pci 0000:00:09.0: BAR 2 [mem 0x50034200-0x5003423f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:33.587510541Z][kmsg                  ] pci 0000:00:0a.0: BAR 2 [mem 0x50034240-0x5003427f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.587513541Z][kmsg                  ] pci 0000:00:0b.0: BAR 2 [mem 0x50034280-0x500342bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.587515541Z][kmsg                  ] pci 0000:00:0c.0: BAR 2 [mem 0x500342c0-0x500342ff]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:33.587518541Z][kmsg                  ] pci 0000:00:0d.0: BAR 2 [mem 0x50034300-0x5003433f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.587521541Z][kmsg                  ] pci 0000:00:0f.0: BAR 2 [mem 0x50034340-0x5003437f]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.587523541Z][kmsg                  ] pci 0000:00:10.0: BAR 2 [mem 0x50034380-0x500343bf]: assigned
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.587550541Z][kmsg                  ] virtio-pci 0000:00:01.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:01.0
+[2025-07-02T14:35:33.590434541Z][kmsg                  ] virtio-pci 0000:00:05.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:05.0
+[2025-07-02T14:35:33.593457541Z][kmsg                  ] virtio-pci 0000:00:06.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:06.0
+[2025-07-02T14:35:33.596452541Z][kmsg                  ] virtio-pci 0000:00:07.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:07.0
+[2025-07-02T14:35:33.599452541Z][kmsg                  ] virtio-pci 0000:00:08.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:08.0
+[2025-07-02T14:35:33.602718541Z][kmsg                  ] virtio-pci 0000:00:09.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:09.0
+[2025-07-02T14:35:33.605634541Z][kmsg                  ] virtio-pci 0000:00:0a.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0a.0
+[2025-07-02T14:35:33.608659541Z][kmsg                  ] virtio-pci 0000:00:0b.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0b.0
+[2025-07-02T14:35:33.611651541Z][kmsg                  ] virtio-pci 0000:00:0c.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0c.0
+[2025-07-02T14:35:33.614650541Z][kmsg                  ] virtio-pci 0000:00:0d.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0d.0
+[2025-07-02T14:35:33.617639541Z][kmsg                  ] virtio-pci 0000:00:0e.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0e.0
+[2025-07-02T14:35:33.620407541Z][kmsg                  ] virtio-pci 0000:00:0f.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:0f.0
+[2025-07-02T14:35:33.623467541Z][kmsg                  ] virtio-pci 0000:00:10.0: enabling device (0000 -> 0002)
+ SUBSYSTEM=pci
+ DEVICE=+pci:0000:00:10.0
+[2025-07-02T14:35:33.626655541Z][kmsg                  ] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[2025-07-02T14:35:34.479256208Z][init.ipc              ] (4b2516c4-0) 628f8f67-metadata C<-S 419dc54f-BackendAPI GET /telemetry (5.166167ms): {"systemTelemetryEnabled":false,"userId":"..."}
+[2025-07-02T14:35:33.627546541Z][kmsg                  ] printk: legacy console [hvc0] enabled
+[2025-07-02T14:35:33.627792541Z][kmsg                  ] random: crng init done
+[2025-07-02T14:35:33.630471541Z][kmsg                  ] brd: module loaded
+[2025-07-02T14:35:33.631222541Z][kmsg                  ] loop: module loaded
+[2025-07-02T14:35:33.634059541Z][kmsg                  ] virtio_blk virtio2: 1/0/0 default/read/poll queues
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio2
+[2025-07-02T14:35:33.634176541Z][kmsg                  ] virtio_blk virtio2: [vda] 2147483648 512-byte logical blocks (1.10 TB/1.00 TiB)
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio2
+[2025-07-02T14:35:33.634362541Z][kmsg                  ] vda: vda1
+[2025-07-02T14:35:33.634456541Z][kmsg                  ] virtio_blk virtio3: 1/0/0 default/read/poll queues
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio3
+[2025-07-02T14:35:33.634544541Z][kmsg                  ] virtio_blk virtio3: [vdb] 1096112 512-byte logical blocks (561 MB/535 MiB)
+ SUBSYSTEM=virtio
+ DEVICE=+virtio:virtio3
+[2025-07-02T14:35:33.634891541Z][kmsg                  ] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[2025-07-02T14:35:33.634892541Z][kmsg                  ] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[2025-07-02T14:35:33.634930541Z][kmsg                  ] tun: Universal TUN/TAP device driver, 1.6
+[2025-07-02T14:35:33.635340541Z][kmsg                  ] PPP generic driver version 2.4.2
+[2025-07-02T14:35:34.481106833Z][init.ipc              ] d056c740-metadata ->  
+[2025-07-02T14:35:33.635388541Z][kmsg                  ] PPP BSD Compression module registered
+[2025-07-02T14:35:34.481966750Z][init.ipc              ] (e6dd68fb-0) d056c740-metadata C->S  GET /engine/daemon.json
+[2025-07-02T14:35:33.635389541Z][kmsg                  ] PPP Deflate Compression module registered
+[2025-07-02T14:35:33.635392541Z][kmsg                  ] PPP MPPE Compression module registered
+[2025-07-02T14:35:33.635392541Z][kmsg                  ] NET: Registered PF_PPPOX protocol family
+[2025-07-02T14:35:33.635395541Z][kmsg                  ] PPTP driver version 0.8.5
+[2025-07-02T14:35:33.635510541Z][kmsg                  ] usbcore: registered new interface driver cdc_acm
+[2025-07-02T14:35:33.635510541Z][kmsg                  ] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[2025-07-02T14:35:33.635512541Z][kmsg                  ] usbcore: registered new interface driver usblp
+[2025-07-02T14:35:33.635513541Z][kmsg                  ] usbcore: registered new interface driver cdc_wdm
+[2025-07-02T14:35:33.635515541Z][kmsg                  ] usbcore: registered new interface driver usbtmc
+[2025-07-02T14:35:33.635580541Z][kmsg                  ] usbcore: registered new interface driver uas
+[2025-07-02T14:35:33.635582541Z][kmsg                  ] usbcore: registered new interface driver usb-storage
+[2025-07-02T14:35:33.635583541Z][kmsg                  ] usbcore: registered new interface driver ums-alauda
+[2025-07-02T14:35:33.635585541Z][kmsg                  ] usbcore: registered new interface driver ums-cypress
+[2025-07-02T14:35:33.635586541Z][kmsg                  ] usbcore: registered new interface driver ums-datafab
+[2025-07-02T14:35:33.635587541Z][kmsg                  ] usbcore: registered new interface driver ums_eneub6250
+[2025-07-02T14:35:33.635588541Z][kmsg                  ] usbcore: registered new interface driver ums-freecom
+[2025-07-02T14:35:33.635592541Z][kmsg                  ] usbcore: registered new interface driver ums-isd200
+[2025-07-02T14:35:33.635594541Z][kmsg                  ] usbcore: registered new interface driver ums-jumpshot
+[2025-07-02T14:35:33.635595541Z][kmsg                  ] usbcore: registered new interface driver ums-karma
+[2025-07-02T14:35:33.635596541Z][kmsg                  ] usbcore: registered new interface driver ums-onetouch
+[2025-07-02T14:35:33.635597541Z][kmsg                  ] usbcore: registered new interface driver ums-realtek
+[2025-07-02T14:35:33.635598541Z][kmsg                  ] usbcore: registered new interface driver ums-sddr09
+[2025-07-02T14:35:33.635599541Z][kmsg                  ] usbcore: registered new interface driver ums-sddr55
+[2025-07-02T14:35:33.635600541Z][kmsg                  ] usbcore: registered new interface driver ums-usbat
+[2025-07-02T14:35:33.635604541Z][kmsg                  ] usbcore: registered new interface driver usbserial_generic
+[2025-07-02T14:35:33.635605541Z][kmsg                  ] usbserial: USB Serial support registered for generic
+[2025-07-02T14:35:33.635607541Z][kmsg                  ] usbcore: registered new interface driver aircable
+[2025-07-02T14:35:33.635608541Z][kmsg                  ] usbserial: USB Serial support registered for aircable
+[2025-07-02T14:35:33.635609541Z][kmsg                  ] usbcore: registered new interface driver ark3116
+[2025-07-02T14:35:33.635612541Z][kmsg                  ] usbserial: USB Serial support registered for ark3116
+[2025-07-02T14:35:33.635613541Z][kmsg                  ] usbcore: registered new interface driver belkin_sa
+[2025-07-02T14:35:33.635614541Z][kmsg                  ] usbserial: USB Serial support registered for Belkin / Peracom / GoHubs USB Serial Adapter
+[2025-07-02T14:35:33.635615541Z][kmsg                  ] usbcore: registered new interface driver ch341
+[2025-07-02T14:35:33.635616541Z][kmsg                  ] usbserial: USB Serial support registered for ch341-uart
+[2025-07-02T14:35:33.635618541Z][kmsg                  ] usbcore: registered new interface driver cp210x
+[2025-07-02T14:35:33.635619541Z][kmsg                  ] usbserial: USB Serial support registered for cp210x
+[2025-07-02T14:35:33.635620541Z][kmsg                  ] usbcore: registered new interface driver cyberjack
+[2025-07-02T14:35:34.483861416Z][init.ipc              ] (e6dd68fb-0) d056c740-metadata C<-S 419dc54f-BackendAPI GET /engine/daemon.json (1.874417ms): {"builder":{"gc":{"defaultKeepStorage":"20GB","enabled":true}},"default-address-pools":[{"base":"10.10.0.0/16","size":24}]}
+[2025-07-02T14:35:33.635621541Z][kmsg                  ] usbserial: USB Serial support registered for Reiner SCT Cyberjack USB card reader
+[2025-07-02T14:35:33.635622541Z][kmsg                  ] usbcore: registered new interface driver cypress_m8
+[2025-07-02T14:35:33.635623541Z][kmsg                  ] usbserial: USB Serial support registered for DeLorme Earthmate USB
+[2025-07-02T14:35:33.635624541Z][kmsg                  ] usbserial: USB Serial support registered for HID->COM RS232 Adapter
+[2025-07-02T14:35:33.635625541Z][kmsg                  ] usbserial: USB Serial support registered for Nokia CA-42 V2 Adapter
+[2025-07-02T14:35:33.635626541Z][kmsg                  ] usbcore: registered new interface driver usb_debug
+[2025-07-02T14:35:33.635627541Z][kmsg                  ] usbserial: USB Serial support registered for debug
+[2025-07-02T14:35:33.635628541Z][kmsg                  ] usbserial: USB Serial support registered for xhci_dbc
+[2025-07-02T14:35:33.635629541Z][kmsg                  ] usbcore: registered new interface driver digi_acceleport
+[2025-07-02T14:35:33.635630541Z][kmsg                  ] usbserial: USB Serial support registered for Digi 2 port USB adapter
+[2025-07-02T14:35:33.635631541Z][kmsg                  ] usbserial: USB Serial support registered for Digi 4 port USB adapter
+[2025-07-02T14:35:33.635631541Z][kmsg                  ] usbcore: registered new interface driver io_edgeport
+[2025-07-02T14:35:33.635632541Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 2 port adapter
+[2025-07-02T14:35:33.635633541Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 4 port adapter
+[2025-07-02T14:35:33.635633541Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport 8 port adapter
+[2025-07-02T14:35:33.635634541Z][kmsg                  ] usbserial: USB Serial support registered for EPiC device
+[2025-07-02T14:35:33.635635541Z][kmsg                  ] usbcore: registered new interface driver io_ti
+[2025-07-02T14:35:33.635636541Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport TI 1 port adapter
+[2025-07-02T14:35:33.635636541Z][kmsg                  ] usbserial: USB Serial support registered for Edgeport TI 2 port adapter
+[2025-07-02T14:35:33.635640541Z][kmsg                  ] usbcore: registered new interface driver empeg
+[2025-07-02T14:35:33.635641541Z][kmsg                  ] usbserial: USB Serial support registered for empeg
+[2025-07-02T14:35:33.635642541Z][kmsg                  ] usbcore: registered new interface driver f81534a_ctrl
+[2025-07-02T14:35:33.635643541Z][kmsg                  ] usbcore: registered new interface driver f81232
+[2025-07-02T14:35:33.635644541Z][kmsg                  ] usbserial: USB Serial support registered for f81232
+[2025-07-02T14:35:33.635644541Z][kmsg                  ] usbserial: USB Serial support registered for f81534a
+[2025-07-02T14:35:33.635645541Z][kmsg                  ] usbcore: registered new interface driver f81534
+[2025-07-02T14:35:33.635646541Z][kmsg                  ] usbserial: USB Serial support registered for Fintek F81532/F81534
+[2025-07-02T14:35:33.635647541Z][kmsg                  ] usbcore: registered new interface driver ftdi_sio
+[2025-07-02T14:35:33.635648541Z][kmsg                  ] usbserial: USB Serial support registered for FTDI USB Serial Device
+[2025-07-02T14:35:33.635648541Z][kmsg                  ] usbcore: registered new interface driver garmin_gps
+[2025-07-02T14:35:33.635649541Z][kmsg                  ] usbserial: USB Serial support registered for Garmin GPS usb/tty
+[2025-07-02T14:35:33.635650541Z][kmsg                  ] usbcore: registered new interface driver ipaq
+[2025-07-02T14:35:33.635651541Z][kmsg                  ] usbserial: USB Serial support registered for PocketPC PDA
+[2025-07-02T14:35:33.635652541Z][kmsg                  ] usbcore: registered new interface driver ipw
+[2025-07-02T14:35:33.635652541Z][kmsg                  ] usbserial: USB Serial support registered for IPWireless converter
+[2025-07-02T14:35:33.635653541Z][kmsg                  ] usbcore: registered new interface driver ir_usb
+[2025-07-02T14:35:33.635654541Z][kmsg                  ] usbserial: USB Serial support registered for IR Dongle
+[2025-07-02T14:35:33.635655541Z][kmsg                  ] usbcore: registered new interface driver iuu_phoenix
+[2025-07-02T14:35:33.635655541Z][kmsg                  ] usbserial: USB Serial support registered for iuu_phoenix
+[2025-07-02T14:35:33.635656541Z][kmsg                  ] usbcore: registered new interface driver keyspan
+[2025-07-02T14:35:33.635657541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan - (without firmware)
+[2025-07-02T14:35:33.635658541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 1 port adapter
+[2025-07-02T14:35:33.635658541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 2 port adapter
+[2025-07-02T14:35:33.635659541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan 4 port adapter
+[2025-07-02T14:35:33.635662541Z][kmsg                  ] usbcore: registered new interface driver keyspan_pda
+[2025-07-02T14:35:33.635662541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan PDA
+[2025-07-02T14:35:33.635663541Z][kmsg                  ] usbserial: USB Serial support registered for Keyspan PDA - (prerenumeration)
+[2025-07-02T14:35:33.635664541Z][kmsg                  ] usbcore: registered new interface driver kl5kusb105
+[2025-07-02T14:35:33.635665541Z][kmsg                  ] usbserial: USB Serial support registered for KL5KUSB105D / PalmConnect
+[2025-07-02T14:35:33.635666541Z][kmsg                  ] usbcore: registered new interface driver kobil_sct
+[2025-07-02T14:35:33.635666541Z][kmsg                  ] usbserial: USB Serial support registered for KOBIL USB smart card terminal
+[2025-07-02T14:35:33.635667541Z][kmsg                  ] usbcore: registered new interface driver mct_u232
+[2025-07-02T14:35:33.635668541Z][kmsg                  ] usbserial: USB Serial support registered for MCT U232
+[2025-07-02T14:35:33.635669541Z][kmsg                  ] usbcore: registered new interface driver metro_usb
+[2025-07-02T14:35:33.635670541Z][kmsg                  ] usbserial: USB Serial support registered for Metrologic USB to Serial
+[2025-07-02T14:35:33.635670541Z][kmsg                  ] usbcore: registered new interface driver mos7720
+[2025-07-02T14:35:33.635671541Z][kmsg                  ] usbserial: USB Serial support registered for Moschip 2 port adapter
+[2025-07-02T14:35:33.635672541Z][kmsg                  ] usbcore: registered new interface driver mos7840
+[2025-07-02T14:35:33.635673541Z][kmsg                  ] usbserial: USB Serial support registered for Moschip 7840/7820 USB Serial Driver
+[2025-07-02T14:35:33.635674541Z][kmsg                  ] usbcore: registered new interface driver mxuport
+[2025-07-02T14:35:33.635674541Z][kmsg                  ] usbserial: USB Serial support registered for MOXA UPort
+[2025-07-02T14:35:33.635675541Z][kmsg                  ] usbcore: registered new interface driver navman
+[2025-07-02T14:35:33.635676541Z][kmsg                  ] usbserial: USB Serial support registered for navman
+[2025-07-02T14:35:33.635677541Z][kmsg                  ] usbcore: registered new interface driver omninet
+[2025-07-02T14:35:33.635678541Z][kmsg                  ] usbserial: USB Serial support registered for ZyXEL - omni.net usb
+[2025-07-02T14:35:33.635678541Z][kmsg                  ] usbcore: registered new interface driver opticon
+[2025-07-02T14:35:33.635679541Z][kmsg                  ] usbserial: USB Serial support registered for opticon
+[2025-07-02T14:35:33.635680541Z][kmsg                  ] usbcore: registered new interface driver option
+[2025-07-02T14:35:33.635681541Z][kmsg                  ] usbserial: USB Serial support registered for GSM modem (1-port)
+[2025-07-02T14:35:33.635682541Z][kmsg                  ] usbcore: registered new interface driver oti6858
+[2025-07-02T14:35:33.635684541Z][kmsg                  ] usbserial: USB Serial support registered for oti6858
+[2025-07-02T14:35:33.635685541Z][kmsg                  ] usbcore: registered new interface driver pl2303
+[2025-07-02T14:35:33.635686541Z][kmsg                  ] usbserial: USB Serial support registered for pl2303
+[2025-07-02T14:35:33.635687541Z][kmsg                  ] usbcore: registered new interface driver qcaux
+[2025-07-02T14:35:33.635687541Z][kmsg                  ] usbserial: USB Serial support registered for qcaux
+[2025-07-02T14:35:33.635688541Z][kmsg                  ] usbcore: registered new interface driver qcserial
+[2025-07-02T14:35:33.635689541Z][kmsg                  ] usbserial: USB Serial support registered for Qualcomm USB modem
+[2025-07-02T14:35:33.635690541Z][kmsg                  ] usbcore: registered new interface driver quatech2
+[2025-07-02T14:35:33.635691541Z][kmsg                  ] usbserial: USB Serial support registered for Quatech 2nd gen USB to Serial Driver
+[2025-07-02T14:35:33.635692541Z][kmsg                  ] usbcore: registered new interface driver safe_serial
+[2025-07-02T14:35:33.635692541Z][kmsg                  ] usbserial: USB Serial support registered for safe_serial
+[2025-07-02T14:35:33.635693541Z][kmsg                  ] usbcore: registered new interface driver sierra
+[2025-07-02T14:35:33.635694541Z][kmsg                  ] usbserial: USB Serial support registered for Sierra USB modem
+[2025-07-02T14:35:33.635695541Z][kmsg                  ] usbcore: registered new interface driver usb_serial_simple
+[2025-07-02T14:35:33.635696541Z][kmsg                  ] usbserial: USB Serial support registered for carelink
+[2025-07-02T14:35:33.635697541Z][kmsg                  ] usbserial: USB Serial support registered for flashloader
+[2025-07-02T14:35:33.635698541Z][kmsg                  ] usbserial: USB Serial support registered for funsoft
+[2025-07-02T14:35:33.635698541Z][kmsg                  ] usbserial: USB Serial support registered for google
+[2025-07-02T14:35:33.635699541Z][kmsg                  ] usbserial: USB Serial support registered for hp4x
+[2025-07-02T14:35:33.635700541Z][kmsg                  ] usbserial: USB Serial support registered for kaufmann
+[2025-07-02T14:35:33.635701541Z][kmsg                  ] usbserial: USB Serial support registered for libtransistor
+[2025-07-02T14:35:33.635701541Z][kmsg                  ] usbserial: USB Serial support registered for moto_modem
+[2025-07-02T14:35:33.635702541Z][kmsg                  ] usbserial: USB Serial support registered for motorola_tetra
+[2025-07-02T14:35:33.635703541Z][kmsg                  ] usbserial: USB Serial support registered for nokia
+[2025-07-02T14:35:33.635704541Z][kmsg                  ] usbserial: USB Serial support registered for novatel_gps
+[2025-07-02T14:35:33.635706541Z][kmsg                  ] usbserial: USB Serial support registered for siemens_mpi
+[2025-07-02T14:35:33.635706541Z][kmsg                  ] usbserial: USB Serial support registered for suunto
+[2025-07-02T14:35:33.635707541Z][kmsg                  ] usbserial: USB Serial support registered for vivopay
+[2025-07-02T14:35:33.635708541Z][kmsg                  ] usbserial: USB Serial support registered for zio
+[2025-07-02T14:35:33.635709541Z][kmsg                  ] usbcore: registered new interface driver spcp8x5
+[2025-07-02T14:35:33.635710541Z][kmsg                  ] usbserial: USB Serial support registered for SPCP8x5
+[2025-07-02T14:35:33.635711541Z][kmsg                  ] usbcore: registered new interface driver ssu100
+[2025-07-02T14:35:33.635711541Z][kmsg                  ] usbserial: USB Serial support registered for Quatech SSU-100 USB to Serial Driver
+[2025-07-02T14:35:33.635714541Z][kmsg                  ] usbcore: registered new interface driver symbolserial
+[2025-07-02T14:35:33.635715541Z][kmsg                  ] usbserial: USB Serial support registered for symbol
+[2025-07-02T14:35:33.635716541Z][kmsg                  ] usbcore: registered new interface driver ti_usb_3410_5052
+[2025-07-02T14:35:33.635716541Z][kmsg                  ] usbserial: USB Serial support registered for TI USB 3410 1 port adapter
+[2025-07-02T14:35:33.635717541Z][kmsg                  ] usbserial: USB Serial support registered for TI USB 5052 2 port adapter
+[2025-07-02T14:35:33.635718541Z][kmsg                  ] usbcore: registered new interface driver upd78f0730
+[2025-07-02T14:35:33.635719541Z][kmsg                  ] usbserial: USB Serial support registered for upd78f0730
+[2025-07-02T14:35:33.635720541Z][kmsg                  ] usbcore: registered new interface driver visor
+[2025-07-02T14:35:33.635721541Z][kmsg                  ] usbserial: USB Serial support registered for Handspring Visor / Palm OS
+[2025-07-02T14:35:33.635722541Z][kmsg                  ] usbserial: USB Serial support registered for Sony Clie 5.0
+[2025-07-02T14:35:33.635723541Z][kmsg                  ] usbserial: USB Serial support registered for Sony Clie 3.5
+[2025-07-02T14:35:33.635724541Z][kmsg                  ] usbcore: registered new interface driver wishbone_serial
+[2025-07-02T14:35:33.635725541Z][kmsg                  ] usbserial: USB Serial support registered for wishbone_serial
+[2025-07-02T14:35:33.635727541Z][kmsg                  ] usbcore: registered new interface driver whiteheat
+[2025-07-02T14:35:33.635728541Z][kmsg                  ] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT - (prerenumeration)
+[2025-07-02T14:35:33.635728541Z][kmsg                  ] usbserial: USB Serial support registered for Connect Tech - WhiteHEAT
+[2025-07-02T14:35:33.635729541Z][kmsg                  ] usbcore: registered new interface driver xr_serial
+[2025-07-02T14:35:33.635730541Z][kmsg                  ] usbserial: USB Serial support registered for xr_serial
+[2025-07-02T14:35:33.635731541Z][kmsg                  ] usbcore: registered new interface driver xsens_mt
+[2025-07-02T14:35:33.635732541Z][kmsg                  ] usbserial: USB Serial support registered for xsens_mt
+[2025-07-02T14:35:33.635798541Z][kmsg                  ] vhci_hcd vhci_hcd.0: USB/IP Virtual Host Controller
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-07-02T14:35:33.635838541Z][kmsg                  ] vhci_hcd vhci_hcd.0: new USB bus registered, assigned bus number 1
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-07-02T14:35:33.635840541Z][kmsg                  ] vhci_hcd: created sysfs vhci_hcd.0
+[2025-07-02T14:35:33.636009541Z][kmsg                  ] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.10
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-07-02T14:35:33.636011541Z][kmsg                  ] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-07-02T14:35:33.636011541Z][kmsg                  ] usb usb1: Product: USB/IP Virtual Host Controller
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-07-02T14:35:33.636012541Z][kmsg                  ] usb usb1: Manufacturer: Linux 6.10.14-linuxkit vhci_hcd
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-07-02T14:35:33.636012541Z][kmsg                  ] usb usb1: SerialNumber: vhci_hcd.0
+ SUBSYSTEM=usb
+ DEVICE=c189:0
+[2025-07-02T14:35:33.636096541Z][kmsg                  ] hub 1-0:1.0: USB hub found
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-0:1.0
+[2025-07-02T14:35:33.636119541Z][kmsg                  ] hub 1-0:1.0: 8 ports detected
+ SUBSYSTEM=usb
+ DEVICE=+usb:1-0:1.0
+[2025-07-02T14:35:33.636361541Z][kmsg                  ] vhci_hcd vhci_hcd.0: USB/IP Virtual Host Controller
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-07-02T14:35:33.636408541Z][kmsg                  ] vhci_hcd vhci_hcd.0: new USB bus registered, assigned bus number 2
+ SUBSYSTEM=platform
+ DEVICE=+platform:vhci_hcd.0
+[2025-07-02T14:35:33.636488541Z][kmsg                  ] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+ SUBSYSTEM=usb
+ DEVICE=+usb:usb2
+[2025-07-02T14:35:33.636628541Z][kmsg                  ] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.10
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-07-02T14:35:33.636629541Z][kmsg                  ] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-07-02T14:35:33.636629541Z][kmsg                  ] usb usb2: Product: USB/IP Virtual Host Controller
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-07-02T14:35:33.636630541Z][kmsg                  ] usb usb2: Manufacturer: Linux 6.10.14-linuxkit vhci_hcd
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-07-02T14:35:33.636630541Z][kmsg                  ] usb usb2: SerialNumber: vhci_hcd.0
+ SUBSYSTEM=usb
+ DEVICE=c189:128
+[2025-07-02T14:35:33.636716541Z][kmsg                  ] hub 2-0:1.0: USB hub found
+ SUBSYSTEM=usb
+ DEVICE=+usb:2-0:1.0
+[2025-07-02T14:35:33.636738541Z][kmsg                  ] hub 2-0:1.0: 8 ports detected
+ SUBSYSTEM=usb
+ DEVICE=+usb:2-0:1.0
+[2025-07-02T14:35:33.637031541Z][kmsg                  ] mousedev: PS/2 mouse device common for all mice
+[2025-07-02T14:35:33.637150541Z][kmsg                  ] rtc-pl031 20050000.pl031: registered as rtc0
+ SUBSYSTEM=amba
+ DEVICE=+amba:20050000.pl031
+[2025-07-02T14:35:33.637157541Z][kmsg                  ] rtc-pl031 20050000.pl031: setting system clock to 2025-07-02T14:35:34 UTC (1751466934)
+ SUBSYSTEM=amba
+ DEVICE=+amba:20050000.pl031
+[2025-07-02T14:35:33.637181541Z][kmsg                  ] i2c_dev: i2c /dev entries driver
+[2025-07-02T14:35:33.637232541Z][kmsg                  ] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev
+[2025-07-02T14:35:33.637253541Z][kmsg                  ] usbcore: registered new interface driver usbhid
+[2025-07-02T14:35:33.637254541Z][kmsg                  ] usbhid: USB HID core driver
+[2025-07-02T14:35:33.637354541Z][kmsg                  ] GACT probability on
+[2025-07-02T14:35:33.637355541Z][kmsg                  ] Mirror/redirect action on
+[2025-07-02T14:35:33.637359541Z][kmsg                  ] Simple TC action Loaded
+[2025-07-02T14:35:33.637377541Z][kmsg                  ] netem: version 1.3
+[2025-07-02T14:35:33.637378541Z][kmsg                  ] u32 classifier
+[2025-07-02T14:35:33.637378541Z][kmsg                  ] Performance counters on
+[2025-07-02T14:35:33.637378541Z][kmsg                  ] input device check on
+[2025-07-02T14:35:33.637378541Z][kmsg                  ] Actions configured
+[2025-07-02T14:35:33.637836541Z][kmsg                  ] xt_time: kernel timezone is -0000
+[2025-07-02T14:35:33.637839541Z][kmsg                  ] IPVS: Registered protocols (TCP, UDP)
+[2025-07-02T14:35:33.637840541Z][kmsg                  ] IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+[2025-07-02T14:35:33.637840541Z][kmsg                  ] IPVS: Each connection entry needs 288 bytes at least
+[2025-07-02T14:35:33.637865541Z][kmsg                  ] IPVS: ipvs loaded.
+[2025-07-02T14:35:33.637865541Z][kmsg                  ] IPVS: [rr] scheduler registered.
+[2025-07-02T14:35:33.637866541Z][kmsg                  ] IPVS: [wrr] scheduler registered.
+[2025-07-02T14:35:33.637868541Z][kmsg                  ] IPVS: [sh] scheduler registered.
+[2025-07-02T14:35:33.637888541Z][kmsg                  ] ipip: IPv4 and MPLS over IPv4 tunneling driver
+[2025-07-02T14:35:33.637914541Z][kmsg                  ] gre: GRE over IPv4 demultiplexor driver
+[2025-07-02T14:35:33.637914541Z][kmsg                  ] ip_gre: GRE over IPv4 tunneling driver
+[2025-07-02T14:35:33.637955541Z][kmsg                  ] IPv4 over IPsec tunneling driver
+[2025-07-02T14:35:33.637975541Z][kmsg                  ] Initializing XFRM netlink socket
+[2025-07-02T14:35:33.637982541Z][kmsg                  ] NET: Registered PF_INET6 protocol family
+[2025-07-02T14:35:33.638239541Z][kmsg                  ] Segment Routing with IPv6
+[2025-07-02T14:35:33.638241541Z][kmsg                  ] In-situ OAM (IOAM) with IPv6
+[2025-07-02T14:35:33.638250541Z][kmsg                  ] mip6: Mobile IPv6
+[2025-07-02T14:35:33.638292541Z][kmsg                  ] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[2025-07-02T14:35:33.638332541Z][kmsg                  ] ip6_gre: GRE over IPv6 tunneling driver
+[2025-07-02T14:35:33.638361541Z][kmsg                  ] NET: Registered PF_PACKET protocol family
+[2025-07-02T14:35:33.638363541Z][kmsg                  ] NET: Registered PF_KEY protocol family
+[2025-07-02T14:35:33.638367541Z][kmsg                  ] Bridge firewalling registered
+[2025-07-02T14:35:33.638375541Z][kmsg                  ] l2tp_core: L2TP core driver, V2.0
+[2025-07-02T14:35:33.638376541Z][kmsg                  ] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[2025-07-02T14:35:33.638376541Z][kmsg                  ] 8021q: 802.1Q VLAN Support v1.8
+[2025-07-02T14:35:33.638379541Z][kmsg                  ] sctp: Hash tables configured (bind 256/256)
+[2025-07-02T14:35:33.638395541Z][kmsg                  ] 9pnet: Installing 9P2000 support
+[2025-07-02T14:35:33.638399541Z][kmsg                  ] Key type dns_resolver registered
+[2025-07-02T14:35:33.638399541Z][kmsg                  ] openvswitch: Open vSwitch switching datapath
+[2025-07-02T14:35:33.638976541Z][kmsg                  ] NET: Registered PF_VSOCK protocol family
+[2025-07-02T14:35:33.639409541Z][kmsg                  ] mpls_gso: MPLS GSO support
+[2025-07-02T14:35:33.639833541Z][kmsg                  ] Timer migration: 2 hierarchy levels; 8 children per group; 2 crossnode level
+[2025-07-02T14:35:33.640302541Z][kmsg                  ] registered taskstats version 1
+[2025-07-02T14:35:33.640805541Z][kmsg                  ] Key type .fscrypt registered
+[2025-07-02T14:35:33.640806541Z][kmsg                  ] Key type fscrypt-provisioning registered
+[2025-07-02T14:35:33.640953541Z][kmsg                  ] Btrfs loaded, zoned=no, fsverity=no
+[2025-07-02T14:35:33.640966541Z][kmsg                  ] Key type encrypted registered
+[2025-07-02T14:35:33.641083541Z][kmsg                  ] gtp: GTP module loaded (pdp ctx size 128 bytes)
+[2025-07-02T14:35:33.646744541Z][kmsg                  ] clk: Disabling unused clocks
+[2025-07-02T14:35:33.646794541Z][kmsg                  ] erofs: (device vdb): mounted with root inode @ nid 36.
+[2025-07-02T14:35:33.646797541Z][kmsg                  ] VFS: Mounted root (erofs filesystem) readonly on device 254:16.
+[2025-07-02T14:35:33.646871541Z][kmsg                  ] devtmpfs: mounted
+[2025-07-02T14:35:33.647233541Z][kmsg                  ] Freeing unused kernel memory: 6336K
+[2025-07-02T14:35:33.647243541Z][kmsg                  ] Run /init as init process
+[2025-07-02T14:35:33.647243541Z][kmsg                  ] with arguments:
+[2025-07-02T14:35:33.647243541Z][kmsg                  ] /init
+[2025-07-02T14:35:33.647244541Z][kmsg                  ] with environment:
+[2025-07-02T14:35:33.647244541Z][kmsg                  ] HOME=/
+[2025-07-02T14:35:33.647244541Z][kmsg                  ] TERM=linux
+[2025-07-02T14:35:33.647244541Z][kmsg                  ] vsyscall=emulate
+[2025-07-02T14:35:33.674373541Z][kmsg                  ] netlink: 'init': attribute type 4 has an invalid length.
+[2025-07-02T14:35:33.686076541Z][kmsg                  ] fakeowner: loading out-of-tree module taints kernel.
+[2025-07-02T14:35:33.707952541Z][kmsg                  ] grpcfuse module loaded
+[2025-07-02T14:35:34.499989833Z][init.udpv6csum        ] service started
+[2025-07-02T14:35:34.500065458Z][init.metadata         ] setting docker MTU to the same as eth0: 65535
+[2025-07-02T14:35:34.500136958Z][init                  ] metadata is ready
+[2025-07-02T14:35:34.500213625Z][init                  ] metadata is ready
+[2025-07-02T14:35:34.500254166Z][init.fs               ] starting FUSE client
+[2025-07-02T14:35:34.500258500Z][init.socks            ] server is disabled
+[2025-07-02T14:35:34.500500875Z][init.fs               ] listening for mount requests on unix:/run/grpcfuse.mount.sock
+[2025-07-02T14:35:34.500592250Z][init                  ] filesharing mode is: virtiofs
+[2025-07-02T14:35:34.500616208Z][init.fs               ] mount server is on unix:/run/grpcfuse.mount.sock
+[2025-07-02T14:35:34.500266458Z][init.ipc              ] a0b1854e-host-networking ->  
+[2025-07-02T14:35:34.500723958Z][init.ipc              ] (28875b59-0) a0b1854e-host-networking C->S  DELETE /forwards/flush-volatile
+[2025-07-02T14:35:34.500853541Z][init.fs               ] connecting to filesystem server on vsock:4099
+[2025-07-02T14:35:34.500962875Z][init.fs               ] Creating grpcfuse mount server for mode virtiofs
+[2025-07-02T14:35:34.501114500Z][init.fs               ] listening for mount/unmount requests
+[2025-07-02T14:35:34.501170916Z][init.fs               ] listening for inotify event injections on unix:/run/guest-services/filesystem-event.sock
+[2025-07-02T14:35:34.500971708Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x4c9a6d4e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T14:35:34.501362208Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x4c9a6d4e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T14:35:34.501395791Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x4c9a6d4e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T14:35:34.501417416Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x4c9a6d4e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T14:35:34.501450958Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-02T14:35:34.501470416Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-02T14:35:34.501557458Z][init                  ] eth0: MTU is 65535
+[2025-07-02T14:35:34.501592166Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-02T14:35:34.501651458Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-02T14:35:34.501675708Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-02T14:35:34.501728583Z][init.fs               ] attempting to mount filesystem / with ID 2 on /run/grpcfuse
+[2025-07-02T14:35:34.501891458Z][init                  ] eth0: MTU is 65535
+[2025-07-02T14:35:34.501961208Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-02T14:35:34.501990833Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-02T14:35:34.502027833Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-02T14:35:34.502065875Z][init                  ] host.docker.internal will use eth0
+[2025-07-02T14:35:34.502108625Z][init                  ] default route for all other traffic is via eth0
+[2025-07-02T14:35:34.502145708Z][init                  ] eth0 is ready
+[2025-07-02T14:35:34.502162041Z][init                  ] eth0 is ready
+[2025-07-02T14:35:34.501908875Z][init.fs               ] kernel entry timeout: 1h0m0s
+[2025-07-02T14:35:34.502201666Z][init.fs               ] kernel attribute timeout: 1h0m0s
+[2025-07-02T14:35:34.502217166Z][init.fs               ] kernel negative timeout: 0s
+[2025-07-02T14:35:34.502779541Z][init.fs               ] Filesystem mounted to root /run/grpcfuse
+[2025-07-02T14:35:34.502842875Z][init                  ] eth0 is ready
+[2025-07-02T14:35:34.501909833Z][init.ipc              ] (28875b59-0) a0b1854e-host-networking C<-S 419dc54f-BackendAPI DELETE /forwards/flush-volatile (1.1925ms): OK
+[2025-07-02T14:35:34.502867958Z][init.hostnetwork      ] Host networking is disabled because the feature is not enabled in the settings
+[2025-07-02T14:35:34.503019250Z][init.fs               ] grpcfuse mounted on /run/grpcfuse
+[2025-07-02T14:35:34.503115083Z][init.fs               ] mounted virtiofs0 on /run/host_virtiofs/Users on /Users
+[2025-07-02T14:35:34.503171666Z][init.fs               ] mounted virtiofs1 on /run/host_virtiofs/Volumes on /Volumes
+[2025-07-02T14:35:34.503250791Z][init.fs               ] mounted virtiofs2 on /run/host_virtiofs/private on /private
+[2025-07-02T14:35:34.503327666Z][init.fs               ] mounted virtiofs3 on /run/host_virtiofs/tmp on /tmp
+[2025-07-02T14:35:34.503449708Z][init.fs               ] mounted virtiofs4 on /run/host_virtiofs/var/folders on /var/folders
+[2025-07-02T14:35:34.503471958Z][init.fs               ] all fakeowner mounts ok
+[2025-07-02T14:35:34.503488791Z][init                  ] fs is ready
+[2025-07-02T14:35:34.503503625Z][init                  ] fs is ready
+[2025-07-02T14:35:34.506101375Z][init.binfmt           ] rosetta mounted in /run/rosetta
+[2025-07-02T14:35:34.506189291Z][init.binfmt           ] rosetta registered
+[2025-07-02T14:35:34.506271708Z][init.binfmt           ] rosetta workarounds registered
+[2025-07-02T14:35:34.514212791Z][init.ipc              ] acba482f-oom-tracer ->  
+[2025-07-02T14:35:34.514249208Z][init.oom-tracer       ] oom-tracer started
+[2025-07-02T14:35:34.514379500Z][init.vsock            ] AF_VSOCK LSM started
+[2025-07-02T14:35:34.514427208Z][init                  ] vsock is ready
+[2025-07-02T14:35:34.514458916Z][init                  ] vsock is ready
+[2025-07-02T14:35:34.529467000Z][init.disk             ] initial fsck ran in 61.094917ms
+[2025-07-02T14:35:34.529526541Z][init.disk             ] no free space on device to extend partition
+[2025-07-02T14:35:34.532462166Z][init.disk             ] disk created in 98.160917ms
+[2025-07-02T14:35:34.532486916Z][init                  ] disk is ready
+[2025-07-02T14:35:34.532500666Z][init                  ] disk is ready
+[2025-07-02T14:35:34.532614333Z][init.disk             ] recreating swap because there is a hole in the file at offset 4096
+[2025-07-02T14:35:33.780065541Z][kmsg                  ] EXT4-fs (vda1): mounted filesystem 6fffe918-2ab2-42e1-9990-fc61cd401fb0 r/w with ordered data mode. Quota mode: none.
+[2025-07-02T14:35:34.533662750Z][init.ipc              ] run 328a475c-jfs for component jfs on /run/guest-services/jfs.sock
+[2025-07-02T14:35:34.536395041Z][init.disk             ] recreated swap in 3.752917ms
+[2025-07-02T14:35:33.784617541Z][kmsg                  ] Adding 1048572k swap on /var/lib/swap.  Priority:-2 extents:11 across:1171456k
+[2025-07-02T14:35:34.536959041Z][init                  ] swap created in 4.449209ms
+[2025-07-02T14:35:33.798017541Z][kmsg                  ] capability: warning: `lifecycle-serve' uses 32-bit capabilities (legacy support in use)
+[2025-07-02T14:35:34.555872125Z][init.vpnkitcontrol    ] connected data connection on /run/host-services/vpnkit-data.sock after 117.5485ms
+[2025-07-02T14:35:34.556970375Z][init.vpnkitcontrol    ] established connection to vpnkit-forwarder
+[2025-07-02T14:35:34.984709208Z][init.trim             ] (Re-)connected to the Docker daemon
+[2025-07-02T14:37:33.441927597Z][init                  ] reaped pid 772
+[2025-07-02T14:37:33.509365597Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-02T14:37:33.608934388Z][init                  ] reaped pid 833
+[2025-07-02T14:37:33.663975763Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-02T14:37:33.210805541Z][kmsg                  ] ... 33 messages dropped ...
+[2025-07-02T14:37:33.210805541Z][kmsg                  ] systemd-journald[98]: Received client request to flush runtime journal.
+[2025-07-02T14:37:36.754595959Z][init                  ] processed image citadel.arcaptcha.ir/nginx:latest
+[2025-07-02T14:37:43.511099587Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-07-02T14:37:45.176989338Z][init.trim             ] /var/lib/docker: 972.5 GiB (1044179247104 bytes) trimmed
+
+[2025-07-02T14:47:37.880429541Z][kmsg                  ] systemd-journald[98]: Received SIGTERM from PID 1 (systemd-shutdow).
+[2025-07-02T14:50:52.835591251Z][init                  ] reaped pid 904
+[2025-07-02T14:50:53.804206377Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-02T14:50:58.491411754Z][init.trim             ] A volume has been removed: will run the action at least once more
+[2025-07-02T14:50:58.774245796Z][init.trim             ] Unused volumes have been removed: will run the action at least once more
+[2025-07-02T14:51:03.569585882Z][init                  ] reaped pid 55528
+[2025-07-02T14:51:03.637005798Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-02T14:51:03.750305965Z][init                  ] reaped pid 55590
+[2025-07-02T14:51:03.804973673Z][init.trim             ] Running /sbin/fstrim -v /var/lib/docker
+[2025-07-02T14:51:03.820019007Z][init.trim             ] A container has been removed: will run the action at least once more
+[2025-07-02T14:51:03.968452923Z][init.trim             ] /var/lib/docker: 15.9 GiB (17020768256 bytes) trimmed
+
+[2025-07-02T14:47:49.165075541Z][kmsg                  ] ... 39 messages dropped ...
+[2025-07-02T14:47:49.165075541Z][kmsg                  ] systemd-journald[98]: Received client request to flush runtime journal.
+[2025-07-02T15:58:20.494401347Z][init.eth0             ] DHCPv4
+[2025-07-02T15:58:20.523654305Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x7144b57f hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T15:58:20.523918847Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x7144b57f hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T15:58:20.524047347Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x7144b57f hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T15:58:20.524299639Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x7144b57f hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T15:58:20.524409972Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-02T15:58:20.524534930Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-02T15:58:20.524719222Z][init                  ] eth0: MTU is 65535
+[2025-07-02T15:58:20.524814472Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-02T15:58:20.524913097Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-02T15:58:20.524981514Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-02T15:58:20.525096347Z][init                  ] eth0: MTU is 65535
+[2025-07-02T15:58:20.525258680Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-02T15:58:20.525330139Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-02T15:58:20.525465764Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-02T16:57:20.622009763Z][init.eth0             ] DHCPv4
+[2025-07-02T16:57:20.651212888Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xde3757cc hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T16:57:20.651840930Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xde3757cc hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T16:57:20.652362430Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xde3757cc hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T16:57:20.652474388Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xde3757cc hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T16:57:20.652717555Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-02T16:57:20.652814055Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-02T16:57:20.653230847Z][init                  ] eth0: MTU is 65535
+[2025-07-02T16:57:20.653326930Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-02T16:57:20.653432722Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-02T16:57:20.653708097Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-02T16:57:20.654329847Z][init                  ] eth0: MTU is 65535
+[2025-07-02T16:57:20.654585222Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-02T16:57:20.654890597Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-02T16:57:20.655278638Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-02T17:29:07.592994048Z][init.ipc              ] (6255f74e-4) fa804f36-volume-contents S<-C f60de934-volume-contents GET /ping
+[2025-07-02T17:29:07.593228923Z][init.ipc              ] (6255f74e-4) fa804f36-volume-contents S->C f60de934-volume-contents GET /ping (200.5µs): {"serverTime":1751477347593121500}
+[2025-07-02T17:29:07.605222632Z][init.ipc              ] (6255f74e-5) fa804f36-volume-contents S<-C f60de934-volume-contents GET /metrics
+[2025-07-02T17:29:07.605387465Z][init.ipc              ] (6255f74e-5) fa804f36-volume-contents S->C f60de934-volume-contents GET /metrics (176.417µs): {"count":6}
+[2025-07-02T17:56:20.547851430Z][init.eth0             ] DHCPv4
+[2025-07-02T17:56:20.579374430Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x9f555f6f hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T17:56:20.579420888Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x9f555f6f hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T17:56:20.579459096Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x9f555f6f hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T17:56:20.579588471Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x9f555f6f hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T17:56:20.579613138Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-02T17:56:20.579825221Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-02T17:56:20.579925471Z][init                  ] eth0: MTU is 65535
+[2025-07-02T17:56:20.579977513Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-02T17:56:20.580007638Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-02T17:56:20.580049305Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-02T17:56:20.580074555Z][init                  ] eth0: MTU is 65535
+[2025-07-02T17:56:20.580122305Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-02T17:56:20.580181305Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-02T17:56:20.580238930Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-02T18:55:20.737051513Z][init.eth0             ] DHCPv4
+[2025-07-02T18:55:20.764924721Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xd057604e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T18:55:20.765143554Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xd057604e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T18:55:20.767142471Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xd057604e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-02T18:55:20.767751929Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xd057604e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-02T18:55:20.768132304Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-02T18:55:20.768254138Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-02T18:55:20.768607304Z][init                  ] eth0: MTU is 65535
+[2025-07-02T18:55:20.768755221Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-02T18:55:20.768830804Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-02T18:55:20.768930263Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-02T18:55:20.769244888Z][init                  ] eth0: MTU is 65535
+[2025-07-02T18:55:20.769377596Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-02T18:55:20.769486346Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-02T18:55:20.769686304Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T03:02:09.534149595Z][init.eth0             ] DHCPv4
+[2025-07-03T03:02:09.568770637Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x7c5336d8 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T03:02:09.569382887Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x7c5336d8 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T03:02:09.569889345Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x7c5336d8 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T03:02:09.571235179Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x7c5336d8 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T03:02:09.571499012Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T03:02:09.572330970Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T03:02:09.572686012Z][init                  ] eth0: MTU is 65535
+[2025-07-03T03:02:09.573246137Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T03:02:09.573646804Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T03:02:09.573765345Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T03:02:09.574287012Z][init                  ] eth0: MTU is 65535
+[2025-07-03T03:02:09.574560137Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T03:02:09.574983720Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T03:02:09.575306637Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T11:00:30.082346845Z][init.eth0             ] DHCPv4
+[2025-07-03T11:00:30.102406845Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xde7ac922 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T11:00:30.102587262Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xde7ac922 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T11:00:30.102710012Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xde7ac922 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T11:00:30.102920678Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xde7ac922 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T11:00:30.103291762Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T11:00:30.103426595Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T11:00:30.103589887Z][init                  ] eth0: MTU is 65535
+[2025-07-03T11:00:30.103827845Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T11:00:30.103978637Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T11:00:30.104055137Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T11:00:30.104379512Z][init                  ] eth0: MTU is 65535
+[2025-07-03T11:00:30.104534387Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T11:00:30.104721345Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T11:00:30.104847345Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T11:59:30.125501761Z][init.eth0             ] DHCPv4
+[2025-07-03T11:59:30.164093095Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x8715071e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T11:59:30.164867511Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x8715071e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T11:59:30.165221886Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x8715071e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T11:59:30.166836928Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x8715071e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T11:59:30.167311095Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T11:59:30.168497595Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T11:59:30.169097761Z][init                  ] eth0: MTU is 65535
+[2025-07-03T11:59:30.169499511Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T11:59:30.169650345Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T11:59:30.169840553Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T11:59:30.169961136Z][init                  ] eth0: MTU is 65535
+[2025-07-03T11:59:30.170079970Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T11:59:30.170163053Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T11:59:30.170449636Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T13:16:24.445262969Z][init.eth0             ] DHCPv4
+[2025-07-03T13:16:24.488043220Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x638d0bfa hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T13:16:24.490764928Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x638d0bfa hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T13:16:24.492470386Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x638d0bfa hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T13:16:24.494454511Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x638d0bfa hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T13:16:24.495722428Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T13:16:24.495888511Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T13:16:24.496232053Z][init                  ] eth0: MTU is 65535
+[2025-07-03T13:16:24.496410428Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T13:16:24.496635095Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T13:16:24.496746011Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T13:16:24.496873553Z][init                  ] eth0: MTU is 65535
+[2025-07-03T13:16:24.496980053Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T13:16:24.497085303Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T13:16:24.497311345Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T13:25:29.793827305Z][init.ipc              ] (95cf7853-2) d8cb08ca-dns-forwarder S<-C 5a5ffe62-dns-forwarder POST /refresh
+[2025-07-03T13:25:29.794161514Z][init.ipc              ] e513062f-dns-forwarder ->  
+[2025-07-03T13:25:29.794465555Z][init.ipc              ] (0fecb331-0) e513062f-dns-forwarder C->S  GET /registry/access
+[2025-07-03T13:25:29.795915514Z][init.ipc              ] (0fecb331-0) e513062f-dns-forwarder C<-S 419dc54f-BackendAPI GET /registry/access (1.47275ms)
+[2025-07-03T13:25:29.797048764Z][init.ipc              ] (95cf7853-2) d8cb08ca-dns-forwarder S->C 5a5ffe62-dns-forwarder POST /refresh (3.246791ms): OK
+[2025-07-03T14:15:24.510872844Z][init.eth0             ] DHCPv4
+[2025-07-03T14:15:24.554473386Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xcced85a3 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T14:15:24.555825553Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xcced85a3 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T14:15:24.556292303Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xcced85a3 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T14:15:24.557081803Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xcced85a3 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T14:15:24.558104511Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T14:15:24.558847178Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T14:15:24.559642094Z][init                  ] eth0: MTU is 65535
+[2025-07-03T14:15:24.560169178Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T14:15:24.560845428Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T14:15:24.560992969Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T14:15:24.561110678Z][init                  ] eth0: MTU is 65535
+[2025-07-03T14:15:24.561189969Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T14:15:24.561374969Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T14:15:24.561536136Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T16:01:16.627669761Z][init.eth0             ] DHCPv4
+[2025-07-03T16:01:16.665484136Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xa438e576 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T16:01:16.665631969Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xa438e576 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T16:01:16.665732594Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xa438e576 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T16:01:16.665819011Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xa438e576 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T16:01:16.665874177Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T16:01:16.665950469Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T16:01:16.666470011Z][init                  ] eth0: MTU is 65535
+[2025-07-03T16:01:16.666609844Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T16:01:16.666823802Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T16:01:16.666930927Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T16:01:16.667027969Z][init                  ] eth0: MTU is 65535
+[2025-07-03T16:01:16.667179386Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T16:01:16.667280677Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T16:01:16.667395469Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T17:52:42.758600760Z][init.eth0             ] DHCPv4
+[2025-07-03T17:52:42.800495177Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x123ac3c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T17:52:42.800671552Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x123ac3c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T17:52:42.801210719Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x123ac3c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T17:52:42.802021344Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x123ac3c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T17:52:42.802670010Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T17:52:42.805017969Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T17:52:42.808812552Z][init                  ] eth0: MTU is 65535
+[2025-07-03T17:52:42.809170677Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T17:52:42.809406302Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T17:52:42.809557677Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T17:52:42.809669927Z][init                  ] eth0: MTU is 65535
+[2025-07-03T17:52:42.810200927Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T17:52:42.810272969Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T17:52:42.810473844Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T18:51:42.856167260Z][init.eth0             ] DHCPv4
+[2025-07-03T18:51:42.890694760Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x4bcb5d06 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T18:51:42.890923510Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x4bcb5d06 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T18:51:42.891566677Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x4bcb5d06 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T18:51:42.892201135Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x4bcb5d06 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T18:51:42.892479843Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T18:51:42.892967302Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T18:51:42.893389343Z][init                  ] eth0: MTU is 65535
+[2025-07-03T18:51:42.894069052Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T18:51:42.894398218Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T18:51:42.894600510Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T18:51:42.894855635Z][init                  ] eth0: MTU is 65535
+[2025-07-03T18:51:42.895071677Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T18:51:42.895491218Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T18:51:42.895969343Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T19:50:42.822683759Z][init.eth0             ] DHCPv4
+[2025-07-03T19:50:42.854293093Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xab31044b hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T19:50:42.854797468Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xab31044b hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T19:50:42.858491051Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xab31044b hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T19:50:42.858674009Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xab31044b hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T19:50:42.859143593Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T19:50:42.859793551Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T19:50:42.860250009Z][init                  ] eth0: MTU is 65535
+[2025-07-03T19:50:42.860500843Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T19:50:42.860608301Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T19:50:42.860712718Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T19:50:42.860864176Z][init                  ] eth0: MTU is 65535
+[2025-07-03T19:50:42.860944343Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T19:50:42.861023218Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T19:50:42.861235384Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T21:14:40.115989801Z][init.eth0             ] DHCPv4
+[2025-07-03T21:14:40.147076843Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xbc4574ed hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T21:14:40.147815634Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xbc4574ed hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T21:14:40.148741593Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xbc4574ed hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T21:14:40.149711259Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xbc4574ed hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T21:14:40.150043051Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T21:14:40.151286343Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T21:14:40.152098634Z][init                  ] eth0: MTU is 65535
+[2025-07-03T21:14:40.152685384Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T21:14:40.152930843Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T21:14:40.153576259Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T21:14:40.153704343Z][init                  ] eth0: MTU is 65535
+[2025-07-03T21:14:40.153993634Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T21:14:40.154353301Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T21:14:40.154643009Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-03T22:13:40.207608092Z][init.eth0             ] DHCPv4
+[2025-07-03T22:13:40.243197009Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x73e745c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T22:13:40.243354467Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x73e745c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T22:13:40.243741176Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x73e745c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-03T22:13:40.243862092Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x73e745c1 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-03T22:13:40.244602509Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-03T22:13:40.245006426Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-03T22:13:40.245255176Z][init                  ] eth0: MTU is 65535
+[2025-07-03T22:13:40.245410717Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-03T22:13:40.245980884Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-03T22:13:40.246096551Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-03T22:13:40.246295384Z][init                  ] eth0: MTU is 65535
+[2025-07-03T22:13:40.246854342Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-03T22:13:40.247053509Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-03T22:13:40.247297217Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T02:21:07.146532967Z][init.eth0             ] DHCPv4
+[2025-07-04T02:21:07.171676384Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xf3b46b04 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T02:21:07.171974050Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xf3b46b04 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T02:21:07.173482634Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xf3b46b04 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T02:21:07.174445092Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xf3b46b04 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T02:21:07.174915884Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T02:21:07.175160925Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T02:21:07.175399967Z][init                  ] eth0: MTU is 65535
+[2025-07-04T02:21:07.175601634Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T02:21:07.176010425Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T02:21:07.176246759Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T02:21:07.176867759Z][init                  ] eth0: MTU is 65535
+[2025-07-04T02:21:07.177092009Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T02:21:07.177417467Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T02:21:07.177650092Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T10:07:14.851925092Z][init.eth0             ] DHCPv4
+[2025-07-04T10:07:14.890383925Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x870ff096 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T10:07:14.890638508Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x870ff096 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T10:07:14.891395883Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x870ff096 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T10:07:14.891574467Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x870ff096 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T10:07:14.892545258Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T10:07:14.892657050Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T10:07:14.893042092Z][init                  ] eth0: MTU is 65535
+[2025-07-04T10:07:14.893285925Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T10:07:14.893406967Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T10:07:14.893668883Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T10:07:14.893800675Z][init                  ] eth0: MTU is 65535
+[2025-07-04T10:07:14.894459342Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T10:07:14.894658300Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T10:07:14.895021550Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T11:16:54.739699970Z][init.ipc              ] (95cf7853-3) d8cb08ca-dns-forwarder S<-C 5a5ffe62-dns-forwarder POST /refresh
+[2025-07-04T11:16:54.739948136Z][init.ipc              ] 3df1beda-dns-forwarder ->  
+[2025-07-04T11:16:54.740125220Z][init.ipc              ] (9ec720c9-0) 3df1beda-dns-forwarder C->S  GET /registry/access
+[2025-07-04T11:16:54.741471345Z][init.ipc              ] (9ec720c9-0) 3df1beda-dns-forwarder C<-S 419dc54f-BackendAPI GET /registry/access (1.396292ms)
+[2025-07-04T11:16:54.742617428Z][init.ipc              ] (95cf7853-3) d8cb08ca-dns-forwarder S->C 5a5ffe62-dns-forwarder POST /refresh (2.91825ms): OK
+[2025-07-04T11:20:47.494010091Z][init.eth0             ] DHCPv4
+[2025-07-04T11:20:47.521817925Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x964f5e3b hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T11:20:47.522310800Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x964f5e3b hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T11:20:47.523488758Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x964f5e3b hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T11:20:47.524284008Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x964f5e3b hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T11:20:47.524495841Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T11:20:47.525243925Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T11:20:47.525873341Z][init                  ] eth0: MTU is 65535
+[2025-07-04T11:20:47.526193383Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T11:20:47.526360050Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T11:20:47.526685591Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T11:20:47.527615508Z][init                  ] eth0: MTU is 65535
+[2025-07-04T11:20:47.527970258Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T11:20:47.528251383Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T11:20:47.528648425Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T12:26:12.169059251Z][init.ipc              ] (6255f74e-6) fa804f36-volume-contents S<-C f60de934-volume-contents GET /ping
+[2025-07-04T12:26:12.169309626Z][init.ipc              ] (6255f74e-6) fa804f36-volume-contents S->C f60de934-volume-contents GET /ping (241.542µs): {"serverTime":1751631972169226500}
+[2025-07-04T12:26:12.174594709Z][init.ipc              ] (6255f74e-7) fa804f36-volume-contents S<-C f60de934-volume-contents GET /metrics
+[2025-07-04T12:26:12.174732418Z][init.ipc              ] (6255f74e-7) fa804f36-volume-contents S->C f60de934-volume-contents GET /metrics (144µs): {"count":6}
+[2025-07-04T12:37:25.943103258Z][init.eth0             ] DHCPv4
+[2025-07-04T12:37:25.973934049Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x7df3559c hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T12:37:25.974532716Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x7df3559c hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T12:37:25.976096299Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x7df3559c hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T12:37:25.977575216Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x7df3559c hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T12:37:25.979841258Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T12:37:25.982519258Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T12:37:25.982932799Z][init                  ] eth0: MTU is 65535
+[2025-07-04T12:37:25.983106841Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T12:37:25.983222133Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T12:37:25.983378299Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T12:37:25.983650716Z][init                  ] eth0: MTU is 65535
+[2025-07-04T12:37:25.983736841Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T12:37:25.983872508Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T12:37:25.984070966Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T13:36:26.028097466Z][init.eth0             ] DHCPv4
+[2025-07-04T13:36:26.062436591Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x7f12b112 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T13:36:26.063022924Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x7f12b112 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T13:36:26.063202674Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x7f12b112 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T13:36:26.064415049Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x7f12b112 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T13:36:26.065349757Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T13:36:26.066028674Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T13:36:26.066591549Z][init                  ] eth0: MTU is 65535
+[2025-07-04T13:36:26.067844466Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T13:36:26.068056757Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T13:36:26.068411174Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T13:36:26.069078841Z][init                  ] eth0: MTU is 65535
+[2025-07-04T13:36:26.069229841Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T13:36:26.069431632Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T13:36:26.069843841Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T14:35:25.976194132Z][init.eth0             ] DHCPv4
+[2025-07-04T14:35:26.006486174Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xcd2e7297 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T14:35:26.007489424Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xcd2e7297 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T14:35:26.009717174Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xcd2e7297 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T14:35:26.010130757Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xcd2e7297 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T14:35:26.010501840Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T14:35:26.011076340Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T14:35:26.011723382Z][init                  ] eth0: MTU is 65535
+[2025-07-04T14:35:26.012152299Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T14:35:26.012819882Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T14:35:26.013306424Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T14:35:26.013665924Z][init                  ] eth0: MTU is 65535
+[2025-07-04T14:35:26.014075132Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T14:35:26.014424757Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T14:35:26.014822257Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T15:50:08.300154548Z][init.eth0             ] DHCPv4
+[2025-07-04T15:50:08.318953965Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xc0c15e6e hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T15:50:08.319146007Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xc0c15e6e hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T15:50:08.320146382Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xc0c15e6e hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T15:50:08.320690465Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xc0c15e6e hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T15:50:08.321120798Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T15:50:08.321719090Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T15:50:08.322076340Z][init                  ] eth0: MTU is 65535
+[2025-07-04T15:50:08.322624965Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T15:50:08.322930923Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T15:50:08.323182257Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T15:50:08.324005715Z][init                  ] eth0: MTU is 65535
+[2025-07-04T15:50:08.325191715Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T15:50:08.325851465Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T15:50:08.326087965Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-04T16:53:47.709281173Z][init.eth0             ] DHCPv4
+[2025-07-04T16:53:47.748415840Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x294252bf hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T16:53:47.750752131Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x294252bf hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T16:53:47.751950715Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x294252bf hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-04T16:53:47.752940173Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x294252bf hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-04T16:53:47.754232923Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-04T16:53:47.754484131Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-04T16:53:47.755099256Z][init                  ] eth0: MTU is 65535
+[2025-07-04T16:53:47.755539423Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-04T16:53:47.755975881Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-04T16:53:47.756219590Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-04T16:53:47.756636965Z][init                  ] eth0: MTU is 65535
+[2025-07-04T16:53:47.756771423Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-04T16:53:47.756861090Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-04T16:53:47.757000340Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T00:18:16.236522422Z][init.eth0             ] DHCPv4
+[2025-07-05T00:18:16.272668339Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xe24c58b2 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T00:18:16.272920381Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xe24c58b2 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T00:18:16.273420381Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xe24c58b2 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T00:18:16.273628673Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xe24c58b2 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T00:18:16.274024548Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T00:18:16.274613006Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T00:18:16.274995964Z][init                  ] eth0: MTU is 65535
+[2025-07-05T00:18:16.275921964Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T00:18:16.276178256Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T00:18:16.276401173Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T00:18:16.276619173Z][init                  ] eth0: MTU is 65535
+[2025-07-05T00:18:16.277745423Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T00:18:16.277864381Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T00:18:16.278041173Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T11:15:50.281457255Z][init.eth0             ] DHCPv4
+[2025-07-05T11:15:50.307405047Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xa3441d43 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T11:15:50.307714047Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xa3441d43 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T11:15:50.308063797Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xa3441d43 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T11:15:50.308294255Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xa3441d43 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T11:15:50.308365422Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T11:15:50.308569047Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T11:15:50.308926172Z][init                  ] eth0: MTU is 65535
+[2025-07-05T11:15:50.309224714Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T11:15:50.309332547Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T11:15:50.309608089Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T11:15:50.309757630Z][init                  ] eth0: MTU is 65535
+[2025-07-05T11:15:50.309898089Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T11:15:50.310084380Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T11:15:50.310522714Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T12:39:30.236458047Z][init.eth0             ] DHCPv4
+[2025-07-05T12:39:30.267427755Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0xd2b6b721 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T12:39:30.267640463Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0xd2b6b721 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T12:39:30.267976838Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0xd2b6b721 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T12:39:30.268186713Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0xd2b6b721 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T12:39:30.269709963Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T12:39:30.270169047Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T12:39:30.270502588Z][init                  ] eth0: MTU is 65535
+[2025-07-05T12:39:30.270893338Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T12:39:30.271144588Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T12:39:30.271300005Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T12:39:30.271852797Z][init                  ] eth0: MTU is 65535
+[2025-07-05T12:39:30.271987630Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T12:39:30.272269505Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T12:39:30.272763713Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T18:31:28.545192671Z][init.eth0             ] DHCPv4
+[2025-07-05T18:31:28.571352088Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x00b8d6ef hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T18:31:28.571460046Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x00b8d6ef hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T18:31:28.571533005Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x00b8d6ef hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T18:31:28.571712963Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x00b8d6ef hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T18:31:28.571760130Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T18:31:28.571854671Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T18:31:28.572150630Z][init                  ] eth0: MTU is 65535
+[2025-07-05T18:31:28.572399380Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T18:31:28.572507463Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T18:31:28.572562380Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T18:31:28.572673838Z][init                  ] eth0: MTU is 65535
+[2025-07-05T18:31:28.572732921Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T18:31:28.572811755Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T18:31:28.572965421Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T19:43:02.526358588Z][init.eth0             ] DHCPv4
+[2025-07-05T19:43:02.564133963Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x5780a1fc hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T19:43:02.564671213Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x5780a1fc hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T19:43:02.564902171Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x5780a1fc hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T19:43:02.564953630Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x5780a1fc hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T19:43:02.566514171Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T19:43:02.566696088Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T19:43:02.567062130Z][init                  ] eth0: MTU is 65535
+[2025-07-05T19:43:02.567201630Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T19:43:02.567337005Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T19:43:02.567485296Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T19:43:02.567653130Z][init                  ] eth0: MTU is 65535
+[2025-07-05T19:43:02.567734255Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T19:43:02.567825921Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T19:43:02.568015421Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T20:57:11.467299379Z][init.eth0             ] DHCPv4
+[2025-07-05T20:57:11.507801462Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x86992306 hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T20:57:11.508086087Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x86992306 hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T20:57:11.508752546Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x86992306 hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T20:57:11.509321587Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x86992306 hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T20:57:11.509560046Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T20:57:11.509945296Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T20:57:11.510606462Z][init                  ] eth0: MTU is 65535
+[2025-07-05T20:57:11.511009254Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T20:57:11.511157046Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T20:57:11.511360504Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T20:57:11.511561671Z][init                  ] eth0: MTU is 65535
+[2025-07-05T20:57:11.511722087Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T20:57:11.511905671Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T20:57:11.512269296Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+[2025-07-05T22:45:01.476074504Z][init.eth0             ] DHCPv4
+[2025-07-05T22:45:01.506589545Z][init.eth0             ] dhcp[0/4] = DHCPv4(xid=0x72ffdd9b hwaddr=fa:6c:1b:e2:69:18 msg_type=DISCOVER, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T22:45:01.506849962Z][init.eth0             ] dhcp[1/4] = DHCPv4(xid=0x72ffdd9b hwaddr=fa:6c:1b:e2:69:18 msg_type=OFFER, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T22:45:01.507450045Z][init.eth0             ] dhcp[2/4] = DHCPv4(xid=0x72ffdd9b hwaddr=fa:6c:1b:e2:69:18 msg_type=REQUEST, your_ip=0.0.0.0, server_ip=0.0.0.0)
+[2025-07-05T22:45:01.507695337Z][init.eth0             ] dhcp[3/4] = DHCPv4(xid=0x72ffdd9b hwaddr=fa:6c:1b:e2:69:18 msg_type=ACK, your_ip=192.168.65.3, server_ip=0.0.0.0)
+[2025-07-05T22:45:01.508168962Z][init.eth0             ] eth0: DHCP response has MTU 65535
+[2025-07-05T22:45:01.508400712Z][init                  ] eth0: adding IP 192.168.65.3/24
+[2025-07-05T22:45:01.508764129Z][init                  ] eth0: MTU is 65535
+[2025-07-05T22:45:01.509555337Z][init                  ] eth0: adding router 192.168.65.1
+[2025-07-05T22:45:01.509695170Z][init                  ] eth0: adding default route via 192.168.65.1
+[2025-07-05T22:45:01.509859587Z][init                  ] eth0: adding IP fdc4:f303:9324::3/64
+[2025-07-05T22:45:01.510205420Z][init                  ] eth0: MTU is 65535
+[2025-07-05T22:45:01.510464629Z][init                  ] eth0: adding router fdc4:f303:9324::1
+[2025-07-05T22:45:01.510549629Z][init                  ] eth0: adding default route via fdc4:f303:9324::1
+[2025-07-05T22:45:01.510788837Z][init.eth0             ] DHCPv4 IP is valid for 1h0m0s
+-------------------------------------------------------------------------------->8

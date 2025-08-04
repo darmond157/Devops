@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kibana
+  namespace: monitoring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kibana
+  template:
+    metadata:
+      labels:
+        app: kibana
+    spec:
+      imagePullSecrets:
+        - name: harbor
+      containers:
+        - name: kibana
+          image: harbor.arcaptcha.ir/utils/kibana:7.17.13
+          env:
+            - name: SERVERNAME
+              value: "kibana"
+            - name: ELASTICSEARCH_HOSTNAME
+              value: "http://elasticsearch-client:9200"
+            - name: ELASTICSEARCH_USERNAME
+              value: "elastic"
+            - name: ELASTICSEARCH_PASSWORD
+              value: "hNA6iQxwNcgZse2vZm4iLHhothC77J"
+            - name: KIBANA_PUBLIC_URL
+              value: "https://kibana.arcaptcha.co/"
+            - name: MONITORING_UI_CONTAINER_ELASTICSEARCH_ENABLED
+              value: "true"
+            - name: XPACK_FLEET_ENABLED
+              value: "false"
+          ports:
+            - containerPort: 5601
+              name: http
+          volumeMounts:
+            - name: kibana-config
+              mountPath: /usr/share/kibana/config/kibana.yml
+              subPath: kibana.yml
+      volumes:
+        - name: kibana-config
+          configMap:
+            name: kibana-config

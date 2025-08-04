@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fluentbit:
+    image: fluent/fluent-bit:latest
+    container_name: fluentbit
+    ports:
+      - 2020:2020
+    volumes:
+      - ./fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf:ro
+      - ./fluentbit/parsers.conf:/fluent-bit/etc/parsers.conf:ro
+      - ./sample-logs/:/logs:ro
