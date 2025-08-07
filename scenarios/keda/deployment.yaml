@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpu-busy-deployment
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cpu-busy
+  template:
+    metadata:
+      labels:
+        app: cpu-busy
+    spec:
+      containers:
+      - name: cpu-busy
+        image: busybox
+        command: ["sh", "-c", "while true; do :; done"]
+        resources:
+          requests:
+            cpu: 10m
+          limits:
+            cpu: 500m
+

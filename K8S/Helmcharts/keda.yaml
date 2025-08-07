@@ -1,0 +1,49 @@
+image:
+  keda:
+    registry: ghcr.io
+    repository: kedacore/keda
+    tag: "2.17.2"
+  metricsApiServer:
+    registry: ghcr.io
+    repository: kedacore/keda-metrics-apiserver
+    tag: "2.17.2"
+  webhooks:
+    registry: ghcr.io
+    repository: kedacore/keda-admission-webhooks
+    tag: "2.17.2"
+
+clusterName: minikube
+
+
+crds:
+  install: true
+
+operator:
+  name: keda-operator
+  replicaCount: 1
+  disableCompression: true
+
+resources:
+  operator:
+    limits:
+      cpu: 1
+      memory: 1000Mi
+    requests:
+      cpu: 100m
+      memory: 100Mi
+  metricServer:
+    limits:
+      cpu: 1
+      memory: 1000Mi
+    requests:
+      cpu: 100m
+      memory: 100Mi
+  webhooks:
+    limits:
+      cpu: 1
+      memory: 1000Mi
+    requests:
+      cpu: 100m
+      memory: 100Mi
+
+priorityClassName: ""

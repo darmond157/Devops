@@ -1,4 +1,0 @@
-# setup http proxy configuration
-proxy_env:
-  http_proxy: http://salam:salam@130.185.121.18:6789
-  https_proxy: "{{ http_proxy }}"
