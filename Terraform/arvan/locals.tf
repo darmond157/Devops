@@ -7,10 +7,4 @@ locals {
 
   selected_plan = [for plan in data.arvan_plans.plan_list.plans : plan
   if plan.id == var.chosen_plan_id][0]
-
-  chosen_dedicated_server = try(
-    [for ds in data.arvan_dedicated_servers.terraform_dedicated_server.dedicated_servers : ds
-    if contains(ds.labels, var.dedicated_server_label)],
-    []
-  )
 }

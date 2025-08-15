@@ -27,9 +27,3 @@ variable "chosen_server_group_id" {
   description = "The chosen ID of Server Group"
   default     = ""
 }
-
-variable "dedicated_server_label" {
-  type        = string
-  description = "A label for chosen dedicated server"
-  default     = ""
-}
