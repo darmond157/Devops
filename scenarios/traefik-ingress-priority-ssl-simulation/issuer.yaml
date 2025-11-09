@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-dns
+  namespace: hamravesh-samurai
+stringData:
+  acme-dns: |
+    {
+      "bardia-rk.ir": {
+        "username":"d98d3798-d30a-4dc8-b89c-338ccc60cd0b",
+        "password":"iiPVmHN93RHA1oR3YDyrIpNl9sDLx4MSkByuv_uG",
+        "fulldomain":"066a3567-f17e-418f-b0ec-3060d7e6a798.auth.acme-dns.io",
+        "subdomain":"066a3567-f17e-418f-b0ec-3060d7e6a798",
+        "allowfrom":[]
+      }
+    }
+
+---
+
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: letsencrypt-prod
+  namespace: hamravesh-samurai
+spec:
+  acme:
+    email: admin@hamravesh.com
+    preferredChain: ""
+    privateKeySecretRef:
+      name: letsencrypt-account-key
+    server: https://acme-v02.api.letsencrypt.org/directory
+    solvers:
+    - http01:
+        ingress:
+          class: snapp-store-traefik
+    - dns01:
+        acmeDNS:
+          accountSecretRef:
+            key: acme-dns
+            name: acme-dns
+          host: https://auth.acme-dns.io

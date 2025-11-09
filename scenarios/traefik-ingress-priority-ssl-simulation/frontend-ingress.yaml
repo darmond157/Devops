@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: frontend-ingress
+  namespace: hamravesh-samurai
+  annotations:
+    cert-manager.io/issuer: letsencrypt-prod
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.priority: "500"
+    traefik.ingress.kubernetes.io/router.tls: "true"
+spec:
+  ingressClassName: snapp-store-traefik
+  rules:
+    - host: "admin.bardia-rk.ir"
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: frontend-service
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - "admin.bardia-rk.ir"
+      secretName: bardia-rk-admin-tls
