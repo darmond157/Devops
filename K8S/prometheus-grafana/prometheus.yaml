@@ -7,9 +7,30 @@ data:
     global:
       scrape_interval: 15s
     scrape_configs:
-      - job_name: prometheus
+      - job_name: "dnsexp_cluster_a"
+        scrape_interval: 30s
+        metrics_path: /query
+        params:
+          module: ["cluster_dns_a"]
+        relabel_configs:
+          # Take the Prometheus target (a DNS name) and pass it as query_name=
+          - source_labels: ["__address__"]
+            target_label: "__param_query_name"
+
+          # Preserve the original target as instance=
+          - source_labels: ["__address__"]
+            target_label: "instance"
+
+          # Actually scrape the exporter service (NOT the target name)
+          - target_label: "__address__"
+            replacement: "dns-exporter:15353"
+
+          # Optional but nice: label which exporter instance ran the check
+          - target_label: "monitor"
+            replacement: "dns-exporter:15353"
         static_configs:
-          - targets: ["localhost:9090"]
+          - targets:
+              - "google.com"
 ---
 apiVersion: apps/v1
 kind: Deployment

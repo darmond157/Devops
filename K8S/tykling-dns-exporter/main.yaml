@@ -1,0 +1,52 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dns-exporter-config
+data:
+  dns_exporter.yml: |
+    modules:
+      cluster_dns_a:
+        server: "kube-dns.kube-system.svc.cluster.local"
+        protocol: "udp"
+        family: "ipv4"
+        query_type: "A"
+        timeout: 2.0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dns-exporter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dns-exporter
+  template:
+    metadata:
+      labels:
+        app: dns-exporter
+    spec:
+      containers:
+        - name: dns-exporter
+          image: tykling/dns_exporter:latest
+          volumeMounts:
+            - name: config
+              mountPath: /home/nonroot/dns_exporter.yml
+              subPath: dns_exporter.yml
+      volumes:
+        - name: config
+          configMap:
+            name: dns-exporter-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dns-exporter
+spec:
+  selector:
+    app: dns-exporter
+  ports:
+    - name: metrics
+      port: 15353
+      targetPort: 15353
+
