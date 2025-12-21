@@ -1,0 +1,19 @@
+{{- if .Values.core.enabled }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: gitlab
+  annotations:
+    backingham.hamravesh.com/backup: "true"
+    backingham.hamravesh.com/enabled: "true"
+    backingham.hamravesh.com/keep: "2"
+    backingham.hamravesh.com/plan: "2"
+    backingham.hamravesh.com/schedule: 1d
+spec:
+  storageClassName: rawfile-btrfs
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: {{ .Values.volumes.pvc.size | quote }}
+{{- end }}

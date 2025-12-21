@@ -1,0 +1,153 @@
+core:
+  enabled: true
+
+vmrules:
+  enabled: false
+
+global:
+  replicaCount: 1
+
+imagePullSecrets:
+  - name: hamdocker-credential
+image:
+  repository: registry.hamdocker.ir/hamravesh/gitlab-ee
+  tag: 18.5.1-ee.0
+  pullPolicy: IfNotPresent
+
+resources:
+  requests:
+    cpu: 18000m
+    memory: 38000M
+  limits:
+    memory: 38000M
+    cpu: 18000m
+
+# --- pod environment
+environment:
+  GITLAB_OMNIBUS_CONFIG: |
+    external_url 'https://git.torob.ir'
+    gitlab_rails['monitoring_whitelist'] = ['127.0.0.0/8', '::1/128','172.30.0.0/12', '192.168.0.0/16', '10.0.0.0/8']
+    sidekiq['concurrency'] = 10
+
+    nginx['listen_port'] = 443
+    nginx['listen_https'] = true
+    nginx['real_ip_trusted_addresses'] = ["10.0.0.0/8"]
+    letsencrypt['enable'] = true
+    gitlab_rails['gitlab_shell_ssh_port'] = 22
+    nginx['real_ip_header'] = 'X-Forwarded-For'
+    nginx['real_ip_recursive'] = 'on'
+    nginx['logging']['access_log'] = '/var/log/gitlab/nginx/access.log'
+    nginx['logging']['error_log'] = '/var/log/gitlab/nginx/error.log'
+    nginx['logging']['log_level'] = 'debug'
+
+    gitlab_rails['smtp_enable'] = true
+    gitlab_rails['smtp_port'] = 25
+    gitlab_rails['smtp_authentication'] = "plain"
+    gitlab_rails['smtp_enable_starttls_auto'] = true
+    gitlab_rails['smtp_address'] = "smtp.hamravesh.com"
+    gitlab_rails['smtp_domain'] = "mail.git.torob.ir"
+    gitlab_rails['smtp_user_name'] = "torob/torob"
+    gitlab_rails['smtp_password'] = ENV['SMTP_PASSWORD']
+    gitlab_rails['gitlab_email_from'] = 'Torob <gitlab@mail.git.torob.ir>'
+    gitlab_rails['gitlab_email_reply_to'] = 'noreply@mail.git.torob.ir'
+
+    logrotate['enable'] = false
+
+    gitlab_exporter['enable'] = true
+    sidekiq['metrics_enabled'] = true
+    puma['exporter_enabled'] = true
+    sidekiq['listen_address'] = '0.0.0.0'
+    redis_exporter['listen_address'] = '0.0.0.0:9121'
+    postgres_exporter['listen_address'] = '0.0.0.0:9187'
+    postgres_exporter['enable'] = true
+    redis_exporter['enable'] = true
+    prometheus_monitoring['enable'] = true
+    prometheus['listen_address'] = '0.0.0.0:9090'
+  SMTP_PASSWORD: true
+
+# --- service configuration
+services:
+  - name: web
+    type: LoadBalancer
+    annotations:
+      hlb.hamravesh.com/allow-shared-ip: "false"
+      hlb.hamravesh.com/expose-as: port
+      hlb.hamravesh.com/ip-pool: gitlab
+    specs:
+      - name: http
+        port: 80
+        targetPort: 80
+      - name: ssh
+        port: 22
+        targetPort: 22
+      - name: metrics
+        port: 9090
+        targetPort: 9090
+      - name: https
+        port: 443
+        targetPort: 443
+      - name: gitlab-rails
+        port: 8080
+        targetPort: 8080
+# --- middleware configuration
+middleware:
+  compress:
+    enabled: false
+  redirect:
+    enabled: false
+
+# --- ingress configuration
+ingress:
+  enabled: false
+  annotations:
+    cert-manager.io/cluster-issuer: acme-prod
+    certmanager.k8s.io/cluster-issuer: acme-prod
+    traefik.ingress.kubernetes.io/router.middlewares: torob-gitlab-torob-gitlab-redirect@kubernetescrd,torob-gitlab-torob-gitlab-compress@kubernetescrd
+  hosts:
+    - host: git.torob.ir
+      path: /
+      pathType: Prefix
+      serviceName: web
+      servicePort: 80
+  tls:
+    - hosts:
+        - git.torob.ir
+      secretName: gitlab-ingress-tls
+
+# --- storage and volumes
+volumes:
+  pvc:
+    size: 80Gi
+
+
+tolerations:
+- effect: NoExecute
+  key: node.kubernetes.io/not-ready
+  operator: Exists
+  tolerationSeconds: 300
+- effect: NoExecute
+  key: node.kubernetes.io/unreachable
+  operator: Exists
+  tolerationSeconds: 300
+- effect: NoSchedule
+  key: node.kubernetes.io/memory-pressure
+  operator: Exists
+
+vmrules:
+  enabled: true
+  namespace: hamravesh-samurai
+  vmalertLabel: cre-vmalert
+  cluster: hamravesh-c12
+  execution: centralized
+  core_namespace: torob-gitlab
+  dashboardBaseUrl: https://grafana.hsre.ir/d/de552n34xiccgg/commondemo
+  rules:
+    - name: pvc-high
+      expr: |
+        (
+            (100 * kubelet_volume_stats_used_bytes{cluster=~"{{ .Values.vmrules.cluster }}",namespace=~"({{ .Values.vmrules.core_namespace }})"} / kubelet_volume_stats_capacity_bytes{cluster=~"{{ .Values.vmrules.cluster }}",namespace=~"({{ .Values.vmrules.core_namespace }})"}
+        ) > 90)
+      severity: critical
+      summary: Torob Gitlab PersistentVolume
+      description: Torob Gitlab PVC usage is above 90% of capacity.
+      dashboard: "{{ .Values.dashboardBaseUrl }}?orgId=2&refresh=10s&var-data_source=central&var-cluster={{ .Values.vmrules.cluster }}&var-namespace={{`{{ $labels.namespace }}`}}&var-excluded_namespaces={{ .Values.alerts.storage.namespaceExcludeRegex }}&var-pvc={{`{{ $labels.persistentvolumeclaim }}`}}&from=now-15m&to=now&viewPanel=16"

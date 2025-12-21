@@ -1,0 +1,108 @@
+{{- if .Values.core.enabled }}
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  labels:
+    app.kubernetes.io/name: {{ .Chart.Name }}
+    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: Helm
+spec:
+  serviceName: {{ .Release.Name }}
+  replicas: {{ .Values.global.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ .Chart.Name }}
+      app.kubernetes.io/instance: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ .Chart.Name }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
+    spec:
+      {{- /* match running pod's automountServiceAccountToken: false */}}
+      automountServiceAccountToken: {{ .Values.automountServiceAccountToken | default false }}
+
+      hostNetwork: {{ .Values.hostNetwork }}
+
+      {{- /* Add imagePullSecrets if defined */}}
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+
+      {{- /* allow tolerations / affinity / nodeSelector from values */}}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+
+          ports:
+          {{- range .Values.services }}
+          {{- range .specs }}
+            - name: {{ .name }}
+              containerPort: {{ .targetPort }}
+              protocol: TCP
+          {{- end }}
+          {{- end }}
+
+          env:
+            - name: "GITLAB_OMNIBUS_CONFIG"
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Release.Name }}-{{ .Chart.Name }}
+                  key: GITLAB_OMNIBUS_CONFIG
+            {{- if .Values.environment.SMTP_PASSWORD }}
+            - name: "SMTP_PASSWORD"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-{{ .Chart.Name }}
+                  key: SMTP_PASSWORD
+            {{- end }}
+          volumeMounts:
+            - name: shm-volume
+              mountPath: /dev/shm
+            - name: gitlab-volume
+              mountPath: /etc/gitlab
+              subPath: config
+            - name: gitlab-volume
+              mountPath: /var/log/gitlab
+              subPath: logs
+            - name: gitlab-volume
+              mountPath: /var/opt/gitlab
+              subPath: data
+
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+
+      volumes:
+        - name: gitlab-volume
+          persistentVolumeClaim:
+            claimName: gitlab
+        - name: shm-volume
+          emptyDir:
+            medium: Memory
+            sizeLimit: 8Gi
+{{- end }}

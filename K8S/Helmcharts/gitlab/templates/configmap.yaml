@@ -1,0 +1,14 @@
+{{- if .Values.core.enabled }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  labels:
+    app.kubernetes.io/name: {{ .Chart.Name }}
+    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: Helm
+data:
+  GITLAB_OMNIBUS_CONFIG: |
+{{ .Values.environment.GITLAB_OMNIBUS_CONFIG | indent 4 }}
+{{- end }}

@@ -1,0 +1,30 @@
+{{- if .Values.core.enabled }}
+{{- range $svc := .Values.services }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ $.Release.Name }}-{{ $.Chart.Name }}-svc-{{ $svc.name }}
+  labels:
+    app.kubernetes.io/name: {{ $.Chart.Name }}
+    helm.sh/chart: {{ $.Chart.Name }}-{{ $.Chart.Version }}
+    app.kubernetes.io/instance: {{ $.Release.Name }}
+    app.kubernetes.io/managed-by: Helm
+  {{- if $svc.annotations }}
+  annotations:
+    {{- toYaml $svc.annotations | nindent 4 }}
+  {{- end }}
+spec:
+  type: {{ $svc.type }}
+  selector:
+    app.kubernetes.io/name: {{ $.Chart.Name }}
+    app.kubernetes.io/instance: {{ $.Release.Name }}
+  ports:
+  {{- range $port := $svc.specs }}
+    - name: {{ $port.name }}
+      port: {{ $port.port }}
+      protocol: TCP
+      targetPort: {{ $port.targetPort }}
+  {{- end }}
+---
+{{- end }}
+{{- end }}

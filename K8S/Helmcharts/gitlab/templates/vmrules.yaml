@@ -1,0 +1,28 @@
+{{- if .Values.vmrules.enabled }}
+{{- range .Values.vmrules.rules }}
+---
+apiVersion: operator.victoriametrics.com/v1beta1
+kind: VMRule
+metadata:
+  name: {{ .name }}-{{ $.Release.Name }}
+  namespace: {{ $.Values.vmrules.namespace }}
+  labels:
+    vmalert: {{ $.Values.vmrules.vmalertLabel | quote }}
+{{- if $.Values.vmrules.execution }}
+    execution: {{ $.Values.vmrules.execution | quote }}
+{{- end }}
+spec:
+  groups:
+    - name: kubernetes
+      rules:
+        - alert: {{ .name }}
+          expr: |
+{{ tpl .expr $ | nindent 12 }}
+          labels:
+            severity: {{ default $.Values.vmrules.severity .severity | default "warning" | quote }}
+          annotations:
+            summary: {{ default $.Values.vmrules.summary .summary | default .name | quote }}
+            description: {{ default $.Values.vmrules.description .description | default "" | quote }}
+            dashboard: {{ default $.Values.vmrules.description .description | default "" | quote }}
+{{- end }}
+{{- end }}

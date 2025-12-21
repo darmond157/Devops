@@ -1,0 +1,23 @@
+{{- if .Values.core.enabled }}
+{{- if .Values.ingress.enabled }}
+{{- if .Values.middleware.redirect.enabled }}
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ .Release.Name }}-redirect
+  namespace: {{ .Release.Namespace }}
+  annotations:
+    meta.helm.sh/release-name: {{ .Release.Name }}
+    meta.helm.sh/release-namespace: {{ .Release.Namespace }}
+  labels:
+    app.kubernetes.io/name: {{ .Chart.Name }}
+    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: Helm
+spec:
+  redirectScheme:
+    permanent: true
+    scheme: https
+{{- end }}
+{{- end }}
+{{- end }}
