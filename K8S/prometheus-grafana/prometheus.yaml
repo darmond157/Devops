@@ -4,11 +4,9 @@ metadata:
   name: prometheus-config
 data:
   prometheus.yml: |
-    global:
-      scrape_interval: 15s
     scrape_configs:
       - job_name: "dnsexp_cluster_a"
-        scrape_interval: 30s
+        scrape_interval: 10s
         metrics_path: /query
         params:
           module: ["cluster_dns_a"]
@@ -33,10 +31,11 @@ data:
               - "google.com"
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
   name: prometheus
 spec:
+  serviceName: prometheus
   replicas: 1
   selector:
     matchLabels:
@@ -52,13 +51,26 @@ spec:
           args:
             - "--config.file=/etc/prometheus/prometheus.yml"
             - "--storage.tsdb.path=/prometheus"
+            - "--storage.tsdb.retention.time=15d"
           volumeMounts:
             - name: config
               mountPath: /etc/prometheus
+              readOnly: true
+            - name: data
+              mountPath: /prometheus
       volumes:
         - name: config
           configMap:
             name: prometheus-config
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        storageClassName: rawfile-ext4
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 3Gi
 ---
 apiVersion: v1
 kind: Service
