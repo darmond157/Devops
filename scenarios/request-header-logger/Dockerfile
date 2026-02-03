@@ -1,4 +1,4 @@
-FROM golang:1.25-alpine as builder
+FROM hub.hamdocker.ir/golang:1.25-alpine as builder
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY main.go .
 
 RUN go build -o header-logger main.go
 
-FROM alpine:latest
+FROM hub.hamdocker.ir/alpine:latest
 
 WORKDIR /app
 

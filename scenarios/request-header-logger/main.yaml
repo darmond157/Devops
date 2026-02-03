@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: header-logger
-        image: bardiark03/hhc:1.0.1
+        image: registry.hamdocker.ir/gsmpay/hhc:1.0.1
 
 ---
 

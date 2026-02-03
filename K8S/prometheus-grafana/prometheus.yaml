@@ -31,11 +31,10 @@ data:
               - "google.com"
 ---
 apiVersion: apps/v1
-kind: StatefulSet
+kind: Deployment
 metadata:
   name: prometheus
 spec:
-  serviceName: prometheus
   replicas: 1
   selector:
     matchLabels:
@@ -51,26 +50,13 @@ spec:
           args:
             - "--config.file=/etc/prometheus/prometheus.yml"
             - "--storage.tsdb.path=/prometheus"
-            - "--storage.tsdb.retention.time=15d"
           volumeMounts:
             - name: config
               mountPath: /etc/prometheus
-              readOnly: true
-            - name: data
-              mountPath: /prometheus
       volumes:
         - name: config
           configMap:
             name: prometheus-config
-  volumeClaimTemplates:
-    - metadata:
-        name: data
-      spec:
-        storageClassName: rawfile-ext4
-        accessModes: ["ReadWriteOnce"]
-        resources:
-          requests:
-            storage: 3Gi
 ---
 apiVersion: v1
 kind: Service
