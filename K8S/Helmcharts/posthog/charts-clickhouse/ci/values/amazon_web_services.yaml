@@ -1,0 +1,51 @@
+cloud: "aws"
+ingress:
+  nginx:
+    enabled: true
+    redirectToTLS: false
+
+# Disable `SESSION_COOKIE_SECURE` as we don't use TLS
+# https://docs.djangoproject.com/en/4.1/ref/settings/#session-cookie-secure
+web:
+  secureCookies: false
+
+# Use small PVC in CI
+clickhouse:
+  persistence:
+    size: 1Gi
+kafka:
+  persistence:
+    size: 1Gi
+postgresql:
+  persistence:
+    size: 1Gi
+redis:
+  master:
+    persistence:
+      size: 1Gi
+zookeeper:
+  persistence:
+    size: 1Gi
+
+#
+# For AWS ELB in L4 (TCP) mode, we need to enable some additional config
+# in the ingress controller in order to get the proper IP address forwarded
+# to our app. Otherwise we'll get the load balancer nodes addresses instead.
+#
+# ref:
+#   - https://kubernetes.github.io/ingress-nginx/user-guide/miscellaneous/#source-ip-address
+#   - https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/enable-proxy-protocol.html
+#
+ingress-nginx:
+  controller:
+    config:
+      use-proxy-protocol: true
+    service:
+      annotations:
+        service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
+
+# Reduce ingestion buffer conversion window in CI
+plugins:
+  env:
+    - name: BUFFER_CONVERSION_SECONDS
+      value: "1"

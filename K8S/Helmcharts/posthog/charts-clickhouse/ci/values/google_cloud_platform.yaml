@@ -1,0 +1,28 @@
+cloud: "gcp"
+
+# We configure GCP ingress pretty differently than anything else
+# and TLS is currently hardcoded/built-in.
+
+# Use small PVC in CI
+clickhouse:
+  persistence:
+    size: 1Gi
+kafka:
+  persistence:
+    size: 1Gi
+postgresql:
+  persistence:
+    size: 1Gi
+redis:
+  master:
+    persistence:
+      size: 1Gi
+zookeeper:
+  persistence:
+    size: 1Gi
+
+# Reduce ingestion buffer conversion window in CI
+plugins:
+  env:
+    - name: BUFFER_CONVERSION_SECONDS
+      value: "1"

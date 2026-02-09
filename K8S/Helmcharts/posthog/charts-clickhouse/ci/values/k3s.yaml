@@ -1,12 +1,12 @@
 # -- Cloud service being deployed on (example: `aws`, `azure`, `do`, `gcp`, `other`).
-cloud:
+cloud: other
 
 # -- Notification email for notifications to be sent to from the PostHog stack
-notificationEmail:
+notificationEmail: temp@temp.temp
 
 # -- Site url specifies the canonical URL root the site can be accessed using.
 # This is used to e.g. generate shareable links to Dashboards.
-siteUrl:
+siteUrl: k8s-posthog.bardia-rk.ir
 
 image:
   repository: posthog/posthog
@@ -92,113 +92,35 @@ ingress:
   # -- TLS secret to be used by the ingress.
   secretName:
 
-###
-###
-### ---- POSTGRESQL ----
-###
-###
 postgresql:
-  # -- Whether to deploy a PostgreSQL server to satisfy the applications requirements. To use an external PostgreSQL instance set this to `false` and configure the `externalPostgresql` parameters.
-  enabled: true
-  # -- Name override for PostgreSQL app.
-  nameOverride: posthog-postgresql
-  # -- PostgreSQL database name.
-  postgresqlDatabase: posthog
-  # -- PostgreSQL database password.
-  postgresqlPassword: postgres
-  persistence:
-    # -- Enable persistence using PVC.
-    enabled: true
-    # -- PVC Storage Request for PostgreSQL volume.
-    size: 10Gi
+  enabled: false
 
 externalPostgresql:
-  # -- External PostgreSQL service host.
-  postgresqlHost:
-  # -- External PostgreSQL service port.
+  postgresqlHost: posthog-test-database.sandbox-bardia-rk.svc
   postgresqlPort: 5432
-  # -- External PostgreSQL service database name.
-  postgresqlDatabase:
-  # -- External PostgreSQL service user.
-  postgresqlUsername:
-  # -- External PostgreSQL service password. Either this or `externalPostgresql.existingSecret` must be set.
-  postgresqlPassword:
-  # -- Name of an existing Kubernetes secret object containing the PostgreSQL password
-  existingSecret:
-  # -- Name of the key pointing to the password in your Kubernetes secret
-  existingSecretPasswordKey: postgresql-password
+  postgresqlDatabase: postgres
+  postgresqlUsername: postgres
+  postgresqlPassword: n5O2TvDvpEdXulnJrMsj
 
 redis:
-  # -- Whether to deploy a Redis server to satisfy the applications requirements. To use an external redis instance set this to `false` and configure the `externalRedis` parameters.
-  enabled: true
-  architecture: standalone
-  auth:
-    # -- Enable Redis password authentication.
-    enabled: false
-
-    # -- Redis password.
-    #    Defaults to a random 10-character alphanumeric string if not set.
-    #    NOTE: ignored unless `redis.auth.enabled` is `true` or if `redis.auth.existingSecret` is set.
-    #
-    password: ""
-
-    # -- The name of an existing secret containing the Redis credential to use.
-    #    NOTE: ignored unless `redis.auth.enabled` is `true`.
-    #          When it is set, the previous `redis.auth.password` parameter is ignored.
-    #
-    existingSecret: ""
-
-    # -- Password key to be retrieved from existing secret.
-    #    NOTE: ignored unless `redis.auth.existingSecret` parameter is set.
-    #
-    existingSecretPasswordKey: ""
-
-  master:
-    persistence:
-      # -- Enable data persistence using PVC.
-      enabled: true
-
-      # -- Persistent Volume size.
-      size: 5Gi
-    # -- Array with additional command line flags for Redis master.
-    extraFlags:
-      ## The maxmemory configuration directive is used in order to configure Redis to use a specified
-      ## amount of memory for the data set. Setting maxmemory to zero results into no memory limits
-      ## see https://redis.io/topics/lru-cache for more details
-      - "--maxmemory 400mb"
-      ## The exact behavior Redis follows when the maxmemory limit is reached is configured using the
-      ## maxmemory-policy configuration directive
-      ## allkeys-lru: evict keys by trying to remove the less recently used (LRU) keys first, in order
-      ## to make space for the new data added
-      - "--maxmemory-policy allkeys-lru"
+  enabled: false
 
 externalRedis:
-  # -- External Redis host to use.
-  host: ""
-  # -- External Redis port to use.
+  host: "posthog-test-redis.sandbox-bardia-rk.svc"
   port: 6379
-  # -- Password for the external Redis. Ignored if `externalRedis.existingSecret` is set.
-  password: ""
-  # -- Name of an existing Kubernetes secret object containing the Redis password.
-  existingSecret: ""
-  # -- Name of the key pointing to the password in your Kubernetes secret.
-  existingSecretPasswordKey: ""
+  password: "wY1nwuEGyNE72LdCQMkNVfHuZo37Vyr2"
 
-externalSessionRecordingRedis: {}
-  # -- External Redis host to use.
-  # host: ""
-  # -- External Redis port to use.
-  # port: 6379
+# externalSessionRecordingRedis:
+#   host: ""
+#   port: 6379
 
-
-###
-###
-### ---- KAFKA ----
-###
-###
 kafka:
   # -- Whether to deploy Kafka as part of this release. To use an external Kafka instance set this to `false` and configure the `externalKafka` values.
   enabled: true
+
+  image:
+    repository: "bitnamilegacy/kafka"
+    tag: "2.8.1-debian-11-r7"
 
   nameOverride: posthog-kafka
 
@@ -215,7 +137,7 @@ kafka:
 
   persistence:
     # - Enable data persistence using PVC.
-    enabled: true
+    enabled: false
     # -- PVC Storage Request for Kafka data volume.
     size: 20Gi
 
@@ -265,12 +187,13 @@ zookeeper:
   autopurge:
     # -- The time interval (in hours) for which the purge task has to be triggered
     purgeInterval: 1
+  persistence:
+    enabled: false
+  image:
+    registry: ghcr.io/element-hq
+    repository: bitnamilegacy/zookeeper
+    tag: 3.7.0-debian-10-r70
 
-###
-###
-### ---- CLICKHOUSE ----
-###
-###
 clickhouse:
   # -- Whether to install clickhouse. If false, `clickhouse.host` must be set
   enabled: true
@@ -307,7 +230,7 @@ clickhouse:
     # -- ClickHouse image repository.
     repository: clickhouse/clickhouse-server
     # -- ClickHouse image tag. Note: PostHog does not support all versions of ClickHouse. Please override the default only if you know what you are doing.
-    tag: "23.9.2.56"
+    tag: "23.9.2"
     # -- Image pull policy
     pullPolicy: IfNotPresent
     ## Optionally specify an array of imagePullSecrets.
@@ -353,7 +276,7 @@ clickhouse:
 
   persistence:
     # -- Enable data persistence using PVC.
-    enabled: true
+    enabled: false
 
     # -- Use a manually managed Persistent Volume and Claim.
     #    If defined, PVC must be created manually before volume will be bound.
@@ -458,7 +381,7 @@ minio:
     existingSecret:
   persistence:
     # -- Enable MinIO data persistence using PVC.
-    enabled: true
+    enabled: false
   # -- Comma, semi-colon or space separated list of buckets to create at initialization (only in standalone mode)
   defaultBuckets: "posthog"
   # -- Disable MinIO Web UI
@@ -523,3 +446,6 @@ clusterDomain: cluster.local
 # to balance pods between availability zones and nodes
 includeDefaultTopologySpreadConstraints: false
 
+_pgbouncer: &_pgbouncer 
+# -- Whether to deploy a PgBouncer service to satisfy the applications requirements.
+  enabled: false

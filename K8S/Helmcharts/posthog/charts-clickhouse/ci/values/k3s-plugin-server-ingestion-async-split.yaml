@@ -1,0 +1,56 @@
+cloud: k3s
+
+image:
+  tag: latest # TODO: remove this override once 1.41.0 is the default
+
+ingress:
+  nginx:
+    enabled: true
+    redirectToTLS: false
+
+# Disable `SESSION_COOKIE_SECURE` as we don't use TLS
+# https://docs.djangoproject.com/en/4.1/ref/settings/#session-cookie-secure
+web:
+  secureCookies: false
+
+# Use small PVC in CI
+clickhouse:
+  persistence:
+    size: 1Gi
+kafka:
+  persistence:
+    size: 1Gi
+postgresql:
+  persistence:
+    size: 1Gi
+redis:
+  master:
+    persistence:
+      size: 1Gi
+zookeeper:
+  persistence:
+    size: 1Gi
+
+# Reduce ingestion buffer conversion window in CI
+plugins:
+  env:
+    - name: BUFFER_CONVERSION_SECONDS
+      value: "1"
+
+# Enable pluginsAsync for this test
+pluginsAsync:
+  enabled: false
+
+# Enable monitoring deployments. We are using these in our own deployments so
+# it's worth having these tested before they hit our clusters.
+loki:
+  enabled: true
+
+promtail:
+  enabled: true
+
+grafana:
+  enabled: true
+
+eventrouter:
+  enabled: true
