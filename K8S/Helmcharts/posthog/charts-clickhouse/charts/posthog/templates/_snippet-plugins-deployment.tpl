@@ -169,7 +169,6 @@ spec:
           {{- toYaml .params.volumeMounts | nindent 12 }}
         {{- end }}
       initContainers:
-      {{- include "_snippet-initContainers-wait-for-service-dependencies" .root | indent 8 }}
       {{- include "_snippet-initContainers-wait-for-migrations" .root | indent 8 }}
 
 ---

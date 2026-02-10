@@ -175,6 +175,4 @@ spec:
         {{- if .Values.recordings.securityContext.enabled }}
         securityContext: {{- omit .Values.recordings.securityContext "enabled" | toYaml | nindent 12 }}
         {{- end }}
-      initContainers:
-      {{- include "_snippet-initContainers-wait-for-service-dependencies" . | indent 8 }}
 {{- end }}

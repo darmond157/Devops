@@ -6,12 +6,12 @@ notificationEmail: temp@temp.temp
 
 # -- Site url specifies the canonical URL root the site can be accessed using.
 # This is used to e.g. generate shareable links to Dashboards.
-siteUrl: k8s-posthog.bardia-rk.ir
+siteUrl: https://k8s-posthog.bardia-rk.ir
 
 image:
   repository: posthog/posthog
   sha:
-  tag:
+  tag: dcaf95f40bba8d880496abf730394379076816c4
   default: ":latest"
   pullPolicy: Always
   pullSecrets: []

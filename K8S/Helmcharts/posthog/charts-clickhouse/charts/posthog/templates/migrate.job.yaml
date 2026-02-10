@@ -92,6 +92,4 @@ spec:
         {{- include "snippet.email-env" . | nindent 8 }}
         resources:
 {{ toYaml .Values.hooks.migrate.resources | indent 10 }}
-      initContainers:
-      {{- include "_snippet-initContainers-wait-for-service-dependencies" . | indent 8 }}
 {{- end }}
